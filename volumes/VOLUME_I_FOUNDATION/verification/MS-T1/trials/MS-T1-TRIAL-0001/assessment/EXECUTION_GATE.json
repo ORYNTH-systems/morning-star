@@ -3,22 +3,20 @@
     "TrialID":  "MS-T1-TRIAL-0001",
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
-    "EvaluatedAt":  "2026-07-22T19:39:55.6597936Z",
+    "EvaluatedAt":  "2026-07-22T20:01:01.1825093Z",
     "GateState":  "CLOSED",
     "ExecutionAuthorized":  false,
-    "InputEvidenceGate":  "NOT_SATISFIED",
-    "ConstraintEvidenceGate":  "NOT_SATISFIED",
+    "InputEvidenceGate":  "REGISTERED_PENDING_REVIEW",
+    "ConstraintEvidenceGate":  "REGISTERED_PENDING_REVIEW",
     "TracePreparationGate":  "SATISFIED",
     "ProvenanceReviewGate":  "NOT_SATISFIED",
-    "UncertaintyDeclarationGate":  "NOT_SATISFIED",
+    "UncertaintyDeclarationGate":  "REGISTERED_PENDING_REVIEW",
     "EvidenceAdmissibilityGate":  "NOT_SATISFIED",
     "BlockingReasons":  [
-                            "No candidate evidence has been submitted.",
-                            "No evidence has been registered.",
-                            "No provenance review has occurred.",
-                            "No evidence has been admitted.",
-                            "Initial trial state remains undeclared."
+                            "Registered evidence has not received provenance review.",
+                            "Registered evidence has not received sufficiency review.",
+                            "Registered evidence has not received admissibility determination."
                         ],
     "ResultState":  "UNRESOLVED",
-    "Notes":  "Execution gate initialized closed."
+    "Notes":  "Evidence registration complete. Execution remains prohibited pending review."
 }

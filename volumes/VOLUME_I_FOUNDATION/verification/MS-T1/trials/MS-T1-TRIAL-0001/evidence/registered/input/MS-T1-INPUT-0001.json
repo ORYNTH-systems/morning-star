@@ -1,0 +1,23 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "EvidenceID":  "MS-T1-EV-0001",
+    "SubmissionID":  "SUB-0001",
+    "TrialID":  "MS-T1-TRIAL-0001",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "EvidenceClass":  "INPUT",
+    "ScenarioID":  "MS-T1-TRIAL-0001-SCENARIO-0001",
+    "CapturedAt":  "2026-07-22T19:58:11.0467019Z",
+    "CanonicalObject":  "MORNING_STAR",
+    "CanonicalObjectVersion":  "1.0.0-DISCOVERY",
+    "InitialObserverState":  "FIRST_CONTACT",
+    "InitialParticipationRole":  "PR0_OBSERVER",
+    "EntryBoundary":  "GOVERNED_INITIATION_ENTRY",
+    "IntendedTerminalState":  "ADMISSIBLE_PARTICIPATION",
+    "DependencyState":  "DECLARED",
+    "ScopeState":  "BOUND",
+    "AuthorityState":  "DECLARED",
+    "UncertaintyState":  "EXPLICIT",
+    "ProvenanceStatus":  "DECLARED",
+    "Notes":  "Controlled reference input for the MS-T1 governed initiation trial."
+}

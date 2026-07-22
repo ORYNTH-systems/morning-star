@@ -4,12 +4,12 @@
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
     "CreatedAt":  "2026-07-22T19:26:47.2638114Z",
-    "UpdatedAt":  "2026-07-22T19:58:11.0467019Z",
-    "TrialState":  "REFERENCE_EVIDENCE_SUBMITTED",
-    "ExecutionState":  "BLOCKED_PENDING_REGISTRATION",
-    "EvidenceState":  "CANDIDATE_EVIDENCE_SUBMITTED",
+    "UpdatedAt":  "2026-07-22T20:01:01.1825093Z",
+    "TrialState":  "EVIDENCE_REGISTERED",
+    "ExecutionState":  "BLOCKED_PENDING_REVIEW",
+    "EvidenceState":  "REGISTERED_PENDING_REVIEW",
     "EvaluationState":  "NOT_EVALUATED",
     "ResultState":  "UNRESOLVED",
-    "BlockingReason":  "Submitted evidence has not been registered, reviewed, or admitted.",
-    "Notes":  "Five controlled reference evidence items submitted."
+    "BlockingReason":  "Registered evidence has not been reviewed or admitted.",
+    "Notes":  "Five evidence items registered with verified integrity."
 }

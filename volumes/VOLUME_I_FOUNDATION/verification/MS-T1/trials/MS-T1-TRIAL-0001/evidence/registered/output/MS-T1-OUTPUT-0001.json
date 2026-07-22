@@ -1,0 +1,23 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "EvidenceID":  "MS-T1-EV-0004",
+    "SubmissionID":  "SUB-0004",
+    "TrialID":  "MS-T1-TRIAL-0001",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "EvidenceClass":  "OUTPUT",
+    "ScenarioID":  "MS-T1-TRIAL-0001-SCENARIO-0001",
+    "CapturedAt":  "2026-07-22T19:58:11.0467019Z",
+    "ResultingObserverState":  "INITIATED",
+    "ResultingParticipationRole":  "ADMISSIBLE_PARTICIPANT",
+    "CanonicalIdentityState":  "PRESERVED",
+    "DependencyOrderState":  "PRESERVED",
+    "ScopeState":  "NON_EXPANDING",
+    "AuthorityState":  "PRESERVED",
+    "TraceabilityState":  "COMPLETE",
+    "UncertaintyState":  "EXPLICIT",
+    "TerminalState":  "ADMISSIBLE_PARTICIPATION",
+    "ClaimedTheoremResult":  "NOT_ASSIGNED",
+    "ProvenanceStatus":  "DECLARED",
+    "Notes":  "Reference output evidence only. Theorem result remains unassigned pending review and evaluation."
+}

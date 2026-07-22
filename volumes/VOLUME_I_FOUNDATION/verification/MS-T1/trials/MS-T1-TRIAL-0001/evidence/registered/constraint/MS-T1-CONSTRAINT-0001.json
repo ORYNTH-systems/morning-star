@@ -1,0 +1,57 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "EvidenceID":  "MS-T1-EV-0002",
+    "SubmissionID":  "SUB-0002",
+    "TrialID":  "MS-T1-TRIAL-0001",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "EvidenceClass":  "CONSTRAINT",
+    "ScenarioID":  "MS-T1-TRIAL-0001-SCENARIO-0001",
+    "CapturedAt":  "2026-07-22T19:58:11.0467019Z",
+    "Constraints":  [
+                        {
+                            "ConstraintID":  "MS-T1-C-001",
+                            "ConstraintType":  "CANONICAL_IDENTITY",
+                            "AuthoritySource":  "Morning Star constitutional specification",
+                            "Applicability":  "APPLICABLE",
+                            "RequiredState":  "PRESERVED"
+                        },
+                        {
+                            "ConstraintID":  "MS-T1-C-002",
+                            "ConstraintType":  "DEPENDENCY_ORDER",
+                            "AuthoritySource":  "Morning Star constitutional specification",
+                            "Applicability":  "APPLICABLE",
+                            "RequiredState":  "PRESERVED"
+                        },
+                        {
+                            "ConstraintID":  "MS-T1-C-003",
+                            "ConstraintType":  "SCOPE_BOUNDARY",
+                            "AuthoritySource":  "Morning Star constitutional specification",
+                            "Applicability":  "APPLICABLE",
+                            "RequiredState":  "NON_EXPANDING"
+                        },
+                        {
+                            "ConstraintID":  "MS-T1-C-004",
+                            "ConstraintType":  "AUTHORITY_BOUNDARY",
+                            "AuthoritySource":  "Morning Star constitutional specification",
+                            "Applicability":  "APPLICABLE",
+                            "RequiredState":  "PRESERVED"
+                        },
+                        {
+                            "ConstraintID":  "MS-T1-C-005",
+                            "ConstraintType":  "TRACEABILITY",
+                            "AuthoritySource":  "Morning Star constitutional specification",
+                            "Applicability":  "APPLICABLE",
+                            "RequiredState":  "COMPLETE"
+                        },
+                        {
+                            "ConstraintID":  "MS-T1-C-006",
+                            "ConstraintType":  "UNCERTAINTY_PRESERVATION",
+                            "AuthoritySource":  "Morning Star constitutional specification",
+                            "Applicability":  "APPLICABLE",
+                            "RequiredState":  "EXPLICIT"
+                        }
+                    ],
+    "ProvenanceStatus":  "DECLARED",
+    "Notes":  "Controlled reference constraints for the MS-T1 trial."
+}
