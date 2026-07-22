@@ -4,12 +4,12 @@
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
     "CreatedAt":  "2026-07-22T19:26:47.2638114Z",
-    "UpdatedAt":  "2026-07-22T19:31:18.5992537Z",
-    "TrialState":  "EVIDENCE_INTAKE_OPEN",
+    "UpdatedAt":  "2026-07-22T19:32:58.9603610Z",
+    "TrialState":  "EVIDENCE_SUBMISSION_OPEN",
     "ExecutionState":  "NOT_EXECUTED",
-    "EvidenceState":  "INTAKE_OPEN",
+    "EvidenceState":  "SUBMISSION_WORKSPACE_OPEN",
     "EvaluationState":  "NOT_EVALUATED",
     "ResultState":  "UNRESOLVED",
     "BlockingReason":  null,
-    "Notes":  "Evidence intake initialized. No evidence has been registered."
+    "Notes":  "Evidence submission workspace created. No evidence registered."
 }

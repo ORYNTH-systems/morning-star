@@ -3,16 +3,14 @@
     "TrialID":  "MS-T1-TRIAL-0001",
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
-    "InitializedAt":  "2026-07-22T19:31:18.5992537Z",
-    "IntakeState":  "OPEN",
-    "EvidenceRegistrationState":  "SUBMISSION_WORKSPACE_OPEN",
+    "CreatedAt":  "2026-07-22T19:32:58.9603610Z",
+    "SubmissionState":  "OPEN",
+    "SubmittedItemCount":  0,
     "RegisteredEvidenceCount":  0,
-    "RequiredEvidenceCount":  4,
-    "EvidenceClassCount":  5,
-    "OpenBlockingDefinitionGapCount":  3,
+    "EvidenceRegistrationState":  "NOT_STARTED",
     "EvidenceReviewState":  "NOT_STARTED",
     "EvaluationReadiness":  "NOT_READY",
     "ExecutionReadiness":  "NOT_READY",
     "ResultState":  "UNRESOLVED",
-    "Notes":  "Evidence submission workspace open. No evidence submitted or registered."
+    "Notes":  "Submission workspace created. No evidence items submitted or registered."
 }
