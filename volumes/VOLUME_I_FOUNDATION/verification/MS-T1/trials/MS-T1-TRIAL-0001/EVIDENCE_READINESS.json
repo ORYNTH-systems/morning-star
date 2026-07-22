@@ -12,9 +12,11 @@
     "OpenBlockingDefinitionGapCount":  3,
     "EvidenceReviewState":  "NOT_STARTED",
     "EvaluationReadiness":  "NOT_READY",
-    "ExecutionReadiness":  "NOT_READY",
+    "ExecutionReadiness":  "BLOCKED_PENDING_EVIDENCE",
     "ResultState":  "UNRESOLVED",
-    "Notes":  "Evidence collection requests prepared. No candidate evidence submitted.",
+    "Notes":  "Protocol prepared. Evidence submission and review remain required.",
     "CollectionState":  "REQUESTS_PREPARED",
-    "CollectionRequestCount":  5
+    "CollectionRequestCount":  5,
+    "TrialProtocolState":  "PREPARED",
+    "ExecutionGateState":  "CLOSED"
 }

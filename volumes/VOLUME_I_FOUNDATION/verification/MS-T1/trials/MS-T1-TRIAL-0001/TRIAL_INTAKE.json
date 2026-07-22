@@ -10,7 +10,7 @@
     "TraceEvidenceStatus":  "NOT_REGISTERED",
     "OutputEvidenceStatus":  "NOT_REGISTERED",
     "UncertaintyEvidenceStatus":  "NOT_REGISTERED",
-    "Notes":  "Evidence requests prepared. No evidence submitted or registered.",
+    "Notes":  "Trial protocol prepared. Execution remains blocked pending governed evidence.",
     "AuthoritySnapshotStatus":  "COMPLETE",
     "SuccessConditionCount":  0,
     "FalsificationConditionCount":  2,
@@ -21,5 +21,8 @@
     "EvidenceSubmissionStatus":  "AWAITING_EVIDENCE",
     "SubmittedEvidenceCount":  0,
     "EvidenceCollectionStatus":  "READY",
-    "EvidenceCollectionRequestCount":  5
+    "EvidenceCollectionRequestCount":  5,
+    "TrialProtocolStatus":  "PREPARED",
+    "ObservationSchemaStatus":  "PREPARED",
+    "ExecutionGateStatus":  "CLOSED"
 }

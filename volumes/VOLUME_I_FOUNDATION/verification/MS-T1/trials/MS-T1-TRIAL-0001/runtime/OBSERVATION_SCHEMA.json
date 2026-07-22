@@ -1,0 +1,83 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "TrialID":  "MS-T1-TRIAL-0001",
+    "ObservationFields":  [
+                              {
+                                  "Name":  "ObservationID",
+                                  "Required":  true,
+                                  "Description":  "Unique observation identifier."
+                              },
+                              {
+                                  "Name":  "ObservationSequence",
+                                  "Required":  true,
+                                  "Description":  "Ordered position within the trial."
+                              },
+                              {
+                                  "Name":  "ObservationTime",
+                                  "Required":  true,
+                                  "Description":  "UTC observation timestamp."
+                              },
+                              {
+                                  "Name":  "ObservationType",
+                                  "Required":  true,
+                                  "Description":  "State, transition, decision, constraint, output, or uncertainty observation."
+                              },
+                              {
+                                  "Name":  "PriorState",
+                                  "Required":  false,
+                                  "Description":  "State immediately before the observation."
+                              },
+                              {
+                                  "Name":  "ObservedState",
+                                  "Required":  true,
+                                  "Description":  "State directly supported by evidence."
+                              },
+                              {
+                                  "Name":  "EvidenceReferences",
+                                  "Required":  true,
+                                  "Description":  "Registered evidence identifiers supporting the observation."
+                              },
+                              {
+                                  "Name":  "AuthorityReference",
+                                  "Required":  false,
+                                  "Description":  "Authority governing the observed transition or state."
+                              },
+                              {
+                                  "Name":  "UncertaintyState",
+                                  "Required":  true,
+                                  "Description":  "Explicit uncertainty classification."
+                              },
+                              {
+                                  "Name":  "AdmissibilityState",
+                                  "Required":  true,
+                                  "Description":  "Evidence admissibility state at observation time."
+                              }
+                          ],
+    "AllowedObservationTypes":  [
+                                    "INITIAL_STATE",
+                                    "CONSTRAINT",
+                                    "AUTHORITY",
+                                    "DEPENDENCY",
+                                    "TRANSITION",
+                                    "DECISION",
+                                    "OUTPUT_STATE",
+                                    "UNCERTAINTY",
+                                    "BLOCK",
+                                    "FAILURE",
+                                    "ABANDONMENT"
+                                ],
+    "AllowedUncertaintyStates":  [
+                                     "NONE_DECLARED",
+                                     "KNOWN",
+                                     "APPROXIMATE",
+                                     "CONFLICTING",
+                                     "MISSING",
+                                     "INDETERMINATE"
+                                 ],
+    "AllowedAdmissibilityStates":  [
+                                       "UNDETERMINED",
+                                       "ADMISSIBLE",
+                                       "INADMISSIBLE",
+                                       "INSUFFICIENT_EVIDENCE"
+                                   ]
+}
