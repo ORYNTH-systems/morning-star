@@ -5,7 +5,7 @@
     "VerificationID":  "MS-T1-VERIFICATION",
     "PreparedAt":  "2026-07-22T19:39:55.6597936Z",
     "ScenarioID":  "MS-T1-TRIAL-0001-SCENARIO-0001",
-    "ScenarioState":  "CONSTRAINT_EVALUATION_COMPLETE",
+    "ScenarioState":  "CONDITION_EVALUATION_COMPLETE",
     "ScenarioType":  "GOVERNED_INITIATION",
     "InitialObserverState":  "FIRST_CONTACT",
     "InitialParticipationRole":  "PR0_OBSERVER",
@@ -19,7 +19,7 @@
     "AuthorityState":  "DECLARED",
     "UncertaintyState":  "EXPLICIT",
     "ExecutionAuthorization":  "NOT_GRANTED",
-    "ExecutionState":  "BLOCKED_PENDING_CONDITION_EVALUATION",
+    "ExecutionState":  "REFERENCE_TRACE_EVALUATED",
     "ResultState":  "UNRESOLVED",
-    "Notes":  "All applicable constraints evaluated. Success and falsification conditions remain unevaluated."
+    "Notes":  "Success and falsification conditions evaluated. Formal theorem decision remains pending."
 }

@@ -10,7 +10,7 @@
     "TraceEvidenceStatus":  "NOT_REGISTERED",
     "OutputEvidenceStatus":  "NOT_REGISTERED",
     "UncertaintyEvidenceStatus":  "NOT_REGISTERED",
-    "Notes":  "Constraint evaluation complete. Condition evaluation is the next governed stage.",
+    "Notes":  "Condition evaluation complete. Formal theorem decision is the next governed stage.",
     "AuthoritySnapshotStatus":  "COMPLETE",
     "SuccessConditionCount":  0,
     "FalsificationConditionCount":  2,
@@ -24,11 +24,12 @@
     "EvidenceCollectionRequestCount":  5,
     "TrialProtocolStatus":  "PREPARED",
     "ObservationSchemaStatus":  "PREPARED",
-    "ExecutionGateStatus":  "CLOSED_PENDING_CONDITION_EVALUATION",
+    "ExecutionGateStatus":  "CLOSED_PENDING_THEOREM_DECISION",
     "EvidenceRegistrationStatus":  "COMPLETE",
     "EvidenceIntegrityStatus":  "VERIFIED",
     "EvidenceReviewStatus":  "COMPLETE",
     "EvidenceAdmissibilityStatus":  "ADMISSIBLE_FOR_REFERENCE_EVALUATION",
     "ConstraintEvaluationStatus":  "ALL_APPLICABLE_CONSTRAINTS_SATISFIED",
-    "ConditionEvaluationStatus":  "NOT_EVALUATED"
+    "ConditionEvaluationStatus":  null,
+    "TheoremDecisionStatus":  "PENDING"
 }

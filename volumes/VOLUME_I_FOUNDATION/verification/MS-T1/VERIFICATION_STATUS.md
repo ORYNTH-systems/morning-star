@@ -4,31 +4,30 @@
 |---|---|
 | Theorem ID | MS-T1 |
 | Verification ID | MS-T1-VERIFICATION |
-| Package State | CONSTRAINT_EVALUATION_COMPLETE |
+| Package State | CONDITION_EVALUATION_COMPLETE |
 | Trial ID | MS-T1-TRIAL-0001 |
-| Trial State | CONSTRAINT_EVALUATION_COMPLETE |
+| Trial State | CONDITION_EVALUATION_COMPLETE |
 | Evidence Review | COMPLETE |
-| Evidence Admissibility | ADMISSIBLE_FOR_REFERENCE_EVALUATION |
-| Applicable Constraint Count | 6 |
-| Satisfied Constraint Count | 6 |
-| Unsatisfied Constraint Count | 0 |
-| Constraint Decision | ALL_APPLICABLE_CONSTRAINTS_SATISFIED |
-| Condition Evaluation | NOT_EVALUATED |
-| Execution Gate | CLOSED_PENDING_CONDITION_EVALUATION |
-| Execution State | BLOCKED_PENDING_CONDITION_EVALUATION |
+| Constraint Evaluation | SATISFIED |
+| Success Conditions Satisfied | 0 / 0 |
+| Falsification Conditions Triggered | 0 |
+| Condition Decision |  |
+| Theorem Decision Authorization |  |
+| Execution Gate | CLOSED_PENDING_THEOREM_DECISION |
+| Execution State | BLOCKED_PENDING_THEOREM_DECISION |
 | Result State | UNRESOLVED |
-| Updated At | 2026-07-22T20:14:02.6445232Z |
+| Updated At | 2026-07-22T20:20:42.6136010Z |
 
 ## Current Boundary
 
-The admitted controlled reference evidence has completed governed constraint evaluation.
+The admitted controlled reference evidence has completed success-condition and falsification-condition evaluation.
 
-Canonical identity, dependency order, scope, authority, traceability, and uncertainty preservation were evaluated independently.
+All applicable constitutional constraints were previously satisfied.
 
-Constraint satisfaction does not establish theorem verification.
+The condition evaluation authorizes a formal theorem decision for the controlled reference scenario only.
 
-Success and falsification conditions remain unevaluated.
+No universal, empirical, deployment, or population-level claim is authorized.
 
-The execution gate remains closed.
+The formal theorem decision remains pending.
 
-No theorem result has been assigned.
+No published verification result has yet been assigned.

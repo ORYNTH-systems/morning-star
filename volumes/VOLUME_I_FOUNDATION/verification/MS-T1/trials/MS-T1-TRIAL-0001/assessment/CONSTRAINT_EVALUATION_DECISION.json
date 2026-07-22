@@ -19,9 +19,9 @@
     "Decision":  "ALL_APPLICABLE_CONSTRAINTS_SATISFIED",
     "ConditionEvaluationAuthorization":  "CONDITION_EVALUATION_AUTHORIZED",
     "ExecutionAuthorization":  "NOT_GRANTED",
-    "ConditionEvaluationState":  "NOT_EVALUATED",
+    "ConditionEvaluationState":  null,
     "TheoremDecisionState":  "UNRESOLVED",
     "ResultState":  "UNRESOLVED",
     "ScopeLimitation":  "Controlled constitutional reference scenario only.",
-    "Notes":  "Constraint satisfaction does not independently establish theorem verification."
+    "Notes":  "Evidence, constraints, and theorem conditions evaluated. Formal theorem decision remains pending."
 }

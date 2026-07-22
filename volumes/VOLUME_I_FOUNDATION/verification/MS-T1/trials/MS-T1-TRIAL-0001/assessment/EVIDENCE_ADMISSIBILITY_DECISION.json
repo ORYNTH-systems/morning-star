@@ -16,8 +16,8 @@
     "EvaluationAuthorization":  "AUTHORIZED",
     "ExecutionAuthorization":  "NOT_GRANTED",
     "ConstraintEvaluationState":  "SATISFIED",
-    "ConditionEvaluationState":  "NOT_EVALUATED",
+    "ConditionEvaluationState":  null,
     "ResultState":  "UNRESOLVED",
     "ScopeLimitation":  "Controlled constitutional reference scenario only.",
-    "Notes":  "Evidence review and constraint evaluation complete. Theorem conditions remain unevaluated."
+    "Notes":  "Evidence review, constraint evaluation, and condition evaluation complete. Formal theorem decision remains pending."
 }

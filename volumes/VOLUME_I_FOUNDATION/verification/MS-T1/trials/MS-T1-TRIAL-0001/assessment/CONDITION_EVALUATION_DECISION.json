@@ -1,0 +1,23 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "TrialID":  "MS-T1-TRIAL-0001",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "EvaluatedAt":  "2026-07-22T20:20:42.6136010Z",
+    "SuccessConditionCount":  0,
+    "SatisfiedSuccessConditionCount":  0,
+    "UnsatisfiedSuccessConditionCount":  0,
+    "FalsificationConditionCount":  0,
+    "TriggeredFalsificationCount":  0,
+    "Decision":  {
+
+                 },
+    "TheoremDecisionAuthorization":  {
+
+                                     },
+    "ExecutionAuthorization":  "NOT_GRANTED",
+    "TheoremDecisionState":  "NOT_ASSIGNED",
+    "ResultState":  "UNRESOLVED",
+    "ScopeLimitation":  "Controlled constitutional reference scenario only.",
+    "Notes":  "Condition evaluation authorizes theorem decision but does not itself publish or generalize a theorem result."
+}
