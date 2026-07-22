@@ -10,7 +10,7 @@
     "TraceEvidenceStatus":  "NOT_REGISTERED",
     "OutputEvidenceStatus":  "NOT_REGISTERED",
     "UncertaintyEvidenceStatus":  "NOT_REGISTERED",
-    "Notes":  "Formal theorem decision complete. Result remains limited to the controlled reference scenario.",
+    "Notes":  "Trial complete. Scoped result released. Package closed against further mutation.",
     "AuthoritySnapshotStatus":  "COMPLETE",
     "SuccessConditionCount":  0,
     "FalsificationConditionCount":  2,
@@ -24,7 +24,7 @@
     "EvidenceCollectionRequestCount":  5,
     "TrialProtocolStatus":  "PREPARED",
     "ObservationSchemaStatus":  "PREPARED",
-    "ExecutionGateStatus":  "CLOSED_DECISION_COMPLETE",
+    "ExecutionGateStatus":  "CLOSED_PACKAGE_COMPLETE",
     "EvidenceRegistrationStatus":  "COMPLETE",
     "EvidenceIntegrityStatus":  "VERIFIED",
     "EvidenceReviewStatus":  "COMPLETE",
@@ -34,5 +34,7 @@
     "TheoremDecisionStatus":  "COMPLETE",
     "VerificationResult":  "VERIFIED_FOR_CONTROLLED_REFERENCE_SCENARIO",
     "ResultState":  "RESOLVED",
-    "GeneralizationState":  "NOT_AUTHORIZED"
+    "GeneralizationState":  "NOT_AUTHORIZED",
+    "PublicationState":  "SCOPED_REFERENCE_RELEASED",
+    "PackageClosureState":  "CLOSED"
 }

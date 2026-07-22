@@ -12,13 +12,15 @@
     "OpenBlockingDefinitionGapCount":  3,
     "EvidenceReviewState":  "COMPLETE",
     "EvaluationReadiness":  "COMPLETE",
-    "ExecutionReadiness":  "COMPLETE",
+    "ExecutionReadiness":  "CLOSED",
     "ResultState":  "RESOLVED",
-    "Notes":  "All governed evaluation stages and the formal scoped theorem decision are complete.",
+    "Notes":  "Verification complete. Scoped result released. No further execution authorized.",
     "CollectionState":  "EVIDENCE_REVIEW_COMPLETE",
     "CollectionRequestCount":  5,
     "TrialProtocolState":  "PREPARED",
     "ExecutionGateState":  "CLOSED",
     "TheoremDecisionState":  "VERIFIED_FOR_CONTROLLED_REFERENCE_SCENARIO",
-    "GeneralizationState":  "NOT_AUTHORIZED"
+    "GeneralizationState":  "NOT_AUTHORIZED",
+    "PublicationState":  "SCOPED_REFERENCE_RELEASED",
+    "PackageClosureState":  "CLOSED"
 }

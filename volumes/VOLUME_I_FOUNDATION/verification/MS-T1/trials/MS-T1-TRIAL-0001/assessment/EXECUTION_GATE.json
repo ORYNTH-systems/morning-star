@@ -3,8 +3,8 @@
     "TrialID":  "MS-T1-TRIAL-0001",
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
-    "EvaluatedAt":  "2026-07-22T20:30:00.1183211Z",
-    "GateState":  "CLOSED_DECISION_COMPLETE",
+    "EvaluatedAt":  "2026-07-22T20:34:57.6215305Z",
+    "GateState":  "CLOSED_PACKAGE_COMPLETE",
     "ExecutionAuthorized":  false,
     "InputEvidenceGate":  "SATISFIED",
     "ConstraintEvidenceGate":  "SATISFIED",
@@ -13,11 +13,13 @@
     "UncertaintyDeclarationGate":  "SATISFIED",
     "EvidenceAdmissibilityGate":  "SATISFIED",
     "BlockingReasons":  [
-                            "No further execution is authorized within the completed trial.",
+                            "Further trial execution is not authorized.",
                             "External generalization is not authorized.",
-                            "Public release requires a separate governed publication decision."
+                            "Any broader claim requires a new governed verification package."
                         ],
     "ResultState":  "RESOLVED",
-    "Notes":  "Formal theorem decision complete. Gate closed against further execution and unauthorized generalization.",
-    "ConditionEvaluationGate":  "NOT_EVALUATED"
+    "Notes":  "Scoped result released and verification package closed.",
+    "ConditionEvaluationGate":  "NOT_EVALUATED",
+    "PublicationGate":  "SATISFIED_SCOPED_RELEASE",
+    "PackageClosureGate":  "SATISFIED"
 }

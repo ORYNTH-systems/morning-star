@@ -23,7 +23,7 @@
     "ResultState":  "RESOLVED",
     "ExecutionAuthorization":  "COMPLETED_REFERENCE_EVALUATION",
     "GeneralizationAuthorization":  "NOT_AUTHORIZED",
-    "PublicationState":  "RECORDED_NOT_EXTERNALLY_PUBLISHED",
+    "PublicationState":  "SCOPED_REFERENCE_RELEASED",
     "Scope":  "Controlled constitutional reference scenario only.",
     "ScopeLimitations":  [
                              "The result does not establish universal theorem proof.",
@@ -40,5 +40,8 @@
                           "The resulting state was observed as admissible participation.",
                           "Uncertainty and external-validity limitations remained explicit."
                       ],
-    "Notes":  "MS-T1 is verified only within the governed controlled reference scenario."
+    "Notes":  "MS-T1 verified and released only as a controlled reference-scenario result. Verification package closed.",
+    "PublicationDecision":  "AUTHORIZED_FOR_SCOPED_INTERNAL_REFERENCE_RELEASE",
+    "ReleaseID":  "MS-T1-TRIAL-0001-RELEASE-0001",
+    "PackageClosureState":  "CLOSED"
 }

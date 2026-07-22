@@ -1,0 +1,16 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "ReleaseID":  "MS-T1-TRIAL-0001-RELEASE-0001",
+    "TrialID":  "MS-T1-TRIAL-0001",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "GeneratedAt":  "2026-07-22T20:34:57.6215305Z",
+    "ArtifactCount":  10,
+    "RequiredArtifactCount":  10,
+    "VerifiedArtifactCount":  10,
+    "ReleaseManifestSHA256":  "5a8e565b1ca74c37f2b1142f32a981bdab29b5e96600fc15528706629038573e",
+    "IntegrityState":  "VERIFIED",
+    "VerificationResult":  "VERIFIED_FOR_CONTROLLED_REFERENCE_SCENARIO",
+    "GeneralizationAuthorization":  "NOT_AUTHORIZED",
+    "ClosureState":  "READY"
+}

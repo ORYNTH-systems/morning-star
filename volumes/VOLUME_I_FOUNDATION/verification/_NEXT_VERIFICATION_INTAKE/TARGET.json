@@ -6,15 +6,19 @@
     "TheoremID":  "MS-T1",
     "TheoremTitle":  null,
     "DesignStatus":  "DESIGN_CANDIDATE",
-    "ExecutionStatus":  "THEOREM_DECISION_COMPLETE",
-    "EvidenceStatus":  "GOVERNED_VERIFICATION_COMPLETE",
+    "ExecutionStatus":  "PACKAGE_CLOSED",
+    "EvidenceStatus":  "VERIFICATION_RECORD_COMPLETE",
     "ResultStatus":  "VERIFIED_FOR_CONTROLLED_REFERENCE_SCENARIO",
-    "Notes":  "MS-T1-TRIAL-0001 formal theorem decision complete. Result limited to the controlled reference scenario.",
+    "Notes":  "MS-T1-TRIAL-0001 scoped verification released and package closed.",
     "ExistingPackage":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T1",
     "SourceMatchCount":  20,
     "RegisterPath":  "C:/Users/18177/morning-star/registries/THEOREM_VERIFICATION_REGISTER.csv",
     "ActiveTrialID":  "MS-T1-TRIAL-0001",
     "ActiveTrialPath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T1/trials/MS-T1-TRIAL-0001",
     "AssuranceState":  "VERIFIED",
-    "GeneralizationState":  "NOT_AUTHORIZED"
+    "GeneralizationState":  "NOT_AUTHORIZED",
+    "PublicationState":  "SCOPED_REFERENCE_RELEASED",
+    "PackageClosureState":  "CLOSED",
+    "ReleaseID":  "MS-T1-TRIAL-0001-RELEASE-0001",
+    "PackageManifestSHA256":  "5ced29c32d5b75ba9d7fcb1b382f0601f6e65148d560ad858252c1389bf517ad"
 }

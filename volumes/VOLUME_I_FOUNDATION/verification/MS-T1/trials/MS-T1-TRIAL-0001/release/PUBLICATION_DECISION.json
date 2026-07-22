@@ -1,0 +1,22 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "PublicationDecisionID":  "MS-T1-TRIAL-0001-PUBLICATION-0001",
+    "ReleaseID":  "MS-T1-TRIAL-0001-RELEASE-0001",
+    "TrialID":  "MS-T1-TRIAL-0001",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "DecidedAt":  "2026-07-22T20:34:57.6215305Z",
+    "VerificationResult":  "VERIFIED_FOR_CONTROLLED_REFERENCE_SCENARIO",
+    "AssuranceState":  "VERIFIED",
+    "PublicationDecision":  "AUTHORIZED_FOR_SCOPED_INTERNAL_REFERENCE_RELEASE",
+    "PublicationState":  "SCOPED_REFERENCE_RELEASED",
+    "PublicClaimAuthorization":  "LIMITED",
+    "GeneralizationAuthorization":  "NOT_AUTHORIZED",
+    "ExternalDeploymentClaimAuthorization":  "NOT_AUTHORIZED",
+    "UniversalProofClaimAuthorization":  "NOT_AUTHORIZED",
+    "AuthorizedStatement":  "MS-T1 is verified for the governed controlled constitutional reference scenario.",
+    "RequiredQualification":  "This result does not establish universal proof, external generalizability, empirical population validation, adversarial robustness, or deployment validity.",
+    "ReleaseScope":  "Morning Star Volume I governed verification record.",
+    "ClosureAuthorization":  "AUTHORIZED",
+    "Notes":  "Publication is limited to the scoped verification record and its explicit constitutional limitations."
+}
