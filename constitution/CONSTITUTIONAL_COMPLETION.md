@@ -1,6 +1,6 @@
 Morning Star Constitutional Completion Declaration
 
-Status: RESEARCH ARCHITECTURE COMPLETE — FREEZE REVIEW PENDING
+Status: COMPLETION ARCHITECTURE ACTIVE — FINAL AUDIT PENDING
 Version: 0.1.0
 Project: Morning Star
 Ecosystem: ORYNTH
@@ -52,9 +52,9 @@ Morning Star does not govern the full experiential, narrative, symbolic, psychol
 
 Those domains require separate constitutional definition.
 
-6. Relationship to Requiem Pandemonium
+6. Relationship to REQUIEM Pandemonium
 
-Requiem Pandemonium may begin after Morning Star establishes:
+REQUIEM Pandemonium may begin after Morning Star establishes:
 
 who is entering;
 what constitutes orientation;
@@ -65,7 +65,7 @@ when stewardship becomes eligible.
 
 Morning Star governs the integrity of entry.
 
-Requiem Pandemonium may govern the architecture encountered beyond that entry boundary.
+REQUIEM Pandemonium may govern the architecture encountered beyond that entry boundary.
 
 7. Freeze Condition
 
@@ -87,10 +87,10 @@ SEMANTIC ENTROPY MODEL: COMPLETE
 ENTRY PROTOCOL: COMPLETE
 INITIATION VERIFICATION: COMPLETE
 STEWARDSHIP GOVERNANCE: COMPLETE
-FREEZE REVIEW: PENDING
-REQUiem PANDEMONIUM DEPENDENCY: SATISFIED SUBJECT TO FREEZE REVIEW
+FINAL CONSTITUTIONAL AUDIT: PENDING
+REQUIEM PANDEMONIUM DEPENDENCY: NOT YET RELEASED
 9. Completion Statement
 
 Morning Star establishes the constitutional architecture through which an observer may enter ORYNTH without the architecture being reduced, conflated, detached from its dependencies, or silently rewritten.
 
-Its completion creates the governed threshold from which Requiem Pandemonium may begin.
+Its completion creates the governed threshold from which REQUIEM Pandemonium may begin.
