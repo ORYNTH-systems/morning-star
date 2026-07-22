@@ -1,2 +1,2 @@
 ﻿"TrialID","TheoremID","VerificationID","CreatedAt","TrialState","ExecutionState","EvidenceState","ResultState","TrialPath","Notes"
-"MS-T1-TRIAL-","MS-T1","MS-T1-VERIFICATION","2026-07-22T19:26:47.2638114Z","CREATED","NOT_EXECUTED","EMPTY","UNRESOLVED","volumes/VOLUME_I_FOUNDATION/verification/MS-T1/trials/MS-T1-TRIAL-","Governed trial workspace created."
+"MS-T1-TRIAL-0001","MS-T1","MS-T1-VERIFICATION","2026-07-22T19:26:47.2638114Z","CREATED","NOT_EXECUTED","EMPTY","UNRESOLVED","volumes/VOLUME_I_FOUNDATION/verification/MS-T1/trials/MS-T1-TRIAL-0001","Governed trial workspace created; malformed trial identifier repaired."

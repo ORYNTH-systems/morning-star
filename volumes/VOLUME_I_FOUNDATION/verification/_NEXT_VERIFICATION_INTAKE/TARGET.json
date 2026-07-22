@@ -9,8 +9,10 @@
     "ExecutionStatus":  "TRIAL_WORKSPACE_CREATED",
     "EvidenceStatus":  "EVIDENCE_NOT_REGISTERED",
     "ResultStatus":  "UNRESOLVED",
-    "Notes":  "MS-T1-TRIAL- created. No theorem execution has occurred.",
+    "Notes":  "MS-T1-TRIAL-0001 created. No theorem execution has occurred.",
     "ExistingPackage":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T1",
     "SourceMatchCount":  20,
-    "RegisterPath":  "C:/Users/18177/morning-star/registries/THEOREM_VERIFICATION_REGISTER.csv"
+    "RegisterPath":  "C:/Users/18177/morning-star/registries/THEOREM_VERIFICATION_REGISTER.csv",
+    "ActiveTrialID":  "MS-T1-TRIAL-0001",
+    "ActiveTrialPath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T1/trials/MS-T1-TRIAL-0001"
 }

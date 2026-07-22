@@ -6,7 +6,7 @@
 | Verification ID | MS-T1-VERIFICATION |
 | Package State | TRIAL_WORKSPACE_CREATED |
 | Snapshot State | COMPLETE |
-| Trial ID | MS-T1-TRIAL- |
+| Trial ID | MS-T1-TRIAL-0001 |
 | Trial State | CREATED |
 | Execution State | NOT_EXECUTED |
 | Evidence State | EMPTY |
@@ -20,3 +20,4 @@ The canonical source snapshot is preserved.
 A governed trial workspace now exists.
 
 No evidence has been registered, no theorem execution has occurred, and no result has been assigned.
+

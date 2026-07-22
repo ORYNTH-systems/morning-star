@@ -1,8 +1,8 @@
-﻿# MS-T1-TRIAL-
+﻿# MS-T1-TRIAL-0001
 
 | Field | Value |
 |---|---|
-| Trial ID | MS-T1-TRIAL- |
+| Trial ID | MS-T1-TRIAL-0001 |
 | Theorem ID | MS-T1 |
 | Verification ID | MS-T1-VERIFICATION |
 | Trial State | CREATED |
@@ -22,3 +22,4 @@ Evidence must be registered before evaluation.
 Missing evidence remains missing.
 
 Uncertainty remains explicit.
+

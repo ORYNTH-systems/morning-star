@@ -1,6 +1,6 @@
 ﻿{
     "SchemaVersion":  "1.0.0",
-    "TrialID":  "MS-T1-TRIAL-",
+    "TrialID":  "MS-T1-TRIAL-0001",
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
     "Assessor":  null,
@@ -12,3 +12,4 @@
     "UncertaintyEvidenceStatus":  "NOT_REGISTERED",
     "Notes":  null
 }
+

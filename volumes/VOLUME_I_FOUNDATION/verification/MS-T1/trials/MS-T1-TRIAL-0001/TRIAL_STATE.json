@@ -1,6 +1,6 @@
 ﻿{
     "SchemaVersion":  "1.0.0",
-    "TrialID":  "MS-T1-TRIAL-",
+    "TrialID":  "MS-T1-TRIAL-0001",
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
     "CreatedAt":  "2026-07-22T19:26:47.2638114Z",
@@ -13,3 +13,4 @@
     "BlockingReason":  null,
     "Notes":  "Trial workspace created. No execution performed."
 }
+
