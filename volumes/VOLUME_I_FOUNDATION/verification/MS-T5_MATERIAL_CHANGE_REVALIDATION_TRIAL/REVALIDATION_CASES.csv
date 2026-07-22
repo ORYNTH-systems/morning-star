@@ -1,0 +1,4 @@
+﻿"CaseID","ObserverID","RevisionID","SourceVersion","TargetVersion","RevalidationCondition","AffectedPropertyClass","CurrentCanonicalValue","SupersededValue","ExpectedDisposition","CaseStatus"
+"MS-T5-CASE-001-A","","MS-T5-REV-001","","","REVALIDATED","","","","","DRAFT"
+"MS-T5-CASE-001-B","","MS-T5-REV-001","","","NOT_REVALIDATED","","","","","DRAFT"
+"MS-T5-CASE-CTRL-001","","MS-T5-REV-CTRL-001","","","NON_MATERIAL_CONTROL","","","","","DRAFT"
