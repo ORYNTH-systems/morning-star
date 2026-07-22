@@ -3,7 +3,7 @@
     "TrialID":  "MS-T1-TRIAL-0001",
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
-    "EvaluatedAt":  "2026-07-22T20:22:02.3107684Z",
+    "EvaluatedAt":  "2026-07-22T20:23:34.7916446Z",
     "GateState":  "CLOSED_PENDING_CONDITION_EVALUATION",
     "ExecutionAuthorized":  false,
     "InputEvidenceGate":  "SATISFIED",
