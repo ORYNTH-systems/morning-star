@@ -1,0 +1,3 @@
+﻿"TransferCaseID","ObserverID","SourceDomainID","TargetDomainID","SourceVersion","TargetVersion","DomainDistanceClass","VersionChangeClass","TransferRuleID","ExpectedDisposition","CaseStatus"
+"MS-T4-CASE-001-A","","","","","","SAME","IDENTICAL","","","DRAFT"
+"MS-T4-CASE-001-B","","","","","","RELATED","MATERIAL_CHANGE","","","DRAFT"
