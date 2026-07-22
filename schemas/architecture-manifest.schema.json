@@ -1,0 +1,86 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orynth.net/schemas/morning-star/architecture-manifest.schema.json",
+  "title": "Morning Star Architecture Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "architecture_id",
+    "architecture_name",
+    "version",
+    "status",
+    "constitutional_subject",
+    "volumes",
+    "invariant_registry",
+    "state_transition_registry",
+    "generated_at",
+    "git_commit",
+    "artifact_count",
+    "aggregate_hash"
+  ],
+  "properties": {
+    "architecture_id": {
+      "const": "MS-ARCH-001"
+    },
+    "architecture_name": {
+      "const": "Morning Star"
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "DISCOVERY",
+        "FOUNDATION",
+        "ARCHITECTURE_FREEZE_CANDIDATE",
+        "ARCHITECTURE_FROZEN",
+        "SUPERSEDED"
+      ]
+    },
+    "constitutional_subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "volumes": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "volume_id",
+          "folder",
+          "primary_file",
+          "dependency",
+          "sha256",
+          "status"
+        ]
+      }
+    },
+    "invariant_registry": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state_transition_registry": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "git_commit": {
+      "type": "string"
+    },
+    "artifact_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "aggregate_hash": {
+      "type": "string",
+      "pattern": "^[A-Fa-f0-9]{64}$"
+    }
+  }
+}

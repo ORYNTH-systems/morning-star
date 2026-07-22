@@ -1,28 +1,40 @@
-﻿# ORYNTH Reference Architecture
+﻿# Morning Star
 
-Open reference architecture for execution integrity in autonomous systems.
+**Constitutional Architecture for Semantic Entry, Navigation, Interpretation, and Participation in the ORYNTH Ecosystem**
 
-## Purpose
+**Version:** 1.0.0-rc.1  
+**Status:** Architecture Frozen  
+**Author:** Ashley S. Harris  
+**Organization:** ORYNTH, Inc.  
 
-ORYNTH defines architectures for governing whether autonomous actions remain admissible, authorized, and verifiable at execution time.
+## Constitutional Subject
 
-## Core Principle
+Morning Star governs preservation of canonical meaning from first encounter through competent participation.
 
-Authorization does not guarantee execution eligibility.
+## Architecture
 
-## Architecture Layers
+1. `VOLUME_I_FOUNDATION` — constitutional authority and governing invariants
+2. `VOLUME_II_ONTOLOGY` — canonical objects and relationships
+3. `VOLUME_III_NAVIGATION` — dependency-aware governed pathways
+4. `VOLUME_IV_INTERPRETATION` — interpretation admissibility and reconstruction
+5. `VOLUME_V_INITIATION` — evidence-based role-bounded participation
 
-- Constitutional governance
-- Coordinate modeling
-- Measurement
-- Projection
-- Runtime execution integrity
-- Human/system workbench interaction
+## Governance
 
-## Repository Purpose
+- `governance/ARCHITECTURE.md`
+- `governance/CONSTITUTIONAL_INVARIANT_REGISTRY.csv`
+- `governance/STATE_TRANSITION_REGISTRY.csv`
 
-This repository provides specifications, reference implementations, validation artifacts, and research materials.
+## Release Evidence
 
-## Status
+- `release/ARCHITECTURE_MANIFEST.json`
+- `release/ARTIFACT_MANIFEST.csv`
+- `evidence/CONSTITUTIONAL_INTEGRATION_VALIDATION.md`
+- `evidence/ARCHITECTURE_FREEZE_DECLARATION.md`
 
-Reference Architecture Release Preparation
+## Current Boundary
+
+The Morning Star constitutional architecture is complete as a research and governance architecture.
+
+Software runtime implementation remains a subsequent engineering phase.
+

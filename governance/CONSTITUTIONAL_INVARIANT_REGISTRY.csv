@@ -1,0 +1,16 @@
+﻿InvariantID,InvariantName,GoverningVolume,Description,ViolationResult,Status
+MS-INV-001,CANONICAL_IDENTITY_PRESERVATION,MS-V1,"Governed object identity must remain traceable through all transformations.",RECONSTRUCTION_REQUIRED,CANONICAL
+MS-INV-002,FRAMEWORK_IDENTITY_PRESERVATION,MS-V1,"Distinct frameworks must not be silently merged.",RECONSTRUCTION_REQUIRED,CANONICAL
+MS-INV-003,DEPENDENCY_ORDER_PRESERVATION,MS-V3,"Mandatory dependencies must be satisfied before dependent transitions.",BLOCK,CANONICAL
+MS-INV-004,AUTHORITY_SEPARATION,MS-V1,"Access familiarity competency authorship and authority remain distinct.",BLOCK_OR_REVOKE,CANONICAL
+MS-INV-005,PROVENANCE_PRESERVATION,MS-V2,"Every governed transformation must remain reconstructable.",INADMISSIBLE,CANONICAL
+MS-INV-006,UNCERTAINTY_PRESERVATION,MS-V1,"Uncertainty must remain explicit and must not be silently resolved.",RECONSTRUCTION_REQUIRED,CANONICAL
+MS-INV-007,INTERPRETATION_CLASSIFICATION,MS-V4,"Derived meaning must remain distinct from canonical meaning.",INADMISSIBLE,CANONICAL
+MS-INV-008,PARTICIPATION_EVIDENCE,MS-V5,"Participation roles require sufficient evidence.",DENY_OR_REMEDIATE,CANONICAL
+MS-INV-009,ROLE_BOUNDED_ACTION,MS-V5,"Actor action must remain within admitted role scope.",SUSPEND_OR_REVOKE,CANONICAL
+MS-INV-010,REVISION_CONTINUITY,MS-V1,"Canonical revision must trigger declared downstream review.",REVALIDATION_REQUIRED,CANONICAL
+MS-INV-011,DRIFT_RECONSTRUCTION,MS-V4,"Semantic drift must be preserved and reconstructed.",RECONSTRUCTION_REQUIRED,CANONICAL
+MS-INV-012,DETERMINISTIC_CONSTITUTIONAL_DECISION,MS-V1,"Equivalent constitutional inputs must produce equivalent decisions.",INVALID_IMPLEMENTATION,CANONICAL
+MS-INV-013,TRACE_COMPLETENESS,MS-V1,"Terminal decisions require reconstructable traces.",INADMISSIBLE,CANONICAL
+MS-INV-014,FAILURE_DISTINCTION,MS-V1,"Failure deferral refusal uncertainty suspension revocation and incompletion remain distinct.",RECONSTRUCTION_REQUIRED,CANONICAL
+MS-INV-015,CONSTITUTIONAL_SUPREMACY,MS-V1,"No implementation or derived artifact may override the Constitution.",INVALID_IMPLEMENTATION,CANONICAL

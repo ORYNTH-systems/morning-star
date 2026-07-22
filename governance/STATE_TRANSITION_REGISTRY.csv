@@ -1,0 +1,18 @@
+﻿TransitionID,FromState,ToState,GoverningVolume,RequiredCondition,FailureState,Status
+MS-TR-001,MS-S0,MS-S1,MS-V3,"A governed encounter is recorded.",MS-S0,CANONICAL
+MS-TR-002,MS-S1,MS-S2,MS-V2,"Canonical or governed identity is resolved.",MS-S10,CANONICAL
+MS-TR-003,MS-S2,MS-S3,MS-V3,"Framework context scope and authority are established.",MS-S9,CANONICAL
+MS-TR-004,MS-S3,MS-S4,MS-V3,"Mandatory dependencies and prerequisites are evaluated.",MS-S9,CANONICAL
+MS-TR-005,MS-S4,MS-S5,MS-V4,"Interpretation is classified and evaluated.",MS-S10,CANONICAL
+MS-TR-006,MS-S5,MS-S6,MS-V5,"Required competencies are evaluated.",MS-S9,CANONICAL
+MS-TR-007,MS-S6,MS-S7,MS-V5,"Role admission requirements are satisfied.",MS-S9,CANONICAL
+MS-TR-008,MS-S7,MS-S8,MS-V5,"Participation becomes active within declared scope.",MS-S11,CANONICAL
+MS-TR-009,MS-S8,MS-S9,MS-V1,"Governing revision or stale state requires revalidation.",MS-S9,CANONICAL
+MS-TR-010,MS-S8,MS-S10,MS-V4,"Material semantic drift is detected.",MS-S10,CANONICAL
+MS-TR-011,MS-S8,MS-S11,MS-V5,"Temporary restriction conditions are satisfied.",MS-S11,CANONICAL
+MS-TR-012,MS-S11,MS-S8,MS-V5,"Reinstatement conditions are satisfied.",MS-S11,CANONICAL
+MS-TR-013,MS-S11,MS-S12,MS-V5,"Revocation conditions are satisfied.",MS-S12,CANONICAL
+MS-TR-014,MS-S9,MS-S8,MS-V5,"Revalidation succeeds and authority remains active.",MS-S11,CANONICAL
+MS-TR-015,MS-S10,MS-S5,MS-V4,"Interpretive reconstruction succeeds.",MS-S10,CANONICAL
+MS-TR-016,MS-S8,MS-S13,MS-V3,"Governed exit is recorded.",MS-S8,CANONICAL
+MS-TR-017,MS-S13,MS-S9,MS-V3,"Re-entry requires current-state validation.",MS-S9,CANONICAL
