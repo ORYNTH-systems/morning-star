@@ -4,16 +4,19 @@
 |---|---|
 | Theorem ID | MS-T1 |
 | Verification ID | MS-T1-VERIFICATION |
-| Package State | SOURCE_SNAPSHOT_CREATED |
+| Package State | TRIAL_WORKSPACE_CREATED |
 | Snapshot State | COMPLETE |
-| Snapshot Artifact Count | 11 |
-| Trial State | NOT_CREATED |
-| Execution State | NOT_STARTED |
+| Trial ID | MS-T1-TRIAL- |
+| Trial State | CREATED |
+| Execution State | NOT_EXECUTED |
+| Evidence State | EMPTY |
 | Result State | UNRESOLVED |
-| Snapshot Created At | 2026-07-22T19:25:08.7027172Z |
+| Trial Created At | 2026-07-22T19:26:47.2638114Z |
 
-## Authority Boundary
+## Current Boundary
 
-The files preserved in source_snapshot/ are the permanent canonical intake basis for this verification package.
+The canonical source snapshot is preserved.
 
-Package creation and source preservation do not constitute theorem execution or verification.
+A governed trial workspace now exists.
+
+No evidence has been registered, no theorem execution has occurred, and no result has been assigned.

@@ -1,0 +1,14 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "TrialID":  "MS-T1-TRIAL-",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "Assessor":  null,
+    "ExecutionEnvironment":  null,
+    "InputEvidenceStatus":  "NOT_REGISTERED",
+    "ConstraintEvidenceStatus":  "NOT_REGISTERED",
+    "TraceEvidenceStatus":  "NOT_REGISTERED",
+    "OutputEvidenceStatus":  "NOT_REGISTERED",
+    "UncertaintyEvidenceStatus":  "NOT_REGISTERED",
+    "Notes":  null
+}

@@ -1,0 +1,2 @@
+﻿"TraceEventID","TrialID","EventSequence","EventTime","EventType","PriorState","NewState","AuthorityReference","EvidenceReference","Actor","Notes"
+"TRACE-0001","MS-T1-TRIAL-","1","2026-07-22T19:26:47.2638114Z","TRIAL_CREATED","NONEXISTENT","CREATED","source_snapshot","","MORNING_STAR_VERIFICATION_RUNTIME","Trial workspace instantiated. No theorem execution performed."
