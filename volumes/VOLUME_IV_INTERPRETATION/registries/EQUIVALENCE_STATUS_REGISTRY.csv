@@ -1,0 +1,10 @@
+﻿EquivalenceStatusID,EquivalenceStatus,Meaning,CanonicalSubstitutionPermitted,Status
+MS-EQ-001,NOT_EVALUATED,"Equivalence has not been evaluated.",FALSE,CANONICAL
+MS-EQ-002,EXACT_EQUIVALENCE,"Meaning is preserved within identical declared scope.",TRUE,CANONICAL
+MS-EQ-003,FUNCTIONAL_EQUIVALENCE,"Operational consequences are equivalent within declared conditions.",FALSE,CANONICAL
+MS-EQ-004,PARTIAL_EQUIVALENCE,"Some but not all governed meaning is shared.",FALSE,CANONICAL
+MS-EQ-005,CONTEXTUAL_EQUIVALENCE,"Representations are equivalent only within a declared context.",FALSE,CANONICAL
+MS-EQ-006,ANALOGICAL_SIMILARITY,"Representations share explanatory similarity but are not equivalent.",FALSE,CANONICAL
+MS-EQ-007,NON_EQUIVALENT,"Material governed meaning differs.",FALSE,CANONICAL
+MS-EQ-008,CONFLICTING,"Available evidence produces incompatible equivalence results.",FALSE,CANONICAL
+MS-EQ-009,UNRESOLVED,"Equivalence cannot currently be determined.",FALSE,CANONICAL

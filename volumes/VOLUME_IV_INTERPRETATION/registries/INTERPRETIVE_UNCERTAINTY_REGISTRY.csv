@@ -1,0 +1,10 @@
+﻿UncertaintyTypeID,UncertaintyType,Definition,BlocksCanonicalAdmission,Status
+MS-IU-001,SOURCE_UNCERTAINTY,"The identity status or authority of the source is uncertain.",TRUE,CANONICAL
+MS-IU-002,TRANSLATION_UNCERTAINTY,"Meaning may have changed during language notation or medium conversion.",TRUE,CANONICAL
+MS-IU-003,CONTEXTUAL_UNCERTAINTY,"The applicability of the interpretation to the declared context is uncertain.",FALSE,CANONICAL
+MS-IU-004,DEPENDENCY_UNCERTAINTY,"One or more required conceptual or evidentiary dependencies are uncertain.",TRUE,CANONICAL
+MS-IU-005,EVIDENTIARY_UNCERTAINTY,"The supporting evidence is incomplete disputed or indeterminate.",TRUE,CANONICAL
+MS-IU-006,EQUIVALENCE_UNCERTAINTY,"Canonical or functional equivalence is uncertain.",TRUE,CANONICAL
+MS-IU-007,AUTHORITY_UNCERTAINTY,"The scope or validity of interpretive authority is uncertain.",TRUE,CANONICAL
+MS-IU-008,TEMPORAL_UNCERTAINTY,"Version or temporal applicability is uncertain.",TRUE,CANONICAL
+MS-IU-009,IMPLEMENTATION_UNCERTAINTY,"Operational behavior may not preserve the interpreted meaning.",FALSE,CANONICAL

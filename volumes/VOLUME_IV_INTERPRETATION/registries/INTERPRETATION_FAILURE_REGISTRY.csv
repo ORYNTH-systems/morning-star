@@ -1,0 +1,13 @@
+﻿FailureID,FailureClass,Trigger,RequiredDisposition,Status
+MS-IF-001,SOURCE_IDENTITY_FAILURE,"Interpreted source cannot be identified.","INADMISSIBLE",CANONICAL
+MS-IF-002,SOURCE_STATUS_FAILURE,"Source is invalid revoked or undisclosed superseded material.","INADMISSIBLE_OR_REVALIDATE",CANONICAL
+MS-IF-003,CLASSIFICATION_FAILURE,"Interpretation class is absent or false.","INADMISSIBLE",CANONICAL
+MS-IF-004,AUTHORITY_FAILURE,"Required interpretive authority is absent or exceeded.","INADMISSIBLE",CANONICAL
+MS-IF-005,SCOPE_FAILURE,"Interpretation exceeds declared or evidenced scope.","ADMISSIBLE_WITH_LIMITS_OR_INADMISSIBLE",CANONICAL
+MS-IF-006,DEPENDENCY_FAILURE,"Required dependency is missing or violated.","UNRESOLVED_OR_INADMISSIBLE",CANONICAL
+MS-IF-007,PROVENANCE_FAILURE,"Source or transformation history is incomplete.","UNRESOLVED_OR_INADMISSIBLE",CANONICAL
+MS-IF-008,UNCERTAINTY_FAILURE,"Material uncertainty is suppressed or misclassified.","RECONSTRUCTION_REQUIRED",CANONICAL
+MS-IF-009,EQUIVALENCE_FAILURE,"Canonical equivalence is claimed without sufficient evidence.","INADMISSIBLE",CANONICAL
+MS-IF-010,CONFLATION_FAILURE,"Distinct objects frameworks states or authorities are merged.","RECONSTRUCTION_REQUIRED",CANONICAL
+MS-IF-011,VERSION_FAILURE,"Interpretation relies on stale or superseded state without disclosure.","REVALIDATE",CANONICAL
+MS-IF-012,TRACE_FAILURE,"Interpretive derivation cannot be reconstructed.","INADMISSIBLE",CANONICAL

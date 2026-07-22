@@ -1,0 +1,10 @@
+﻿AdmissionStatusID,AdmissionStatus,Meaning,PermitsUse,RequiresRevalidation,Status
+MS-IAS-001,ADMISSIBLE,"Interpretation satisfies declared constitutional requirements.",TRUE,FALSE,CANONICAL
+MS-IAS-002,ADMISSIBLE_WITH_LIMITS,"Interpretation is admissible only within declared restrictions.",TRUE,TRUE,CANONICAL
+MS-IAS-003,ADMISSIBLE_WITH_UNCERTAINTY,"Interpretation may be used while explicit uncertainty is preserved.",TRUE,TRUE,CANONICAL
+MS-IAS-004,PROVISIONAL,"Interpretation is temporarily admitted pending further evidence or review.",TRUE,TRUE,CANONICAL
+MS-IAS-005,CONFLICTING,"Interpretation materially conflicts with another active interpretation.",FALSE,TRUE,CANONICAL
+MS-IAS-006,RECONSTRUCTION_REQUIRED,"Interpretation contains semantic drift requiring reconstruction.",FALSE,TRUE,CANONICAL
+MS-IAS-007,UNRESOLVED,"Admission cannot currently be determined.",FALSE,TRUE,CANONICAL
+MS-IAS-008,INADMISSIBLE,"Interpretation violates constitutional requirements.",FALSE,TRUE,CANONICAL
+MS-IAS-009,SUPERSEDED,"Interpretation has been replaced by a later governed version.",FALSE,FALSE,CANONICAL

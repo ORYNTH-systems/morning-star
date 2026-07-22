@@ -1,0 +1,88 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orynth.net/schemas/morning-star/interpretive-reconstruction.schema.json",
+  "title": "Morning Star Interpretive Reconstruction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reconstruction_id",
+    "drift_event_id",
+    "interpretation_id",
+    "violated_invariant_id",
+    "authoritative_source_id",
+    "corrective_evidence_ids",
+    "corrective_authority_id",
+    "prior_version",
+    "resulting_version",
+    "resulting_class",
+    "resulting_admission_status",
+    "unresolved_differences",
+    "revalidation_requirements",
+    "performed_at"
+  ],
+  "properties": {
+    "reconstruction_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "drift_event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "interpretation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "violated_invariant_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authoritative_source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "corrective_evidence_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "corrective_authority_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prior_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "resulting_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "resulting_class": {
+      "type": "string",
+      "minLength": 1
+    },
+    "resulting_admission_status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "unresolved_differences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "revalidation_requirements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "performed_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orynth.net/schemas/morning-star/interpretation.schema.json",
+  "title": "Morning Star Interpretation Object",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "interpretation_id",
+    "interpreted_object_id",
+    "interpretation_class",
+    "interpreter_id",
+    "authority_id",
+    "source_basis",
+    "scope",
+    "dependency_ids",
+    "provenance_id",
+    "uncertainty_types",
+    "equivalence_status",
+    "admission_status",
+    "version",
+    "created_at",
+    "revised_at",
+    "validation_status"
+  ],
+  "properties": {
+    "interpretation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "interpreted_object_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "interpretation_class": {
+      "type": "string",
+      "enum": [
+        "CANONICAL",
+        "LITERAL",
+        "CONTEXTUAL",
+        "DERIVED",
+        "COMPARATIVE",
+        "ANALOGICAL",
+        "OPERATIONAL",
+        "EDUCATIONAL",
+        "TRANSLATIONAL",
+        "SPECULATIVE",
+        "CRITICAL",
+        "CONFLICTING",
+        "RECONSTRUCTED",
+        "UNRESOLVED",
+        "INADMISSIBLE"
+      ]
+    },
+    "interpreter_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authority_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_basis": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dependency_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "uncertainty_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "equivalence_status": {
+      "type": "string",
+      "enum": [
+        "NOT_EVALUATED",
+        "EXACT_EQUIVALENCE",
+        "FUNCTIONAL_EQUIVALENCE",
+        "PARTIAL_EQUIVALENCE",
+        "CONTEXTUAL_EQUIVALENCE",
+        "ANALOGICAL_SIMILARITY",
+        "NON_EQUIVALENT",
+        "CONFLICTING",
+        "UNRESOLVED"
+      ]
+    },
+    "admission_status": {
+      "type": "string",
+      "enum": [
+        "ADMISSIBLE",
+        "ADMISSIBLE_WITH_LIMITS",
+        "ADMISSIBLE_WITH_UNCERTAINTY",
+        "PROVISIONAL",
+        "CONFLICTING",
+        "RECONSTRUCTION_REQUIRED",
+        "UNRESOLVED",
+        "INADMISSIBLE",
+        "SUPERSEDED"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "revised_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "NOT_VALIDATED",
+        "VALID",
+        "INVALID",
+        "UNRESOLVED"
+      ]
+    }
+  }
+}
