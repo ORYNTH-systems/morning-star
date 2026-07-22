@@ -60,7 +60,7 @@ class PersistentTraceLedger:
                     envelope_id=UUID(str(raw["envelope_id"])),
                     object_type=str(raw["object_type"]),
                     schema_version=str(raw["schema_version"]),
-                    payload=dict(raw["payload"]),
+                    payload=(raw["payload"] if isinstance(raw["payload"], dict) else (_ for _ in ()).throw(TypeError("payload must be an object"))),
                     payload_hash=str(raw["payload_hash"]),
                     prior_envelope_hash=(
                         str(raw["prior_envelope_hash"])
@@ -146,3 +146,4 @@ class PersistentTraceLedger:
 
     def __len__(self) -> int:
         return len(self.load_envelopes())
+

@@ -1,0 +1,60 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orynth.net/schemas/morning-star/runtime-config-v1.schema.json",
+  "title": "Morning Star Runtime Configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "runtime_id",
+    "runtime_version",
+    "architecture_manifest_path",
+    "invariant_registry_path",
+    "transition_registry_path",
+    "repository_path",
+    "trace_ledger_path",
+    "snapshot_path"
+  ],
+  "properties": {
+    "runtime_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "runtime_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "architecture_manifest_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "invariant_registry_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "transition_registry_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "repository_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "trace_ledger_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "snapshot_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "strict_integrity": {
+      "type": "boolean"
+    },
+    "allow_provisional_admission": {
+      "type": "boolean"
+    },
+    "require_frozen_architecture": {
+      "type": "boolean"
+    }
+  }
+}

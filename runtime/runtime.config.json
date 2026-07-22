@@ -1,0 +1,13 @@
+﻿{
+  "runtime_id": "MS-RUNTIME-001",
+  "runtime_version": "0.5.0",
+  "architecture_manifest_path": "../../release/ARCHITECTURE_MANIFEST.json",
+  "invariant_registry_path": "../../governance/CONSTITUTIONAL_INVARIANT_REGISTRY.csv",
+  "transition_registry_path": "../../governance/STATE_TRANSITION_REGISTRY.csv",
+  "repository_path": "../state/repository",
+  "trace_ledger_path": "../state/trace-ledger.json",
+  "snapshot_path": "../state/runtime-snapshot.json",
+  "strict_integrity": true,
+  "allow_provisional_admission": true,
+  "require_frozen_architecture": true
+}

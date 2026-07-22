@@ -31,7 +31,7 @@ from morning_star.models.enums import (
 )
 
 
-T = TypeVar("T")
+T = TypeVar("T", bound=Enum)
 
 
 class ReconstructionError(ValueError):
@@ -338,3 +338,4 @@ def reconstruct_runtime_object(
         ) from exc
 
     return reconstructor(payload)
+

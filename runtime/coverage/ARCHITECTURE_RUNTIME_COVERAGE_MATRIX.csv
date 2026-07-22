@@ -1,0 +1,21 @@
+﻿RequirementID,ConstitutionalSource,RuntimeComponent,VerificationArtifact,CoverageStatus
+MS-COV-001,Constitution § Identity Preservation,models/canonical.py,tests/test_models.py,COVERED
+MS-COV-002,Constitution § Provenance Preservation,models/canonical.py; models/reconstruction.py,tests/test_reconstruction.py,COVERED
+MS-COV-003,Specification § Evidence Governance,models/canonical.py; api/runtime.py,tests/test_initiation_engine.py,COVERED
+MS-COV-004,Specification § Authority Governance,models/canonical.py; engines/initiation.py,tests/test_initiation_engine.py,COVERED
+MS-COV-005,Specification § Uncertainty Governance,models/canonical.py; engines/interpretation.py; engines/initiation.py,tests/test_interpretation_engine.py; tests/test_initiation_engine.py,COVERED
+MS-COV-006,Specification § Dependency Governance,engines/dependencies.py,tests/test_dependencies.py,COVERED
+MS-COV-007,Specification § Navigation Governance,engines/navigation.py,tests/test_navigation.py,COVERED
+MS-COV-008,Specification § Interpretation Classes,engines/interpretation.py,tests/test_interpretation_engine.py,COVERED
+MS-COV-009,Specification § Participation Roles,engines/initiation.py,tests/test_initiation_engine.py,COVERED
+MS-COV-010,Specification § State Transitions,engines/transitions.py,tests/test_transitions.py,COVERED
+MS-COV-011,Specification § Constitutional Traceability,registries/persistent_trace.py,tests/test_persistent_trace.py,COVERED
+MS-COV-012,Specification § Drift Resistance,models/envelopes.py; models/serialization.py,tests/test_envelopes.py; tests/test_serialization.py,COVERED
+MS-COV-013,Specification § Reconstruction,models/reconstruction.py,tests/test_reconstruction.py,COVERED
+MS-COV-014,Specification § Architecture Binding,engines/manifest.py; config/runtime.py,tests/test_manifest_registry.py; tests/test_configuration.py,COVERED
+MS-COV-015,Specification § Registry Integrity,registries/persistent.py; registries/repository.py,tests/test_persistent_registry.py; tests/test_repository.py,COVERED
+MS-COV-016,Specification § Transaction Integrity,registries/transaction.py,tests/test_transaction.py,COVERED
+MS-COV-017,Specification § Runtime Snapshot,models/snapshot.py; api/runtime.py,tests/test_snapshot.py; tests/test_public_api.py,COVERED
+MS-COV-018,Specification § Failure Governance,models/failures.py,tests/test_failures.py,COVERED
+MS-COV-019,Specification § Public Runtime Interface,api/runtime.py; cli/main.py,tests/test_public_api.py; tests/test_cli.py,COVERED
+MS-COV-020,Specification § End-to-End Initiation,engines/runtime.py,tests/scenarios/test_entry_conformance.py,COVERED

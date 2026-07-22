@@ -93,11 +93,10 @@ def test_chain_detects_payload_tampering() -> None:
 
     chain = EnvelopeChain().append(first)
 
-    tampered = replace(
-        first,
-        payload={"sequence": 999},
-    )
+    tampered = replace(first)
+    object.__setattr__(tampered, "payload", {"sequence": 999})
 
     corrupted = EnvelopeChain(envelopes=(tampered,))
 
     assert corrupted.verify() is False
+
