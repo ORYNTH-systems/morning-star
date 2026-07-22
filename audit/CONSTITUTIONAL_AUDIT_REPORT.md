@@ -2,7 +2,7 @@
 
 **Audit Identifier:** MS-AUDIT-001  
 **Audit Date:** 2026-07-22  
-**Repository Commit:** 1fd4d766ca4ece30a3dd818787a8bc801db5e169  
+**Repository Commit:** b87ddd8693b7530a10cf062ff4821aaaebee4874  
 **Overall Status:** 
 
 ## 1. Required Artifact Validation
@@ -20,7 +20,7 @@
 | architecture\ORYNTH_DEPENDENCY_ARCHITECTURE.md | 4954 | PASS |
 | governance\COMPLETION_ARCHITECTURE.md | 42 | PASS |
 | governance\PARTICIPATION_ROLE_ARCHITECTURE.md | 6662 | PASS |
-| governance\SEMANTIC_DRIFT_RECONSTRUCTION_PROCEDURE.md | 10016 | PASS |
+| governance\SEMANTIC_DRIFT_RECONSTRUCTION_PROCEDURE.md | 9808 | PASS |
 | registries\CANONICAL_VOCABULARY_REGISTRY.md | 3325 | PASS |
 | registries\FRAMEWORK_IDENTITY_REGISTRY.md | 5290 | PASS |
 | registries\IDENTIFIER_REGISTRY.md | 2378 | PASS |
@@ -40,16 +40,24 @@
 
 | Register | Columns | Status |
 |---|---:|---|
+| CONSTITUTIONAL_REVISION_REGISTER.csv | 18 | PASS |
+| DEPENDENCY_REGISTER.csv | 12 | PASS |
+| ENTRY_ASSESSMENT_REGISTER.csv | 17 | PASS |
+| FRAMEWORK_DIFFERENTIATION_REGISTER.csv | 14 | PASS |
+| IDENTIFIER_ASSIGNMENT_REGISTER.csv | 10 | PASS |
+| INITIATION_VERIFICATION_REGISTER.csv | 20 | PASS |
+| OBSERVER_STATE_REGISTER.csv | 15 | PASS |
+| RECONSTRUCTION_REGISTER.csv | 18 | PASS |
+| ROLE_ASSIGNMENT_REGISTER.csv | 17 | PASS |
+| SEMANTIC_DRIFT_REGISTER.csv | 19 | PASS |
+| STEWARDSHIP_REGISTER.csv | 17 | PASS |
 
-## 3. Unresolved Placeholder Review
+## 3. Placeholder Review
 
 
-## 4. Identifier Reference Review
+## 4. Audit Determination
 
 
-## 5. Audit Determination
-
-
-## 6. Constitutional Result
+## 5. Constitutional Result
 
 Repository-wide constitutional audit result: ****.
