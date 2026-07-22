@@ -1,0 +1,6 @@
+﻿"CollectionID","TrialID","EvidenceClass","RequestArtifact","CollectionState","Required","CandidateItemCount","SubmittedItemCount","RegisteredItemCount","ReviewState","Notes"
+"COL-0001","MS-T1-TRIAL-0001","INPUT","input/INPUT_EVIDENCE_REQUEST.md","REQUEST_PREPARED","YES","0","0","0","NOT_STARTED","Awaiting governed initial-state evidence."
+"COL-0002","MS-T1-TRIAL-0001","CONSTRAINT","constraints/CONSTRAINT_EVIDENCE_REQUEST.md","REQUEST_PREPARED","YES","0","0","0","NOT_STARTED","Awaiting constraint applicability and satisfaction evidence."
+"COL-0003","MS-T1-TRIAL-0001","TRACE","trace/TRACE_EVIDENCE_REQUEST.md","REQUEST_PREPARED","YES","0","0","0","NOT_STARTED","Awaiting ordered transition and provenance evidence."
+"COL-0004","MS-T1-TRIAL-0001","OUTPUT","output/OUTPUT_EVIDENCE_REQUEST.md","REQUEST_PREPARED","YES","0","0","0","NOT_STARTED","Awaiting resulting governed-state evidence."
+"COL-0005","MS-T1-TRIAL-0001","UNCERTAINTY","uncertainty/UNCERTAINTY_EVIDENCE_REQUEST.md","REQUEST_PREPARED","YES","0","0","0","NOT_STARTED","Awaiting explicit missing, approximate, conflicting, or unresolved evidence."

@@ -10,7 +10,7 @@
     "TraceEvidenceStatus":  "NOT_REGISTERED",
     "OutputEvidenceStatus":  "NOT_REGISTERED",
     "UncertaintyEvidenceStatus":  "NOT_REGISTERED",
-    "Notes":  "Evidence submission workspace open. No evidence submitted or registered.",
+    "Notes":  "Evidence requests prepared. No evidence submitted or registered.",
     "AuthoritySnapshotStatus":  "COMPLETE",
     "SuccessConditionCount":  0,
     "FalsificationConditionCount":  2,
@@ -18,6 +18,8 @@
     "EvidenceIntakeStatus":  "OPEN",
     "EvidenceRequirementCount":  4,
     "RegisteredEvidenceCount":  0,
-    "EvidenceSubmissionStatus":  "OPEN",
-    "SubmittedEvidenceCount":  0
+    "EvidenceSubmissionStatus":  "AWAITING_EVIDENCE",
+    "SubmittedEvidenceCount":  0,
+    "EvidenceCollectionStatus":  "READY",
+    "EvidenceCollectionRequestCount":  5
 }

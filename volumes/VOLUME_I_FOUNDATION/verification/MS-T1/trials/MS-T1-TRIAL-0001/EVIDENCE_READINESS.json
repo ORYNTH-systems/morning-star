@@ -5,7 +5,7 @@
     "VerificationID":  "MS-T1-VERIFICATION",
     "InitializedAt":  "2026-07-22T19:31:18.5992537Z",
     "IntakeState":  "OPEN",
-    "EvidenceRegistrationState":  "SUBMISSION_WORKSPACE_OPEN",
+    "EvidenceRegistrationState":  "AWAITING_SUBMISSIONS",
     "RegisteredEvidenceCount":  0,
     "RequiredEvidenceCount":  4,
     "EvidenceClassCount":  5,
@@ -14,5 +14,7 @@
     "EvaluationReadiness":  "NOT_READY",
     "ExecutionReadiness":  "NOT_READY",
     "ResultState":  "UNRESOLVED",
-    "Notes":  "Evidence submission workspace open. No evidence submitted or registered."
+    "Notes":  "Evidence collection requests prepared. No candidate evidence submitted.",
+    "CollectionState":  "REQUESTS_PREPARED",
+    "CollectionRequestCount":  5
 }

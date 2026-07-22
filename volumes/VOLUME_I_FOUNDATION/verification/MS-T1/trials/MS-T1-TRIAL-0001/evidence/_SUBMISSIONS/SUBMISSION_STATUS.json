@@ -4,13 +4,13 @@
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
     "CreatedAt":  "2026-07-22T19:32:58.9603610Z",
-    "SubmissionState":  "OPEN",
+    "SubmissionState":  "AWAITING_EVIDENCE",
     "SubmittedItemCount":  0,
     "RegisteredEvidenceCount":  0,
-    "EvidenceRegistrationState":  "NOT_STARTED",
+    "EvidenceRegistrationState":  "AWAITING_SUBMISSIONS",
     "EvidenceReviewState":  "NOT_STARTED",
     "EvaluationReadiness":  "NOT_READY",
     "ExecutionReadiness":  "NOT_READY",
     "ResultState":  "UNRESOLVED",
-    "Notes":  "Submission workspace created. No evidence items submitted or registered."
+    "Notes":  "Evidence collection requests prepared. No candidate evidence received."
 }
