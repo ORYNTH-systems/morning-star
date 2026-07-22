@@ -1,0 +1,6 @@
+﻿"EvidenceClassID","EvidenceClass","Directory","Purpose","Required","RegistrationState"
+"EC-001","INPUT","evidence/input","Preserve the governed initial state presented to the theorem trial.","YES","OPEN"
+"EC-002","CONSTRAINT","evidence/constraints","Preserve evidence needed to determine constraint applicability and satisfaction.","YES","OPEN"
+"EC-003","TRACE","evidence/trace","Preserve ordered execution, transition, and provenance evidence.","YES","OPEN"
+"EC-004","OUTPUT","evidence/output","Preserve the resulting governed state or produced artifact.","YES","OPEN"
+"EC-005","UNCERTAINTY","evidence/uncertainty","Preserve unknown, approximate, conflicting, or unresolved evidence explicitly.","YES","OPEN"

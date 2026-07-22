@@ -10,6 +10,12 @@
     "TraceEvidenceStatus":  "NOT_REGISTERED",
     "OutputEvidenceStatus":  "NOT_REGISTERED",
     "UncertaintyEvidenceStatus":  "NOT_REGISTERED",
-    "Notes":  null
+    "Notes":  "Evidence intake open. No evidence items registered.",
+    "AuthoritySnapshotStatus":  "COMPLETE",
+    "SuccessConditionCount":  0,
+    "FalsificationConditionCount":  2,
+    "ConstraintCount":  0,
+    "EvidenceIntakeStatus":  "OPEN",
+    "EvidenceRequirementCount":  4,
+    "RegisteredEvidenceCount":  0
 }
-
