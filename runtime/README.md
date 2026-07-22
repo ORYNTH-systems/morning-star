@@ -1,61 +1,57 @@
 ﻿# Morning Star Reference Runtime
 
-**Current Phase:** II  
-**Version:** 0.2.0  
-**Status:** Runtime Engineering in Progress  
+**Current Phase:** III  
+**Version:** 0.3.0  
+**Status:** Runtime Persistence Foundation Complete  
 
 ## Phase I — Complete
 
-- canonical runtime enumerations
-- actor identity model
-- canonical object model
-- provenance model
-- evidence model
-- authority model
-- uncertainty model
-- dependency model
-- interpretation model
-- participation model
-- constitutional trace model
-- typed in-memory registry
+- canonical runtime domain model
 - constitutional validation engine
+- typed in-memory registry
 
 ## Phase II — Complete
 
-- deterministic canonical serialization
-- deterministic UTF-8 byte representation
-- SHA-256 canonical hashing
-- canonical hash verification
+- deterministic serialization
+- canonical hashing
 - immutable runtime envelopes
-- hash-linked envelope chains
-- canonical state-transition registry
-- deterministic state-transition engine
-- constitutional transition decisions
+- canonical transition engine
 - constitutional trace emission
-- append-only trace ledger
-- chain-integrity validation
+- hash-linked in-memory trace ledger
+
+## Phase III — Complete
+
+- atomic file writes
+- deterministic object reconstruction
+- persistent hash-verified registries
+- persistent append-only trace ledger
+- trace-ledger recovery
+- chain-tamper detection
+- payload-tamper detection
+- architecture-manifest loading
+- constitutional CSV registry ingestion
+- runtime snapshot generation
+- snapshot hash verification
 
 ## Constitutional Guarantees Implemented
 
-- equivalent data produces equivalent canonical bytes
-- equivalent canonical bytes produce equivalent SHA-256 hashes
-- unsupported or ambiguous values are rejected
-- runtime envelopes verify their payloads
-- envelope chains verify historical linkage
-- transitions require declared prior states
-- required authority cannot be omitted
-- required evidence cannot be omitted
-- uncertainty review cannot be bypassed
-- accepted transitions emit constitutional traces
-- trace history is append-only and hash-linked
+- canonical records can be reconstructed without silent defaults
+- persisted records are verified after writing
+- duplicate envelope identities cannot silently overwrite records
+- corrupted JSON is rejected
+- modified payloads are detected
+- trace-chain breaks are detected
+- constitutional registries reject duplicate identifiers
+- runtime operation requires a frozen architecture manifest
+- snapshots bind runtime state to architecture state
 
 ## Next Runtime Phase
 
-- repository-backed persistent registries
-- atomic file writes
-- deterministic object reconstruction
-- architecture-manifest loading
-- constitutional registry ingestion
-- persistent trace-ledger recovery
-- corruption and tamper detection
-- runtime snapshot generation
+- unified runtime repository
+- object-type-specific persistent stores
+- transaction boundaries
+- dependency graph evaluation
+- navigation decision engine
+- interpretation admission engine
+- initiation decision engine
+- integrated conformance scenarios
