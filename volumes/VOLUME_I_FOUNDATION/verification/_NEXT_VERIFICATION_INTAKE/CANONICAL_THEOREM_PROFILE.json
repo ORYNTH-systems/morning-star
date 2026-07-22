@@ -1,0 +1,38 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "GeneratedAt":  "2026-07-22T14:12:57.3538075-05:00",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "TheoremTitle":  "",
+    "CanonicalDefinition":  {
+
+                            },
+    "DefinitionStatements":  [
+
+                             ],
+    "Constraints":  [
+
+                    ],
+    "SuccessConditions":  [
+
+                          ],
+    "FalsificationConditions":  [
+                                    "MS-T1 is falsified within the tested scope when:",
+                                    "MS-T1 is falsified within scope when unrestricted entry performs equivalently or better across repeated trials using the same material-property criteria."
+                                ],
+    "ScopeBoundaries":  [
+                            "MS-T1 is supported within scope when the governed group demonstrates a reproducible reduction in material divergence without introducing equivalent or greater governance-caused distortion."
+                        ],
+    "Dependencies":  [
+
+                     ],
+    "EvidenceMatchCount":  20,
+    "AdmissibleEvidenceCount":  3,
+    "BlockingGapCount":  3,
+    "MaterialGapCount":  1,
+    "PackageGenerationDecision":  {
+
+                                  },
+    "ProfileStatus":  "CANONICAL_PROFILE_INCOMPLETE",
+    "ConstitutionalBoundary":  "Automated classification identifies evidence candidates but does not expand or rewrite the canonical theorem."
+}

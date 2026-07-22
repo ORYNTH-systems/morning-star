@@ -1,0 +1,5 @@
+﻿"GapID","TheoremID","Field","Severity","Description","RequiredResolution","ResolutionStatus","EvidenceReference","Notes"
+"GAP-001","MS-T1","CanonicalDefinition","BLOCKING","No admissible canonical theorem-definition statement was discovered.","Locate or author an explicit canonical theorem definition before package generation.","OPEN","",""
+"GAP-002","MS-T1","TheoremTitle","BLOCKING","The canonical theorem title is absent from TARGET.json.","Resolve the title from the canonical theorem register.","OPEN","",""
+"GAP-003","MS-T1","Constraints","MATERIAL","No explicit theorem constraint statement was classified as admissible.","Identify the theorem constraints or record that none are constitutionally required.","OPEN","",""
+"GAP-004","MS-T1","SuccessConditions","BLOCKING","No explicit success condition was discovered.","Define evidence-bearing conditions under which the theorem may be considered satisfied.","OPEN","",""
