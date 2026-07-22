@@ -9,47 +9,45 @@
 
 This procedure governs the detection, classification, reconstruction, correction, verification, and closure of semantic drift within Morning Star.
 
-Its purpose is to ensure that canonical meaning remains recoverable when an artifact, interpretation, implementation, summary, dependency, or participation act diverges from its governing constitutional source.
+Semantic drift occurs when a governed representation no longer preserves the canonical meaning, identity, boundary, dependency order, authority, uncertainty, or traceability of the object it represents.
 
 ## 2. Governing Principle
 
-Semantic drift exists when a governed representation no longer preserves the canonical meaning, identity, boundary, dependency order, authority, uncertainty, or traceability of the object it represents.
-
-Drift shall not be corrected through unsupported reinterpretation.
-
 Canonical meaning shall be reconstructed from authoritative evidence.
+
+Semantic drift shall not be corrected through unsupported reinterpretation, assumed intent, narrative substitution, or silent normalization.
 
 ## 3. Governed Objects
 
 This procedure applies to:
 
 - constitutional documents;
+- canonical models;
 - specifications;
 - mathematical definitions;
-- canonical models;
 - registries;
 - protocols;
 - runtime representations;
 - audit artifacts;
-- summaries and explanatory materials;
 - dependency declarations;
 - role assignments;
 - stewardship acts;
 - revisions;
-- derived implementations;
+- summaries;
+- external representations;
 - future admitted frameworks.
 
 ## 4. Drift Classes
 
-| Drift Class | Description |
+| Drift Class | Definition |
 |---|---|
 | TERMINOLOGICAL_DRIFT | A canonical term is replaced, diluted, expanded, or conflated. |
-| DEFINITIONAL_DRIFT | The constitutional definition of an object changes without authority. |
+| DEFINITIONAL_DRIFT | A constitutional definition changes without authority. |
 | IDENTITY_DRIFT | One framework, object, layer, or artifact is represented as another. |
-| BOUNDARY_DRIFT | Included and excluded responsibilities are altered. |
-| DEPENDENCY_DRIFT | Required ordering or dependency relationships are changed or omitted. |
-| AUTHORITY_DRIFT | Interpretive or revision authority is falsely assigned or exceeded. |
-| STATE_DRIFT | A governed semantic, observer, verification, or lifecycle state is misrepresented. |
+| BOUNDARY_DRIFT | Included or excluded responsibilities are altered. |
+| DEPENDENCY_DRIFT | Required dependency relationships are changed, reversed, or omitted. |
+| AUTHORITY_DRIFT | Interpretive, revision, or execution authority is falsely assigned or exceeded. |
+| STATE_DRIFT | A governed state is incorrectly represented. |
 | TRACEABILITY_DRIFT | A representation cannot be traced to authoritative evidence. |
 | UNCERTAINTY_ERASURE | Missing, disputed, approximate, or unresolved content is falsely resolved. |
 | VERSION_DRIFT | Content from different versions is combined without declaration. |
@@ -62,15 +60,15 @@ This procedure applies to:
 
 | Severity | Meaning |
 |---|---|
-| INFORMATIONAL | No present semantic failure; recorded for traceability. |
+| INFORMATIONAL | No present semantic failure; retained for traceability. |
 | MINOR | Localized ambiguity with no material constitutional consequence. |
 | MODERATE | Meaning or dependency is impaired but reconstructable. |
 | MAJOR | Canonical interpretation, participation, or implementation is materially affected. |
-| CRITICAL | Constitutional identity, authority, boundary, or system integrity is compromised. |
+| CRITICAL | Constitutional identity, authority, boundary, or integrity is compromised. |
 
 ## 6. Blocking Status
 
-A finding shall be classified as one of the following:
+A drift finding shall receive one of the following statuses:
 
 - NON_BLOCKING;
 - NON_BLOCKING_PENDING_REVIEW;
@@ -80,23 +78,23 @@ A finding shall be classified as one of the following:
 - BLOCKING_RELEASE;
 - BLOCKING_CONSTITUTIONAL_FREEZE.
 
-Critical drift is blocking unless a documented constitutional authority determines otherwise.
+Critical drift is blocking unless an identified constitutional authority records a contrary determination with evidence.
 
 ## 7. Detection Triggers
 
-A drift assessment shall begin when any of the following occurs:
+A drift assessment begins when:
 
-1. conflicting definitions are discovered;
-2. a canonical term is used inconsistently;
-3. a framework is confused with another framework;
-4. a required dependency is omitted or reordered;
+1. conflicting definitions are detected;
+2. canonical terminology is used inconsistently;
+3. one framework is confused with another;
+4. a dependency is omitted or reordered;
 5. a summary exceeds the claims of its source;
-6. uncertainty is silently converted into certainty;
-7. an implementation produces behavior not authorized by specification;
+6. uncertainty is converted into certainty;
+7. implementation behavior exceeds specification;
 8. a revision lacks traceability;
 9. an observer cannot independently reconstruct meaning;
-10. a steward, reviewer, or auditor records a suspected divergence;
-11. a release or constitutional freeze validation detects inconsistency;
+10. a steward, reviewer, or auditor records suspected divergence;
+11. release validation detects inconsistency;
 12. an external representation materially misstates Morning Star.
 
 ## 8. Detection Procedure
@@ -106,40 +104,40 @@ For each suspected drift event:
 1. assign a unique DriftID;
 2. identify the affected governed object;
 3. identify the affected artifact and version;
-4. preserve the suspected representation without alteration;
+4. preserve the suspected representation;
 5. identify the authoritative reference;
 6. classify the drift;
 7. assign severity;
 8. assign blocking status;
-9. record all available evidence;
+9. record available evidence;
 10. declare unresolved uncertainty;
 11. enter the finding in `SEMANTIC_DRIFT_REGISTER.csv`.
 
-Detection does not establish guilt, intent, or final constitutional disposition.
+Detection establishes a review requirement. It does not establish intent, fault, or final disposition.
 
 ## 9. Evidence Requirements
 
-Admissible evidence may include:
+Admissible evidence includes:
 
-- canonical constitutional text;
+- constitutional text;
 - registry entries;
 - mathematical definitions;
 - specifications;
 - version history;
 - Git commits and tags;
 - audit findings;
-- verified dependency records;
-- approved revision records;
+- approved dependency records;
+- revision records;
 - provenance metadata;
-- preserved external representations;
+- preserved representations;
 - reviewer determinations;
-- reproducible implementation results.
+- reproducible runtime evidence.
 
 Unsupported memory, preference, analogy, or narrative resemblance is not sufficient authority for reconstruction.
 
-## 10. Reconstruction Procedure
+## 10. Reconstruction Classes
 
-Reconstruction shall separate content into the following classes:
+Every reconstruction shall separate content into:
 
 - Restored Content;
 - Inferred Content;
@@ -149,12 +147,16 @@ Reconstruction shall separate content into the following classes:
 - Excluded Content;
 - Unresolved Content.
 
+These classes shall not be merged or silently converted into one another.
+
+## 11. Reconstruction Procedure
+
 The reconstruction process shall:
 
 1. assign a unique ReconstructionRecordID;
 2. link the reconstruction to its DriftID;
 3. identify the authoritative reference set;
-4. reproduce the affected representation;
+4. preserve the affected representation;
 5. isolate each semantic divergence;
 6. restore directly supported canonical content;
 7. label inferred content explicitly;
@@ -164,7 +166,7 @@ The reconstruction process shall:
 11. preserve unresolved content without forced closure;
 12. record the result in `RECONSTRUCTION_REGISTER.csv`.
 
-## 11. Reconstruction Invariants
+## 12. Reconstruction Invariants
 
 A reconstruction is inadmissible if it:
 
@@ -174,15 +176,15 @@ A reconstruction is inadmissible if it:
 - changes canonical identity;
 - exceeds governing authority;
 - reverses dependency direction;
-- replaces technical meaning with narrative analogy;
+- substitutes narrative analogy for technical meaning;
 - treats implementation behavior as constitutional authority;
 - conceals conflicting evidence;
 - removes historical traceability;
 - silently combines versions.
 
-## 12. Verification
+## 13. Verification States
 
-A reconstruction shall receive one of the following verification states:
+A reconstruction shall receive one of the following states:
 
 - VERIFIED;
 - VERIFIED_WITH_DECLARED_UNCERTAINTY;
@@ -201,11 +203,11 @@ Verification requires:
 5. framework identity integrity;
 6. boundary integrity;
 7. dependency integrity;
-8. independent reproducibility.
+8. reproducibility.
 
-The individual who performs reconstruction should not be the sole verifier when the finding is classified as major or critical.
+Major and critical findings should not be reconstructed and finally verified solely by the same individual unless no independent authority exists and that limitation is explicitly declared.
 
-## 13. Correction
+## 14. Correction Actions
 
 Correction may include:
 
@@ -223,12 +225,12 @@ Correction may include:
 
 Every correction shall reference its DriftID and ReconstructionRecordID.
 
-## 14. Closure Conditions
+## 15. Closure Conditions
 
-A semantic drift finding may be closed only when:
+A semantic drift finding may close only when:
 
 1. the affected object is identified;
-2. the authoritative reference is established;
+2. authoritative evidence is established;
 3. reconstruction is complete;
 4. verification status is recorded;
 5. required correction is complete;
@@ -238,11 +240,11 @@ A semantic drift finding may be closed only when:
 9. closure authority is identified;
 10. closure evidence is preserved.
 
-A finding shall remain open when evidence is insufficient or material disagreement remains unresolved.
+A finding remains open when evidence is insufficient or material disagreement remains unresolved.
 
-## 15. Propagation Review
+## 16. Propagation Review
 
-After correction, the reviewer shall assess whether drift propagated into:
+After correction, the reviewer shall determine whether drift propagated into:
 
 - constitutional documents;
 - registries;
@@ -250,16 +252,17 @@ After correction, the reviewer shall assess whether drift propagated into:
 - mathematical formalizations;
 - protocols;
 - runtime systems;
-- audit frameworks;
+- audit artifacts;
 - external publications;
 - dependency mappings;
-- participation or stewardship records.
+- participation records;
+- stewardship records.
 
-Each propagated instance shall either receive its own DriftID or be explicitly linked to the originating drift record.
+Each propagated instance shall receive its own DriftID or be explicitly linked to the originating record.
 
-## 16. Constitutional Freeze Rule
+## 17. Constitutional Freeze Rule
 
-Constitutional freeze is inadmissible when any of the following remains open:
+Constitutional freeze is inadmissible while any of the following remains open:
 
 - critical semantic drift;
 - blocking identity drift;
@@ -269,9 +272,9 @@ Constitutional freeze is inadmissible when any of the following remains open:
 - unverified canonical reconstruction;
 - material uncertainty concealed as resolution.
 
-Declared deferments may be permitted only when they do not alter canonical identity, authority, boundary, dependency, or meaning.
+A declared deferment is admissible only when it does not alter canonical identity, authority, boundary, dependency, or meaning.
 
-## 17. Required Registers
+## 18. Required Registers
 
 This procedure operates through:
 
@@ -281,10 +284,10 @@ This procedure operates through:
 - `DEPENDENCY_REGISTER.csv`;
 - `IDENTIFIER_ASSIGNMENT_REGISTER.csv`.
 
-## 18. Constitutional Result
+## 19. Constitutional Result
 
 Morning Star preserves semantic integrity by making drift detectable, evidence-bearing, reconstructable, correctable, verifiable, and historically traceable.
 
 Canonical meaning is not preserved by preventing all variation.
 
-It is preserved by ensuring that every material variation can be classified, traced, tested against authority, and either admitted, corrected, rejected, superseded, or preserved as unresolved.
+It is preserved by ensuring that every material variation can be classified, traced, tested against authority, and admitted, corrected, rejected, superseded, or preserved as unresolved.
