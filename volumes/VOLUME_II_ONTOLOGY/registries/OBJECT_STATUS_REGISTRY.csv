@@ -1,0 +1,12 @@
+﻿StatusID,StatusName,Description,Terminal,ReactivationPermitted,Status
+MS-OS-001,PROPOSED,"Object has been submitted but not registered.",FALSE,TRUE,CANONICAL
+MS-OS-002,REGISTERED,"Object identity and minimum structure are recorded.",FALSE,TRUE,CANONICAL
+MS-OS-003,ACTIVE,"Object is currently authoritative or operational within scope.",FALSE,TRUE,CANONICAL
+MS-OS-004,UNDER_REVIEW,"Object is undergoing governed review.",FALSE,TRUE,CANONICAL
+MS-OS-005,VERIFIED,"Object or claim has passed declared verification within scope.",FALSE,TRUE,CANONICAL
+MS-OS-006,SUPERSEDED,"A later governed object or version has replaced the object.",TRUE,FALSE,CANONICAL
+MS-OS-007,DEPRECATED,"Object remains traceable but is discouraged for current use.",FALSE,TRUE,CANONICAL
+MS-OS-008,REVOKED,"Object authority or admissibility has been formally withdrawn.",TRUE,TRUE,CANONICAL
+MS-OS-009,REJECTED,"Object failed admission or validation.",TRUE,TRUE,CANONICAL
+MS-OS-010,ARCHIVED,"Object is preserved for historical reconstruction.",TRUE,FALSE,CANONICAL
+MS-OS-011,UNRESOLVED,"Required authority evidence meaning or dependency remains unresolved.",FALSE,TRUE,CANONICAL

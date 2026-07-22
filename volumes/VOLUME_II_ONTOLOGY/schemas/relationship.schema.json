@@ -1,0 +1,76 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orynth.net/schemas/morning-star/relationship.schema.json",
+  "title": "Morning Star Relationship",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "relationship_id",
+    "relationship_class",
+    "source_object_id",
+    "target_object_id",
+    "authority_id",
+    "provenance_id",
+    "effective_version",
+    "validation_status"
+  ],
+  "properties": {
+    "relationship_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "relationship_class": {
+      "type": "string",
+      "enum": [
+        "DEFINES",
+        "GOVERNS",
+        "OWNS",
+        "REFERENCES",
+        "DEPENDS_ON",
+        "REQUIRES",
+        "DERIVES_FROM",
+        "INTERPRETS",
+        "EVIDENCES",
+        "VERIFIES",
+        "CONTRADICTS",
+        "SUPERSEDES",
+        "REVISES",
+        "RECONSTRUCTS",
+        "ADMITS",
+        "EXCLUDES",
+        "IMPLEMENTS",
+        "AUDITS",
+        "CORRECTS"
+      ]
+    },
+    "source_object_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target_object_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authority_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "effective_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "NOT_VALIDATED",
+        "VALID",
+        "INVALID",
+        "UNRESOLVED"
+      ]
+    }
+  }
+}

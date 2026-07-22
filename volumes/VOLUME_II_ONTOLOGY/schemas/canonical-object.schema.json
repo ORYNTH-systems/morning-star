@@ -1,0 +1,105 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orynth.net/schemas/morning-star/canonical-object.schema.json",
+  "title": "Morning Star Canonical Object",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "object_id",
+    "object_class",
+    "canonical_name",
+    "authority_id",
+    "scope",
+    "status",
+    "version",
+    "provenance_id",
+    "uncertainty_class",
+    "created_at",
+    "revised_at",
+    "validation_status"
+  ],
+  "properties": {
+    "object_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "object_class": {
+      "type": "string",
+      "minLength": 1
+    },
+    "canonical_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authority_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PROPOSED",
+        "REGISTERED",
+        "ACTIVE",
+        "UNDER_REVIEW",
+        "VERIFIED",
+        "SUPERSEDED",
+        "DEPRECATED",
+        "REVOKED",
+        "REJECTED",
+        "ARCHIVED",
+        "UNRESOLVED"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "provenance_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "uncertainty_class": {
+      "type": "string",
+      "enum": [
+        "UNKNOWN",
+        "INCOMPLETE",
+        "APPROXIMATE",
+        "DISPUTED",
+        "SPECULATIVE",
+        "INDETERMINATE",
+        "CONFLICTING",
+        "TEMPORARILY_UNAVAILABLE",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "revised_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "NOT_VALIDATED",
+        "VALID",
+        "INVALID",
+        "UNRESOLVED"
+      ]
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    }
+  }
+}

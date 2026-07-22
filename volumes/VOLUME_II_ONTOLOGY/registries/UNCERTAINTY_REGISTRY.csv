@@ -1,0 +1,10 @@
+﻿UncertaintyID,UncertaintyClass,Definition,EquivalentToFailure,EquivalentToFalse,Status
+MS-UNC-001,UNKNOWN,"Required information is not known.",FALSE,FALSE,CANONICAL
+MS-UNC-002,INCOMPLETE,"Required information is partially available.",FALSE,FALSE,CANONICAL
+MS-UNC-003,APPROXIMATE,"Information is available only within a declared tolerance or estimate.",FALSE,FALSE,CANONICAL
+MS-UNC-004,DISPUTED,"Multiple materially conflicting positions remain active.",FALSE,FALSE,CANONICAL
+MS-UNC-005,SPECULATIVE,"Representation exceeds currently verified evidence.",FALSE,FALSE,CANONICAL
+MS-UNC-006,INDETERMINATE,"Available evidence cannot determine a governed result.",FALSE,FALSE,CANONICAL
+MS-UNC-007,CONFLICTING,"Evidence or authority sources materially conflict.",FALSE,FALSE,CANONICAL
+MS-UNC-008,TEMPORARILY_UNAVAILABLE,"Required information exists but cannot currently be accessed.",FALSE,FALSE,CANONICAL
+MS-UNC-009,NOT_APPLICABLE,"The uncertainty dimension does not apply to the object.",FALSE,FALSE,CANONICAL
