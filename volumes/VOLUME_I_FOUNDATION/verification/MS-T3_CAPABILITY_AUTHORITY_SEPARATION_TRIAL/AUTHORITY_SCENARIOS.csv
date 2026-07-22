@@ -1,0 +1,3 @@
+﻿"ScenarioID","ScenarioPairID","AuthorityModel","ParticipantID","GovernedObjectID","RequestedAction","RequiredRole","RequiredDomain","RequiredVersion","RequiredCapability","CorrectDisposition","ScenarioStatus"
+"MS-T3-SCENARIO-001-A","MS-T3-PAIR-001","EXPLICIT_ASSIGNMENT","","","","","","","","","DRAFT"
+"MS-T3-SCENARIO-001-B","MS-T3-PAIR-001","CAPABILITY_INFERENCE","","","","","","","","","DRAFT"
