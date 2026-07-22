@@ -1,0 +1,27 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "TrialID":  "MS-T1-TRIAL-0001",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "EvaluatedAt":  "2026-07-22T20:09:37.9460809Z",
+    "ApplicableConstraintCount":  6,
+    "EvaluatedConstraintCount":  6,
+    "SatisfiedConstraintCount":  6,
+    "UnsatisfiedConstraintCount":  0,
+    "ConstraintStates":  {
+                             "CanonicalIdentity":  "SATISFIED",
+                             "DependencyOrder":  "SATISFIED",
+                             "ScopeBoundary":  "SATISFIED",
+                             "AuthorityBoundary":  "SATISFIED",
+                             "Traceability":  "SATISFIED",
+                             "UncertaintyPreservation":  "SATISFIED"
+                         },
+    "Decision":  "ALL_APPLICABLE_CONSTRAINTS_SATISFIED",
+    "ConditionEvaluationAuthorization":  "CONDITION_EVALUATION_AUTHORIZED",
+    "ExecutionAuthorization":  "NOT_GRANTED",
+    "ConditionEvaluationState":  "NOT_EVALUATED",
+    "TheoremDecisionState":  "UNRESOLVED",
+    "ResultState":  "UNRESOLVED",
+    "ScopeLimitation":  "Controlled constitutional reference scenario only.",
+    "Notes":  "Constraint satisfaction does not independently establish theorem verification."
+}

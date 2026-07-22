@@ -4,32 +4,30 @@
 |---|---|
 | Theorem ID | MS-T1 |
 | Verification ID | MS-T1-VERIFICATION |
-| Package State | EVIDENCE_REVIEW_COMPLETE |
+| Package State | CONSTRAINT_EVALUATION_COMPLETE |
 | Trial ID | MS-T1-TRIAL-0001 |
-| Trial State | EVIDENCE_REVIEW_COMPLETE |
-| Registered Evidence Count | 5 |
-| Reviewed Evidence Count | 5 |
-| Admissible Evidence Count | 5 |
-| Evidence Integrity | SATISFIED |
-| Provenance Review | SATISFIED |
-| Sufficiency Review | SATISFIED |
-| Uncertainty Preservation | SATISFIED |
-| Evaluation Readiness | READY |
-| Constraint Evaluation | NOT_EVALUATED |
+| Trial State | CONSTRAINT_EVALUATION_COMPLETE |
+| Evidence Review | COMPLETE |
+| Evidence Admissibility | ADMISSIBLE_FOR_REFERENCE_EVALUATION |
+| Applicable Constraint Count | 6 |
+| Satisfied Constraint Count | 6 |
+| Unsatisfied Constraint Count | 0 |
+| Constraint Decision | ALL_APPLICABLE_CONSTRAINTS_SATISFIED |
 | Condition Evaluation | NOT_EVALUATED |
-| Execution Gate | CLOSED_PENDING_CONSTRAINT_EVALUATION |
+| Execution Gate | CLOSED_PENDING_CONDITION_EVALUATION |
+| Execution State | BLOCKED_PENDING_CONDITION_EVALUATION |
 | Result State | UNRESOLVED |
-| Updated At | 2026-07-22T20:05:07.6502049Z |
+| Updated At | 2026-07-22T20:09:37.9460809Z |
 
 ## Current Boundary
 
-The five registered evidence items have completed governed review.
+The admitted controlled reference evidence has completed governed constraint evaluation.
 
-The evidence is admitted for the controlled constitutional reference scenario.
+Canonical identity, dependency order, scope, authority, traceability, and uncertainty preservation were evaluated independently.
 
-This admission does not establish constraint satisfaction or theorem verification.
+Constraint satisfaction does not establish theorem verification.
 
-Constraint evaluation is now authorized.
+Success and falsification conditions remain unevaluated.
 
 The execution gate remains closed.
 

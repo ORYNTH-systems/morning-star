@@ -4,12 +4,12 @@
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
     "CreatedAt":  "2026-07-22T19:26:47.2638114Z",
-    "UpdatedAt":  "2026-07-22T20:05:07.6502049Z",
-    "TrialState":  "EVIDENCE_REVIEW_COMPLETE",
-    "ExecutionState":  "BLOCKED_PENDING_CONSTRAINT_EVALUATION",
+    "UpdatedAt":  "2026-07-22T20:09:37.9460809Z",
+    "TrialState":  "CONSTRAINT_EVALUATION_COMPLETE",
+    "ExecutionState":  "BLOCKED_PENDING_CONDITION_EVALUATION",
     "EvidenceState":  "REVIEWED_ADMISSIBLE",
-    "EvaluationState":  "READY_FOR_CONSTRAINT_EVALUATION",
+    "EvaluationState":  "READY_FOR_CONDITION_EVALUATION",
     "ResultState":  "UNRESOLVED",
-    "BlockingReason":  "Constraint and theorem-condition evaluation have not been completed.",
-    "Notes":  "Five evidence items reviewed and admitted for controlled reference-scenario evaluation."
+    "BlockingReason":  "Success and falsification conditions have not been evaluated.",
+    "Notes":  "Applicable constitutional constraints evaluated against admitted reference evidence."
 }

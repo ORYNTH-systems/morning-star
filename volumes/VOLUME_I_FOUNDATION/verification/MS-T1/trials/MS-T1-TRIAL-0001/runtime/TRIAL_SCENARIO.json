@@ -5,7 +5,7 @@
     "VerificationID":  "MS-T1-VERIFICATION",
     "PreparedAt":  "2026-07-22T19:39:55.6597936Z",
     "ScenarioID":  "MS-T1-TRIAL-0001-SCENARIO-0001",
-    "ScenarioState":  "REFERENCE_EVIDENCE_SUBMITTED",
+    "ScenarioState":  "CONSTRAINT_EVALUATION_COMPLETE",
     "ScenarioType":  "GOVERNED_INITIATION",
     "InitialObserverState":  "FIRST_CONTACT",
     "InitialParticipationRole":  "PR0_OBSERVER",
@@ -19,7 +19,7 @@
     "AuthorityState":  "DECLARED",
     "UncertaintyState":  "EXPLICIT",
     "ExecutionAuthorization":  "NOT_GRANTED",
-    "ExecutionState":  "REFERENCE_TRACE_SUBMITTED",
+    "ExecutionState":  "BLOCKED_PENDING_CONDITION_EVALUATION",
     "ResultState":  "UNRESOLVED",
-    "Notes":  "Controlled reference evidence submitted. Registration and review remain required."
+    "Notes":  "All applicable constraints evaluated. Success and falsification conditions remain unevaluated."
 }
