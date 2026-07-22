@@ -1,7 +1,7 @@
 ﻿# Morning Star Runtime Phase II Validation
 
 **Validation ID:** MS-RUNTIME-P2-VAL-001  
-**Generated:** 2026-07-22T16:37:55-05:00  
+**Generated:** 2026-07-22T16:38:38-05:00  
 **Python:** Python 3.13.9  
 **Runtime Version:** 0.2.0  
 **Overall Result:**   
@@ -21,7 +21,7 @@ runtime/tests/test_envelopes.py                       True  2396 5AF9CD0BD350C0F
 runtime/tests/test_transitions.py                     True  4084 1FA3F4492EB772FA05CDF0B675A94701A9E0C8BF72D9E4A9D25...
 runtime/tests/test_trace_ledger.py                    True  1502 4C90D48DA6995A2DDF52E41A8997766999B58CD1DBE1444EC76...
 runtime/README.md                                     True  1739 4EBD62F23C2E2C526397EBDF9B8F92F3D4F15C48890C6E0D8F2...
-runtime/pyproject.toml                                True   668 27BC32F89079798033BA386B7CE290E5B744EC6ED2BEC7B474B...
+runtime/pyproject.toml                                True   670 813254049ACFE0DD17BE07D013D776B65562F5F61682BA9CD05...
 
 
 
