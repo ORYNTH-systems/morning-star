@@ -1,8 +1,8 @@
 ﻿# Morning Star Reference Runtime
 
-**Current Phase:** III  
-**Version:** 0.3.0  
-**Status:** Runtime Persistence Foundation Complete  
+**Current Phase:** IV  
+**Version:** 0.4.0  
+**Status:** Integrated Constitutional Decision Runtime  
 
 ## Phase I — Complete
 
@@ -14,44 +14,59 @@
 
 - deterministic serialization
 - canonical hashing
-- immutable runtime envelopes
-- canonical transition engine
+- immutable envelopes
+- state-transition engine
 - constitutional trace emission
-- hash-linked in-memory trace ledger
+- hash-linked trace ledger
 
 ## Phase III — Complete
 
-- atomic file writes
-- deterministic object reconstruction
-- persistent hash-verified registries
-- persistent append-only trace ledger
-- trace-ledger recovery
-- chain-tamper detection
-- payload-tamper detection
-- architecture-manifest loading
-- constitutional CSV registry ingestion
-- runtime snapshot generation
-- snapshot hash verification
+- atomic file storage
+- deterministic reconstruction
+- persistent registries
+- persistent trace recovery
+- architecture-manifest ingestion
+- constitutional registry ingestion
+- snapshot generation
+- tamper detection
 
-## Constitutional Guarantees Implemented
+## Phase IV — Complete
 
-- canonical records can be reconstructed without silent defaults
-- persisted records are verified after writing
-- duplicate envelope identities cannot silently overwrite records
-- corrupted JSON is rejected
-- modified payloads are detected
-- trace-chain breaks are detected
-- constitutional registries reject duplicate identifiers
-- runtime operation requires a frozen architecture manifest
-- snapshots bind runtime state to architecture state
-
-## Next Runtime Phase
-
-- unified runtime repository
-- object-type-specific persistent stores
-- transaction boundaries
+- unified object-type repository
+- atomic multi-record transaction staging
+- repository verification and hashing
 - dependency graph evaluation
+- deterministic dependency ordering
+- cycle detection
 - navigation decision engine
 - interpretation admission engine
 - initiation decision engine
-- integrated conformance scenarios
+- integrated runtime orchestrator
+- end-to-end entry conformance scenario
+- governed transition from first encounter to active participation
+
+## Constitutional Capabilities
+
+The runtime now evaluates:
+
+- identity readiness
+- contextual readiness
+- dependency readiness
+- interpretation admissibility
+- competency evidence
+- participation authority
+- uncertainty constraints
+- role-bounded admission
+- governed state transitions
+- persistent constitutional trace history
+
+## Next Runtime Phase
+
+- public runtime API
+- command-line interface
+- runtime configuration model
+- complete failure taxonomy
+- formal conformance suite
+- architecture-to-runtime coverage matrix
+- release packaging
+- runtime freeze candidate
