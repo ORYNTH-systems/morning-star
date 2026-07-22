@@ -4,13 +4,13 @@
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
     "CreatedAt":  "2026-07-22T19:32:58.9603610Z",
-    "SubmissionState":  "AWAITING_EVIDENCE",
-    "SubmittedItemCount":  0,
+    "SubmissionState":  "REFERENCE_EVIDENCE_SUBMITTED",
+    "SubmittedItemCount":  5,
     "RegisteredEvidenceCount":  0,
-    "EvidenceRegistrationState":  "AWAITING_SUBMISSIONS",
+    "EvidenceRegistrationState":  "PENDING_REGISTRATION",
     "EvidenceReviewState":  "NOT_STARTED",
     "EvaluationReadiness":  "NOT_READY",
     "ExecutionReadiness":  "NOT_READY",
     "ResultState":  "UNRESOLVED",
-    "Notes":  "Evidence collection requests prepared. No candidate evidence received."
+    "Notes":  "Five controlled reference evidence items submitted pending registration."
 }

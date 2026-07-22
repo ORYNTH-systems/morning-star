@@ -4,12 +4,12 @@
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
     "CreatedAt":  "2026-07-22T19:26:47.2638114Z",
-    "UpdatedAt":  "2026-07-22T19:39:55.6597936Z",
-    "TrialState":  "TRIAL_PROTOCOL_PREPARED",
-    "ExecutionState":  "BLOCKED_PENDING_EVIDENCE",
-    "EvidenceState":  "AWAITING_SUBMISSIONS",
+    "UpdatedAt":  "2026-07-22T19:58:11.0467019Z",
+    "TrialState":  "REFERENCE_EVIDENCE_SUBMITTED",
+    "ExecutionState":  "BLOCKED_PENDING_REGISTRATION",
+    "EvidenceState":  "CANDIDATE_EVIDENCE_SUBMITTED",
     "EvaluationState":  "NOT_EVALUATED",
     "ResultState":  "UNRESOLVED",
-    "BlockingReason":  "Required evidence has not been submitted, registered, reviewed, or admitted.",
-    "Notes":  "Trial protocol, scenario, observation schema, transition plan, and execution gate prepared."
+    "BlockingReason":  "Submitted evidence has not been registered, reviewed, or admitted.",
+    "Notes":  "Five controlled reference evidence items submitted."
 }

@@ -1,0 +1,33 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "EvidenceID":  "MS-T1-EV-0005",
+    "SubmissionID":  "SUB-0005",
+    "TrialID":  "MS-T1-TRIAL-0001",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "EvidenceClass":  "UNCERTAINTY",
+    "ScenarioID":  "MS-T1-TRIAL-0001-SCENARIO-0001",
+    "CapturedAt":  "2026-07-22T19:58:11.0467019Z",
+    "UncertaintyItems":  [
+                             {
+                                 "UncertaintyID":  "MS-T1-U-001",
+                                 "UncertaintyType":  "REFERENCE_SCENARIO_LIMITATION",
+                                 "AffectedObject":  "TRIAL_GENERALIZABILITY",
+                                 "State":  "KNOWN",
+                                 "Description":  "This is a controlled constitutional reference scenario, not an empirical population study.",
+                                 "EvaluationEffect":  "LIMIT_RESULT_TO_REFERENCE_SCENARIO"
+                             },
+                             {
+                                 "UncertaintyID":  "MS-T1-U-002",
+                                 "UncertaintyType":  "EXTERNAL_VALIDITY",
+                                 "AffectedObject":  "REAL_WORLD_DEPLOYMENT",
+                                 "State":  "UNRESOLVED",
+                                 "Description":  "External deployment behavior is not tested by this reference trial.",
+                                 "EvaluationEffect":  "NO_EXTERNAL_DEPLOYMENT_CLAIM"
+                             }
+                         ],
+    "MissingEvidenceState":  "NONE_KNOWN_FOR_REFERENCE_SCENARIO",
+    "ConflictState":  "NONE_DECLARED",
+    "ProvenanceStatus":  "DECLARED",
+    "Notes":  "Uncertainty is explicitly preserved and limits the admissible scope of any later result."
+}
