@@ -1,0 +1,13 @@
+﻿NavigationClassID,NavigationClass,Purpose,RequiredTrace,CanonicalStatus
+MS-NC-001,FOUNDATIONAL,"Establish constitutional and conceptual foundations.",TRUE,CANONICAL
+MS-NC-002,DEPENDENCY_RESOLUTION,"Satisfy or register prerequisite relationships.",TRUE,CANONICAL
+MS-NC-003,FRAMEWORK_ORIENTATION,"Establish framework identity scope authority and boundaries.",TRUE,CANONICAL
+MS-NC-004,CONCEPTUAL,"Navigate governed concepts within a framework.",TRUE,CANONICAL
+MS-NC-005,EVIDENTIARY,"Navigate evidence requirements sources and admissibility.",TRUE,CANONICAL
+MS-NC-006,COMPARATIVE,"Compare distinct frameworks or interpretations without conflation.",TRUE,CANONICAL
+MS-NC-007,ROLE_PREPARATION,"Prepare for evidence-based participation-role assessment.",TRUE,CANONICAL
+MS-NC-008,REVISION_RECONCILIATION,"Reconcile prior understanding with governed revision.",TRUE,CANONICAL
+MS-NC-009,RECONSTRUCTION,"Restore semantic continuity after drift.",TRUE,CANONICAL
+MS-NC-010,STEWARDSHIP,"Navigate stewardship obligations and authority.",TRUE,CANONICAL
+MS-NC-011,EXIT,"Govern termination of a navigation session.",TRUE,CANONICAL
+MS-NC-012,REENTRY,"Govern return to a previously traversed pathway.",TRUE,CANONICAL

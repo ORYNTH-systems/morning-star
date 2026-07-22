@@ -1,0 +1,11 @@
+﻿PathID,PathName,Origin,Destination,NavigationClass,RequiredPrerequisites,ExpectedDecision,Status
+MS-PATH-001,First Contact to Canonical Identification,EC0,SS2,FRAMEWORK_ORIENTATION,"Encounter record | object identity source",PROCEED,REFERENCE
+MS-PATH-002,Canonical Identification to Context,SS2,SS3,FRAMEWORK_ORIENTATION,"Framework ownership | scope | authority",PROCEED,REFERENCE
+MS-PATH-003,Context to Dependency Resolution,SS3,SS4,DEPENDENCY_RESOLUTION,"Dependency graph | prerequisite evaluation",PROCEED,REFERENCE
+MS-PATH-004,Dependency Resolution to Interpretation,SS4,SS5,CONCEPTUAL,"Required prerequisites satisfied",PROCEED,REFERENCE
+MS-PATH-005,Interpretation to Competency Assessment,SS5,SS6,ROLE_PREPARATION,"Interpretation classification | evidence requirements",PROCEED,REFERENCE
+MS-PATH-006,Competency to Participation Admissibility,SS6,SS7,ROLE_PREPARATION,"Competency evidence | role authority",PROCEED,REFERENCE
+MS-PATH-007,Drift Detection to Reconstruction,SSX,SSR,RECONSTRUCTION,"Drift evidence | corrective authority",RECONSTRUCT,REFERENCE
+MS-PATH-008,Stale Revision to Revalidation,SS7,SSU,REVISION_RECONCILIATION,"Revision impact assessment",REVALIDATE,REFERENCE
+MS-PATH-009,Unsatisfied Prerequisite to Block,SS3,SSI,DEPENDENCY_RESOLUTION,"Mandatory prerequisite unsatisfied",BLOCK,REFERENCE
+MS-PATH-010,Temporary Evidence Unavailability to Deferral,SS4,SSU,EVIDENTIARY,"Required evidence temporarily unavailable",DEFER,REFERENCE

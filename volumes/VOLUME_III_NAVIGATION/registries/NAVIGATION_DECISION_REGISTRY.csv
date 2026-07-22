@@ -1,0 +1,10 @@
+﻿DecisionID,DecisionName,Meaning,RequiresReason,AllowsContinuation,CanonicalStatus
+MS-ND-001,PROCEED,"Path may continue without a material unresolved condition.",TRUE,TRUE,CANONICAL
+MS-ND-002,PROCEED_WITH_UNCERTAINTY,"Path may continue while explicit uncertainty is preserved.",TRUE,TRUE,CANONICAL
+MS-ND-003,DEFER,"Path pauses pending resolvable information evidence authority or review.",TRUE,FALSE,CANONICAL
+MS-ND-004,BLOCK,"Path cannot continue under current constitutional conditions.",TRUE,FALSE,CANONICAL
+MS-ND-005,REDIRECT,"A different admissible path is required.",TRUE,TRUE,CANONICAL
+MS-ND-006,RECONSTRUCT,"Semantic drift requires governed reconstruction.",TRUE,FALSE,CANONICAL
+MS-ND-007,REVALIDATE,"Prior state must be reevaluated because governing conditions changed.",TRUE,FALSE,CANONICAL
+MS-ND-008,EXIT,"Navigation session terminates under a declared exit condition.",TRUE,FALSE,CANONICAL
+MS-ND-009,COMPLETE,"Declared destination and completion conditions are satisfied.",TRUE,FALSE,CANONICAL

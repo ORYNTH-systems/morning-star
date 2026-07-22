@@ -1,0 +1,84 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orynth.net/schemas/morning-star/navigation-path.schema.json",
+  "title": "Morning Star Navigation Path",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "path_id",
+    "origin_object_id",
+    "destination_object_id",
+    "navigation_class",
+    "required_prerequisites",
+    "prohibited_transitions",
+    "authority_id",
+    "completion_condition",
+    "failure_condition",
+    "status"
+  ],
+  "properties": {
+    "path_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin_object_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "destination_object_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "navigation_class": {
+      "type": "string",
+      "minLength": 1
+    },
+    "required_prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "conditional_prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "prohibited_transitions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authority_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "completion_condition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "failure_condition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PROPOSED",
+        "ADMISSIBLE",
+        "ACTIVE",
+        "DEFERRED",
+        "BLOCKED",
+        "COMPLETED",
+        "WITHDRAWN",
+        "SUPERSEDED",
+        "INADMISSIBLE",
+        "REVALIDATION_REQUIRED",
+        "RECONSTRUCTION_REQUIRED"
+      ]
+    }
+  }
+}

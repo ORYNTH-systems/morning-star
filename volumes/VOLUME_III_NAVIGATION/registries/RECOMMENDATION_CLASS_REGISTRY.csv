@@ -1,0 +1,6 @@
+﻿RecommendationID,RecommendationClass,Meaning,ConstitutionalForce,CanonicalStatus
+MS-RC-001,REQUIRED,"Path element is constitutionally necessary.",MANDATORY,CANONICAL
+MS-RC-002,STRONGLY_RECOMMENDED,"Path element materially improves coherence but is not mandatory.",ADVISORY,CANONICAL
+MS-RC-003,OPTIONAL,"Path element may be selected without affecting admissibility.",ADVISORY,CANONICAL
+MS-RC-004,ALTERNATIVE,"Path is one of multiple constitutionally admissible options.",ADVISORY,CANONICAL
+MS-RC-005,PROHIBITED,"Path element violates constitutional requirements.",MANDATORY_REFUSAL,CANONICAL

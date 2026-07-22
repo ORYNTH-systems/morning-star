@@ -1,0 +1,12 @@
+﻿PathStatusID,PathStatus,Definition,Terminal,CanonicalStatus
+MS-PS-001,PROPOSED,"Path exists as a candidate but has not been admitted.",FALSE,CANONICAL
+MS-PS-002,ADMISSIBLE,"Path satisfies constitutional routing requirements.",FALSE,CANONICAL
+MS-PS-003,ACTIVE,"Path is currently being traversed.",FALSE,CANONICAL
+MS-PS-004,DEFERRED,"Path is paused pending a resolvable condition.",FALSE,CANONICAL
+MS-PS-005,BLOCKED,"Path cannot currently proceed.",FALSE,CANONICAL
+MS-PS-006,COMPLETED,"Path completion conditions are satisfied.",TRUE,CANONICAL
+MS-PS-007,WITHDRAWN,"Path traversal was voluntarily terminated.",TRUE,CANONICAL
+MS-PS-008,SUPERSEDED,"A newer governed path replaces this path.",TRUE,CANONICAL
+MS-PS-009,INADMISSIBLE,"Path violates a constitutional routing requirement.",TRUE,CANONICAL
+MS-PS-010,REVALIDATION_REQUIRED,"Path must be reevaluated due to changed conditions.",FALSE,CANONICAL
+MS-PS-011,RECONSTRUCTION_REQUIRED,"Path cannot continue until semantic reconstruction occurs.",FALSE,CANONICAL

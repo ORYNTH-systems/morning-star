@@ -1,0 +1,9 @@
+﻿StatusID,StatusName,Definition,AllowsProgress,AuthorityRequired,CanonicalStatus
+MS-PRQ-001,NOT_EVALUATED,"Prerequisite has not yet been evaluated.",FALSE,FALSE,CANONICAL
+MS-PRQ-002,SATISFIED,"Declared satisfaction condition is met.",TRUE,FALSE,CANONICAL
+MS-PRQ-003,PARTIALLY_SATISFIED,"Some but not all satisfaction conditions are met.",FALSE,FALSE,CANONICAL
+MS-PRQ-004,UNSATISFIED,"Required satisfaction conditions are not met.",FALSE,FALSE,CANONICAL
+MS-PRQ-005,WAIVED_BY_AUTHORITY,"Authorized waiver permits bounded progress.",TRUE,TRUE,CANONICAL
+MS-PRQ-006,NOT_APPLICABLE,"Prerequisite does not apply to this path.",TRUE,FALSE,CANONICAL
+MS-PRQ-007,CONFLICTING,"Materially conflicting prerequisite evidence exists.",FALSE,FALSE,CANONICAL
+MS-PRQ-008,UNRESOLVED,"Prerequisite status cannot currently be determined.",FALSE,FALSE,CANONICAL

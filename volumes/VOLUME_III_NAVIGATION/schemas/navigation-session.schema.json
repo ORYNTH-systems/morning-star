@@ -1,0 +1,104 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orynth.net/schemas/morning-star/navigation-session.schema.json",
+  "title": "Morning Star Navigation Session",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "session_id",
+    "actor_id",
+    "entry_point_id",
+    "entry_class",
+    "started_at",
+    "current_status",
+    "current_semantic_state",
+    "current_participation_state",
+    "authority_id",
+    "provenance_id",
+    "path_trace",
+    "uncertainty"
+  ],
+  "properties": {
+    "session_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actor_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entry_point_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entry_class": {
+      "type": "string",
+      "enum": [
+        "EC0",
+        "EC1",
+        "EC2",
+        "EC3",
+        "EC4",
+        "EC5",
+        "EC6",
+        "EC7",
+        "EC8"
+      ]
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "ended_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "current_status": {
+      "type": "string",
+      "enum": [
+        "PROPOSED",
+        "ADMISSIBLE",
+        "ACTIVE",
+        "DEFERRED",
+        "BLOCKED",
+        "COMPLETED",
+        "WITHDRAWN",
+        "SUPERSEDED",
+        "INADMISSIBLE",
+        "REVALIDATION_REQUIRED",
+        "RECONSTRUCTION_REQUIRED"
+      ]
+    },
+    "current_semantic_state": {
+      "type": "string",
+      "minLength": 1
+    },
+    "current_participation_state": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authority_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "path_trace": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uncertainty": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

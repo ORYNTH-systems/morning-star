@@ -1,0 +1,10 @@
+﻿EntryClassID,EntryClass,Description,InitialAssessmentRequired,CanonicalStatus
+EC0,UNSTRUCTURED_ENCOUNTER,"Observer encounters material without a governed route.",TRUE,CANONICAL
+EC1,FRAMEWORK_DIRECTED_ENTRY,"Observer enters through an identified framework.",TRUE,CANONICAL
+EC2,QUESTION_DIRECTED_ENTRY,"Observer enters through a declared question.",TRUE,CANONICAL
+EC3,ARTIFACT_DIRECTED_ENTRY,"Observer enters through a specific document code object or dataset.",TRUE,CANONICAL
+EC4,ROLE_DIRECTED_ENTRY,"Observer enters seeking preparation for a defined participation role.",TRUE,CANONICAL
+EC5,DEPENDENCY_DIRECTED_ENTRY,"Observer enters to satisfy a known prerequisite.",TRUE,CANONICAL
+EC6,REVISION_DIRECTED_REENTRY,"Participant re-enters because a governed revision occurred.",TRUE,CANONICAL
+EC7,RECONSTRUCTION_DIRECTED_REENTRY,"Participant re-enters to resolve semantic drift.",TRUE,CANONICAL
+EC8,STEWARD_GUIDED_ENTRY,"Observer enters under an identified steward-guided pathway.",TRUE,CANONICAL

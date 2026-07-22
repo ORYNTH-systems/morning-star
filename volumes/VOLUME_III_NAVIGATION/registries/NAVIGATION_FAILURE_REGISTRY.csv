@@ -1,0 +1,12 @@
+﻿FailureID,FailureClass,Trigger,RequiredResponse,CanonicalStatus
+MS-NF-001,IDENTITY_FAILURE,"Canonical identity cannot be established.","BLOCK_OR_DEFER",CANONICAL
+MS-NF-002,DEPENDENCY_FAILURE,"Required dependency cannot be satisfied or governed.","BLOCK_OR_REDIRECT",CANONICAL
+MS-NF-003,PREREQUISITE_FAILURE,"Required prerequisite remains unsatisfied.","BLOCK",CANONICAL
+MS-NF-004,AUTHORITY_FAILURE,"Required authority is absent invalid or unresolved.","BLOCK_OR_DEFER",CANONICAL
+MS-NF-005,PROVENANCE_FAILURE,"Required source or transformation history is absent.","BLOCK_OR_RECONSTRUCT",CANONICAL
+MS-NF-006,UNCERTAINTY_FAILURE,"Material uncertainty was suppressed or misclassified.","RECONSTRUCT",CANONICAL
+MS-NF-007,ROLE_FAILURE,"Destination exceeds admitted participation role.","BLOCK_OR_REDIRECT",CANONICAL
+MS-NF-008,REVISION_FAILURE,"Navigation relies on stale or superseded state.","REVALIDATE",CANONICAL
+MS-NF-009,TRACE_FAILURE,"Required navigation history cannot be reconstructed.","BLOCK_OR_RECONSTRUCT",CANONICAL
+MS-NF-010,CONFLATION_FAILURE,"Distinct objects frameworks states or authorities were merged.","RECONSTRUCT",CANONICAL
+MS-NF-011,RECONSTRUCTION_FAILURE,"Semantic continuity cannot be restored with available authority and evidence.","BLOCK_OR_DEFER",CANONICAL
