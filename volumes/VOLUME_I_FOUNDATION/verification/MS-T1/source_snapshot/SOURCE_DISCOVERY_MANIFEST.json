@@ -1,0 +1,22 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "GeneratedAt":  "2026-07-22T14:10:20.4644928-05:00",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "TheoremTitle":  "",
+    "DiscoveryState":  "EXACT_ID_EVIDENCE_DISCOVERED",
+    "ReadinessState":  "READY_FOR_CANONICAL_SOURCE_REVIEW",
+    "SearchTerms":  [
+                        "MS-T1"
+                    ],
+    "CandidateFileCount":  2903,
+    "MatchingFileCount":  13,
+    "TotalMatchCount":  20,
+    "ExactIDMatchCount":  20,
+    "ExactTitleMatchCount":  0,
+    "TokenMatchCount":  0,
+    "SourceMatchesPath":  "SOURCE_MATCHES.csv",
+    "CanonicalPacketPath":  "CANONICAL_SOURCE_PACKET.md",
+    "ReadinessPath":  "READINESS.md",
+    "ConstitutionalBoundary":  "Source discovery may identify evidence candidates but may not confer canonical authority."
+}
