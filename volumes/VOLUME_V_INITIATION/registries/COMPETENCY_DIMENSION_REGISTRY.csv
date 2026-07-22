@@ -1,0 +1,16 @@
+﻿CompetencyID,CompetencyName,Description,MandatoryFromRole,Status
+C01,CANONICAL_IDENTITY_RECOGNITION,"Correctly identifies canonical objects and source status.",PR1,CANONICAL
+C02,FRAMEWORK_BOUNDARY_RECOGNITION,"Preserves distinctions among frameworks responsibilities and scopes.",PR1,CANONICAL
+C03,DEPENDENCY_ORDER_COMPREHENSION,"Identifies and preserves required dependency order.",PR2,CANONICAL
+C04,INTERPRETIVE_CLASSIFICATION,"Correctly classifies canonical derived contextual and other interpretations.",PR2,CANONICAL
+C05,PROVENANCE_PRESERVATION,"Preserves source transformation authority and custody trace.",PR2,CANONICAL
+C06,UNCERTAINTY_GOVERNANCE,"Recognizes classifies and preserves material uncertainty.",PR2,CANONICAL
+C07,AUTHORITY_BOUNDARY_RECOGNITION,"Distinguishes competency access authorship and authority.",PR2,CANONICAL
+C08,SCOPE_DISCIPLINE,"Keeps claims decisions and actions within declared scope.",PR3,CANONICAL
+C09,DRIFT_DETECTION,"Detects loss of constitutional meaning or identity.",PR3,CANONICAL
+C10,RECONSTRUCTION_DISCIPLINE,"Restores admissible state without erasing drift history.",PR5,CANONICAL
+C11,REVISION_AWARENESS,"Identifies supersession amendment migration and revalidation requirements.",PR3,CANONICAL
+C12,EVIDENCE_EVALUATION,"Evaluates evidence identity integrity scope and admissibility.",PR3,CANONICAL
+C13,ROLE_BOUNDARY_COMPLIANCE,"Acts only within admitted role authority.",PR3,CANONICAL
+C14,AUDIT_TRACE_PRESERVATION,"Produces reconstructable evidence-bearing decision traces.",PR4,CANONICAL
+C15,REFUSAL_AND_DEFERRAL_DISCIPLINE,"Blocks defers or escalates when requirements are not satisfied.",PR4,CANONICAL

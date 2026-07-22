@@ -1,0 +1,12 @@
+﻿DecisionID,DecisionName,Meaning,RoleActive,RequiresExpiration,Status
+MS-ID-001,ADMIT,"All required admission conditions are satisfied.",TRUE,FALSE,CANONICAL
+MS-ID-002,ADMIT_WITH_LIMITS,"Admission is valid only within declared restrictions.",TRUE,TRUE,CANONICAL
+MS-ID-003,ADMIT_PROVISIONALLY,"Temporary bounded admission is granted pending unresolved conditions.",TRUE,TRUE,CANONICAL
+MS-ID-004,DEFER,"Decision is paused pending resolvable evidence authority or review.",FALSE,FALSE,CANONICAL
+MS-ID-005,REQUIRE_REMEDIATION,"Corrective activity is required before admission.",FALSE,FALSE,CANONICAL
+MS-ID-006,REQUIRE_REASSESSMENT,"Prior assessment must be repeated.",FALSE,FALSE,CANONICAL
+MS-ID-007,DENY,"Admission requirements are not satisfied.",FALSE,FALSE,CANONICAL
+MS-ID-008,SUSPEND,"Active participation is temporarily restricted.",FALSE,TRUE,CANONICAL
+MS-ID-009,REVOKE,"Participation authority is formally withdrawn.",FALSE,FALSE,CANONICAL
+MS-ID-010,RENEW,"Existing role authority is renewed.",TRUE,TRUE,CANONICAL
+MS-ID-011,EXPIRE,"Role authority ends at its declared expiration.",FALSE,FALSE,CANONICAL

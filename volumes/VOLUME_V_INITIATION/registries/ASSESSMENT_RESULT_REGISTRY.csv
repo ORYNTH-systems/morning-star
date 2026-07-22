@@ -1,0 +1,10 @@
+﻿AssessmentResultID,AssessmentResult,Meaning,AllowsRoleAdmission,RequiresAction,Status
+MS-AR-001,NOT_EVALUATED,"Assessment has not occurred.",FALSE,EVALUATE,CANONICAL
+MS-AR-002,SATISFIED,"Declared competency requirement is satisfied.",TRUE,NONE,CANONICAL
+MS-AR-003,PARTIALLY_SATISFIED,"Some but not all declared requirements are satisfied.",FALSE,REMEDIATE_OR_REASSESS,CANONICAL
+MS-AR-004,UNSATISFIED,"Declared requirement is not satisfied.",FALSE,REMEDIATE,CANONICAL
+MS-AR-005,CONFLICTING,"Materially conflicting assessment evidence exists.",FALSE,REVIEW,CANONICAL
+MS-AR-006,INSUFFICIENT_EVIDENCE,"Available evidence cannot support a decision.",FALSE,PROVIDE_EVIDENCE,CANONICAL
+MS-AR-007,INVALID_EVIDENCE,"Assessment evidence is inadmissible or compromised.",FALSE,REPLACE_EVIDENCE,CANONICAL
+MS-AR-008,REASSESSMENT_REQUIRED,"Prior result is stale or governing conditions changed.",FALSE,REASSESS,CANONICAL
+MS-AR-009,NOT_APPLICABLE,"Assessment does not apply to the requested role or scope.",TRUE,NONE,CANONICAL

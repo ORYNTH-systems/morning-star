@@ -1,0 +1,13 @@
+﻿FailureID,FailureClass,Trigger,RequiredDisposition,Status
+MS-INIT-F-001,IDENTITY_FAILURE,"Candidate identity cannot be established.","DEFER_OR_DENY",CANONICAL
+MS-INIT-F-002,EVIDENCE_FAILURE,"Required evidence is absent invalid or compromised.","REQUIRE_EVIDENCE_OR_DENY",CANONICAL
+MS-INIT-F-003,COMPETENCY_FAILURE,"One or more mandatory competencies are unsatisfied.","REMEDIATE_OR_DENY",CANONICAL
+MS-INIT-F-004,AUTHORITY_FAILURE,"Evaluator or approving authority is absent invalid or exceeded.","DEFER_OR_DENY",CANONICAL
+MS-INIT-F-005,SCOPE_FAILURE,"Requested role or activity exceeds supported scope.","LIMIT_OR_DENY",CANONICAL
+MS-INIT-F-006,PROVENANCE_FAILURE,"Evidence or assessment provenance is incomplete.","DEFER_OR_DENY",CANONICAL
+MS-INIT-F-007,UNCERTAINTY_FAILURE,"Material uncertainty is suppressed or misclassified.","REASSESS_OR_RECONSTRUCT",CANONICAL
+MS-INIT-F-008,CONFLICT_FAILURE,"Material conflict of interest or conflicting evidence is unresolved.","INDEPENDENT_REVIEW",CANONICAL
+MS-INIT-F-009,TRACE_FAILURE,"The initiation process cannot be reconstructed.","DENY_OR_REASSESS",CANONICAL
+MS-INIT-F-010,REVISION_FAILURE,"Assessment relies on stale constitutional or framework state.","REASSESS",CANONICAL
+MS-INIT-F-011,ROLE_BOUNDARY_FAILURE,"Candidate or participant exceeded admitted authority.","SUSPEND_REMEDIATE_OR_REVOKE",CANONICAL
+MS-INIT-F-012,INTEGRITY_FAILURE,"Evidence records or decisions were materially falsified or altered.","DENY_OR_REVOKE",CANONICAL

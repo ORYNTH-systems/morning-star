@@ -1,0 +1,141 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orynth.net/schemas/morning-star/initiation-record.schema.json",
+  "title": "Morning Star Initiation Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "initiation_id",
+    "actor_id",
+    "current_role",
+    "requested_role",
+    "assessment_ids",
+    "evidence_ids",
+    "evaluator_ids",
+    "approving_authority_id",
+    "decision",
+    "scope",
+    "uncertainty",
+    "created_at",
+    "decision_at",
+    "provenance_id",
+    "validation_status"
+  ],
+  "properties": {
+    "initiation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actor_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "current_role": {
+      "type": "string",
+      "enum": [
+        "PR0",
+        "PR1",
+        "PR2",
+        "PR3",
+        "PR4",
+        "PR5",
+        "PR6"
+      ]
+    },
+    "requested_role": {
+      "type": "string",
+      "enum": [
+        "PR0",
+        "PR1",
+        "PR2",
+        "PR3",
+        "PR4",
+        "PR5",
+        "PR6"
+      ]
+    },
+    "assessment_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evaluator_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approving_authority_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "ADMIT",
+        "ADMIT_WITH_LIMITS",
+        "ADMIT_PROVISIONALLY",
+        "DEFER",
+        "REQUIRE_REMEDIATION",
+        "REQUIRE_REASSESSMENT",
+        "DENY",
+        "SUSPEND",
+        "REVOKE",
+        "RENEW",
+        "EXPIRE"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "uncertainty": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "decision_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "provenance_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "NOT_VALIDATED",
+        "VALID",
+        "INVALID",
+        "UNRESOLVED"
+      ]
+    }
+  }
+}
