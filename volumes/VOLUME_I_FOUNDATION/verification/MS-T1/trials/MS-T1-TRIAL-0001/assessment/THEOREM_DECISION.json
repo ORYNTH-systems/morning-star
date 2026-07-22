@@ -1,0 +1,44 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "DecisionID":  "MS-T1-TRIAL-0001-DECISION-0001",
+    "TrialID":  "MS-T1-TRIAL-0001",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "DecidedAt":  "2026-07-22T20:30:00.1183211Z",
+    "EvidenceAdmissibilityDecision":  "ADMISSIBLE_FOR_REFERENCE_EVALUATION",
+    "ConstraintDecision":  "ALL_APPLICABLE_CONSTRAINTS_SATISFIED",
+    "ConditionDecision":  {
+
+                          },
+    "EvidenceCount":  5,
+    "ApplicableConstraintCount":  6,
+    "SatisfiedConstraintCount":  6,
+    "SuccessConditionCount":  6,
+    "SatisfiedSuccessConditionCount":  6,
+    "FalsificationConditionCount":  6,
+    "TriggeredFalsificationConditionCount":  0,
+    "ObservationCount":  4,
+    "TheoremDecision":  "VERIFIED_FOR_CONTROLLED_REFERENCE_SCENARIO",
+    "AssuranceState":  "VERIFIED",
+    "ResultState":  "RESOLVED",
+    "ExecutionAuthorization":  "COMPLETED_REFERENCE_EVALUATION",
+    "GeneralizationAuthorization":  "NOT_AUTHORIZED",
+    "PublicationState":  "RECORDED_NOT_EXTERNALLY_PUBLISHED",
+    "Scope":  "Controlled constitutional reference scenario only.",
+    "ScopeLimitations":  [
+                             "The result does not establish universal theorem proof.",
+                             "The result does not establish empirical population validation.",
+                             "The result does not establish real-world deployment validity.",
+                             "The result does not establish adversarial robustness.",
+                             "The result does not authorize external generalization."
+                         ],
+    "DecisionBasis":  [
+                          "Five evidence items were registered, integrity-verified, reviewed, and admitted.",
+                          "All six applicable constitutional constraints were satisfied.",
+                          "All six success conditions were satisfied.",
+                          "No falsification condition was triggered.",
+                          "The resulting state was observed as admissible participation.",
+                          "Uncertainty and external-validity limitations remained explicit."
+                      ],
+    "Notes":  "MS-T1 is verified only within the governed controlled reference scenario."
+}

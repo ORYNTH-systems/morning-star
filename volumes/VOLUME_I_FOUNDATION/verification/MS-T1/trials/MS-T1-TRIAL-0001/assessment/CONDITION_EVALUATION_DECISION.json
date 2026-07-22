@@ -15,9 +15,9 @@
     "TheoremDecisionAuthorization":  {
 
                                      },
-    "ExecutionAuthorization":  "NOT_GRANTED",
-    "TheoremDecisionState":  "NOT_ASSIGNED",
-    "ResultState":  "UNRESOLVED",
+    "ExecutionAuthorization":  "COMPLETED_REFERENCE_EVALUATION",
+    "TheoremDecisionState":  "VERIFIED_FOR_CONTROLLED_REFERENCE_SCENARIO",
+    "ResultState":  "RESOLVED",
     "ScopeLimitation":  "Controlled constitutional reference scenario only.",
-    "Notes":  "Condition evaluation authorizes theorem decision but does not itself publish or generalize a theorem result."
+    "Notes":  "Formal scoped theorem decision recorded. External generalization remains prohibited."
 }

@@ -10,7 +10,7 @@
     "TraceEvidenceStatus":  "NOT_REGISTERED",
     "OutputEvidenceStatus":  "NOT_REGISTERED",
     "UncertaintyEvidenceStatus":  "NOT_REGISTERED",
-    "Notes":  "Condition evaluation complete. Formal theorem decision is the next governed stage.",
+    "Notes":  "Formal theorem decision complete. Result remains limited to the controlled reference scenario.",
     "AuthoritySnapshotStatus":  "COMPLETE",
     "SuccessConditionCount":  0,
     "FalsificationConditionCount":  2,
@@ -24,12 +24,15 @@
     "EvidenceCollectionRequestCount":  5,
     "TrialProtocolStatus":  "PREPARED",
     "ObservationSchemaStatus":  "PREPARED",
-    "ExecutionGateStatus":  "CLOSED_PENDING_THEOREM_DECISION",
+    "ExecutionGateStatus":  "CLOSED_DECISION_COMPLETE",
     "EvidenceRegistrationStatus":  "COMPLETE",
     "EvidenceIntegrityStatus":  "VERIFIED",
     "EvidenceReviewStatus":  "COMPLETE",
     "EvidenceAdmissibilityStatus":  "ADMISSIBLE_FOR_REFERENCE_EVALUATION",
     "ConstraintEvaluationStatus":  "ALL_APPLICABLE_CONSTRAINTS_SATISFIED",
     "ConditionEvaluationStatus":  null,
-    "TheoremDecisionStatus":  "PENDING"
+    "TheoremDecisionStatus":  "COMPLETE",
+    "VerificationResult":  "VERIFIED_FOR_CONTROLLED_REFERENCE_SCENARIO",
+    "ResultState":  "RESOLVED",
+    "GeneralizationState":  "NOT_AUTHORIZED"
 }

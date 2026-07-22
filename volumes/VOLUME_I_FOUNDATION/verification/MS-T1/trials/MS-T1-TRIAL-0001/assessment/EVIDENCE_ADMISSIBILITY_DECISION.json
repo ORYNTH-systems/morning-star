@@ -14,10 +14,10 @@
     "UncertaintyPreservationState":  "SATISFIED",
     "Decision":  "ADMISSIBLE_FOR_REFERENCE_EVALUATION",
     "EvaluationAuthorization":  "AUTHORIZED",
-    "ExecutionAuthorization":  "NOT_GRANTED",
+    "ExecutionAuthorization":  "COMPLETED_REFERENCE_EVALUATION",
     "ConstraintEvaluationState":  "SATISFIED",
     "ConditionEvaluationState":  null,
-    "ResultState":  "UNRESOLVED",
+    "ResultState":  "RESOLVED",
     "ScopeLimitation":  "Controlled constitutional reference scenario only.",
-    "Notes":  "Evidence review, constraint evaluation, and condition evaluation complete. Formal theorem decision remains pending."
+    "Notes":  "Admitted evidence supported the completed controlled reference-scenario decision."
 }

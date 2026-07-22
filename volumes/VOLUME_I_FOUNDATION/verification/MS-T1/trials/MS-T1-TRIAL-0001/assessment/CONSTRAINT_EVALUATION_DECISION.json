@@ -18,10 +18,10 @@
                          },
     "Decision":  "ALL_APPLICABLE_CONSTRAINTS_SATISFIED",
     "ConditionEvaluationAuthorization":  "CONDITION_EVALUATION_AUTHORIZED",
-    "ExecutionAuthorization":  "NOT_GRANTED",
+    "ExecutionAuthorization":  "COMPLETED_REFERENCE_EVALUATION",
     "ConditionEvaluationState":  null,
-    "TheoremDecisionState":  "UNRESOLVED",
-    "ResultState":  "UNRESOLVED",
+    "TheoremDecisionState":  "VERIFIED_FOR_CONTROLLED_REFERENCE_SCENARIO",
+    "ResultState":  "RESOLVED",
     "ScopeLimitation":  "Controlled constitutional reference scenario only.",
-    "Notes":  "Evidence, constraints, and theorem conditions evaluated. Formal theorem decision remains pending."
+    "Notes":  "Formal scoped theorem decision recorded after evidence, constraint, and condition evaluation."
 }

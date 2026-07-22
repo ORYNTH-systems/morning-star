@@ -3,8 +3,8 @@
     "TrialID":  "MS-T1-TRIAL-0001",
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
-    "EvaluatedAt":  "2026-07-22T20:23:34.7916446Z",
-    "GateState":  "CLOSED_PENDING_CONDITION_EVALUATION",
+    "EvaluatedAt":  "2026-07-22T20:30:00.1183211Z",
+    "GateState":  "CLOSED_DECISION_COMPLETE",
     "ExecutionAuthorized":  false,
     "InputEvidenceGate":  "SATISFIED",
     "ConstraintEvidenceGate":  "SATISFIED",
@@ -13,11 +13,11 @@
     "UncertaintyDeclarationGate":  "SATISFIED",
     "EvidenceAdmissibilityGate":  "SATISFIED",
     "BlockingReasons":  [
-                            "Success conditions have not been evaluated.",
-                            "Falsification conditions have not been evaluated.",
-                            "No theorem decision has been authorized."
+                            "No further execution is authorized within the completed trial.",
+                            "External generalization is not authorized.",
+                            "Public release requires a separate governed publication decision."
                         ],
-    "ResultState":  "UNRESOLVED",
-    "Notes":  "All applicable constraints satisfied. Gate remains closed pending theorem-condition evaluation.",
+    "ResultState":  "RESOLVED",
+    "Notes":  "Formal theorem decision complete. Gate closed against further execution and unauthorized generalization.",
     "ConditionEvaluationGate":  "NOT_EVALUATED"
 }

@@ -11,12 +11,14 @@
     "EvidenceClassCount":  5,
     "OpenBlockingDefinitionGapCount":  3,
     "EvidenceReviewState":  "COMPLETE",
-    "EvaluationReadiness":  "READY_FOR_THEOREM_DECISION",
-    "ExecutionReadiness":  "BLOCKED_PENDING_THEOREM_DECISION",
-    "ResultState":  "UNRESOLVED",
-    "Notes":  "Evidence, constraints, and theorem conditions evaluated. Formal theorem decision remains required.",
+    "EvaluationReadiness":  "COMPLETE",
+    "ExecutionReadiness":  "COMPLETE",
+    "ResultState":  "RESOLVED",
+    "Notes":  "All governed evaluation stages and the formal scoped theorem decision are complete.",
     "CollectionState":  "EVIDENCE_REVIEW_COMPLETE",
     "CollectionRequestCount":  5,
     "TrialProtocolState":  "PREPARED",
-    "ExecutionGateState":  "CLOSED"
+    "ExecutionGateState":  "CLOSED",
+    "TheoremDecisionState":  "VERIFIED_FOR_CONTROLLED_REFERENCE_SCENARIO",
+    "GeneralizationState":  "NOT_AUTHORIZED"
 }
