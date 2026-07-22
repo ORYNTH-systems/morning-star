@@ -1,0 +1,13 @@
+﻿InvariantID,InvariantName,Requirement,ViolationResult,OwningArtifact,Status
+MS-INV-001,CANONICAL_IDENTITY_PRESERVATION,"Canonical identity must survive governed transformation.","DRIFT_EVENT",CONSTITUTION.md,CANONICAL
+MS-INV-002,NO_DERIVED_AUTHORITY_EXPANSION,"Derived authority must not exceed source authority.","INADMISSIBLE",CONSTITUTION.md,CANONICAL
+MS-INV-003,DEPENDENCY_ORDER_PRESERVATION,"Required prerequisites must not be bypassed or silently reordered.","UNRESOLVED_OR_INADMISSIBLE",CONSTITUTION.md,CANONICAL
+MS-INV-004,UNCERTAINTY_PRESERVATION,"Distinct uncertainty states must remain explicit.","DRIFT_EVENT",CONSTITUTION.md,CANONICAL
+MS-INV-005,PROVENANCE_CONTINUITY,"Governed claims and transitions must remain reconstructably sourced.","INADMISSIBLE",CONSTITUTION.md,CANONICAL
+MS-INV-006,ROLE_BOUNDED_PARTICIPATION,"Participation authority must not exceed admitted role scope.","REFUSAL",CONSTITUTION.md,CANONICAL
+MS-INV-007,SCOPE_NONEXPANSION,"Results must not exceed evidenced and authorized scope.","INADMISSIBLE",CONSTITUTION.md,CANONICAL
+MS-INV-008,DRIFT_VISIBILITY,"Detected drift must remain recorded.","DRIFT_EVENT",CONSTITUTION.md,CANONICAL
+MS-INV-009,RECONSTRUCTION_TRACEABILITY,"Reconstruction must preserve drift and corrective history.","RECONSTRUCTION_FAILURE",CONSTITUTION.md,CANONICAL
+MS-INV-010,REVISION_PROPAGATION,"Constitutional revisions must identify and revalidate affected artifacts.","REVALIDATION_REQUIRED",CONSTITUTION.md,CANONICAL
+MS-INV-011,PROHIBITED_CONFLATION,"Distinct governed concepts must remain distinguishable.","INADMISSIBLE",CONSTITUTION.md,CANONICAL
+MS-INV-012,REFUSAL_BEFORE_FABRICATION,"Missing authority evidence or meaning must not be fabricated.","REFUSAL",CONSTITUTION.md,CANONICAL

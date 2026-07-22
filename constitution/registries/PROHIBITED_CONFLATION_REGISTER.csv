@@ -1,0 +1,11 @@
+﻿ConflationID,ObjectA,ObjectB,ConstitutionalRisk,RequiredDistinction,Status
+MS-PC-001,SEMANTIC_STATE,PARTICIPATION_STATE,"Understanding may be mistaken for authority.","Track semantic and participation states independently.",PROHIBITED
+MS-PC-002,COMPETENCY,AUTHORITY,"Demonstrated capability may be mistaken for permission.","Require separate competency evidence and authority admission.",PROHIBITED
+MS-PC-003,INTERPRETATION,CANONICAL_SOURCE,"Derived meaning may replace authoritative meaning.","Preserve interpretation class and source relationship.",PROHIBITED
+MS-PC-004,UNCERTAINTY,FAILURE,"Unknown status may be falsely treated as failed status.","Preserve explicit uncertainty class.",PROHIBITED
+MS-PC-005,UNRESOLVED,INADMISSIBLE,"Insufficient resolution may be treated as a final rejection.","Preserve reevaluation eligibility and decision basis.",PROHIBITED
+MS-PC-006,FRAMEWORK_ADMISSION,FRAMEWORK_ENDORSEMENT,"Navigability may be mistaken for approval or truth.","State admission scope explicitly.",PROHIBITED
+MS-PC-007,PARTICIPATION_ADMISSIBILITY,EXECUTION_ELIGIBILITY,"Semantic role may be mistaken for authorization to execute.","Defer execution eligibility to its owning architecture.",PROHIBITED
+MS-PC-008,STEWARD,CONSTITUTIONAL_MAINTAINER,"Custodial responsibility may be mistaken for amendment authority.","Register distinct authority scopes.",PROHIBITED
+MS-PC-009,DRIFT_CORRECTION,DRIFT_ERASURE,"Correction may destroy evidence of prior distortion.","Preserve drift and reconstruction records.",PROHIBITED
+MS-PC-010,REVISION,PUBLICATION_REPLACEMENT,"A new version may silently erase governed historical state.","Preserve version lineage and migration records.",PROHIBITED

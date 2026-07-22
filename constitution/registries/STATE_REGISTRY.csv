@@ -1,0 +1,14 @@
+﻿StateID,StateName,StateFamily,EntryCondition,ExitCondition,Terminal,Status
+SS0,UNENCOUNTERED,SEMANTIC,"No governed encounter is registered","A governed encounter occurs",FALSE,CANONICAL
+SS1,ENCOUNTERED,SEMANTIC,"Governed object has been encountered","Canonical identity is established",FALSE,CANONICAL
+SS2,IDENTIFIED,SEMANTIC,"Canonical identity is established","Context and scope are established",FALSE,CANONICAL
+SS3,CONTEXTUALIZED,SEMANTIC,"Context scope and framework relationship are established","Required dependencies are resolved or registered unresolved",FALSE,CANONICAL
+SS4,DEPENDENCY_RESOLVED,SEMANTIC,"Required dependencies are satisfied or explicitly governed","Interpretation is classified and evaluated",FALSE,CANONICAL
+SS5,INTERPRETED,SEMANTIC,"Interpretation class authority scope provenance and uncertainty are recorded","Competency is demonstrated",FALSE,CANONICAL
+SS6,COMPETENCY_DEMONSTRATED,SEMANTIC,"Declared competency criteria are satisfied","Participation admissibility is determined",FALSE,CANONICAL
+SS7,PARTICIPATION_ADMISSIBLE,SEMANTIC,"Role-specific participation criteria are satisfied","Role changes revision occurs or stewardship is evaluated",FALSE,CANONICAL
+SS8,STEWARDSHIP_ADMISSIBLE,SEMANTIC,"Stewardship criteria and authority are established","Authority ends changes or is revoked",FALSE,CANONICAL
+SSX,DRIFTED,EXCEPTION,"A constitutional preservation property is violated","Reconstruction succeeds or state becomes inadmissible",FALSE,CANONICAL
+SSU,UNRESOLVED,EXCEPTION,"Required meaning evidence dependency or authority remains unresolved","Resolution reconstruction or inadmissibility decision occurs",FALSE,CANONICAL
+SSR,RECONSTRUCTED,RECOVERY,"A drifted representation is corrected through governed reconstruction","Required downstream revalidation completes",FALSE,CANONICAL
+SSI,INADMISSIBLE,EXCEPTION,"Constitutional participation or interpretation criteria fail","New evidence amendment or authorized reevaluation occurs",FALSE,CANONICAL

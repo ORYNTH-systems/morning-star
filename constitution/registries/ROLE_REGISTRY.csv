@@ -1,0 +1,8 @@
+﻿RoleID,RoleName,MinimumSemanticState,AuthorityScope,AdmissionBasis,ProhibitedAuthority,Status
+PR0,Observer,SS1,"Encounter and inspect governed material","Encounter or access","Interpretive or participatory authority",CANONICAL
+PR1,Oriented Observer,SS3,"Navigate identified canonical objects under guidance","Identity and context verification","Independent canonical representation",CANONICAL
+PR2,Guided Participant,SS4,"Perform bounded governed activities under supervision","Prerequisite and dependency satisfaction","Unsupervised contribution",CANONICAL
+PR3,Competent Participant,SS6,"Participate independently within demonstrated competency","Competency evidence and successful evaluation","Framework-level authority",CANONICAL
+PR4,Authorized Contributor,SS7,"Create or revise bounded derivative artifacts","Explicit contribution authority","Constitutional amendment authority",CANONICAL
+PR5,Steward,SS8,"Maintain continuity, review revisions, and preserve governed access","Stewardship qualification and appointment","Unilateral constitutional supremacy",CANONICAL
+PR6,Constitutional Maintainer,SS8,"Maintain constitutional artifacts through approved procedure","Explicit constitutional authority","Silent amendment or history erasure",CANONICAL

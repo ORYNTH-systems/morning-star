@@ -1,0 +1,13 @@
+﻿DependencyID,SourceObject,RequiredObject,DependencyType,SatisfactionCondition,UnresolvedBehavior,Status
+MS-DEP-001,SS2_IDENTIFIED,SS1_ENCOUNTERED,STATE,"A governed encounter record exists.","Remain SSU",CANONICAL
+MS-DEP-002,SS3_CONTEXTUALIZED,SS2_IDENTIFIED,STATE,"Canonical identity is verified.","Remain SSU",CANONICAL
+MS-DEP-003,SS4_DEPENDENCY_RESOLVED,SS3_CONTEXTUALIZED,STATE,"Scope and framework context are established.","Remain SSU",CANONICAL
+MS-DEP-004,SS5_INTERPRETED,SS4_DEPENDENCY_RESOLVED,STATE,"Required dependencies are satisfied or explicitly preserved unresolved.","Classify as unresolved or inadmissible",CANONICAL
+MS-DEP-005,SS6_COMPETENCY_DEMONSTRATED,SS5_INTERPRETED,STATE,"Interpretation is classified and traceable.","Competency evaluation blocked",CANONICAL
+MS-DEP-006,SS7_PARTICIPATION_ADMISSIBLE,SS6_COMPETENCY_DEMONSTRATED,STATE,"Role-specific competency evidence passes.","Participation refused",CANONICAL
+MS-DEP-007,SS8_STEWARDSHIP_ADMISSIBLE,SS7_PARTICIPATION_ADMISSIBLE,STATE,"Competent participation and stewardship criteria pass.","Stewardship refused",CANONICAL
+MS-DEP-008,ROLE_ELEVATION,COMPETENCY_EVIDENCE,EVIDENTIARY,"Required evidence is admissible and sufficient.","Role elevation refused",CANONICAL
+MS-DEP-009,CANONICAL_INTERPRETATION,CANONICAL_SOURCE,AUTHORITY,"Interpretation equivalence and source authority are demonstrated.","Interpretation remains noncanonical",CANONICAL
+MS-DEP-010,RECONSTRUCTION,AUTHORITATIVE_CORRECTIVE_EVIDENCE,EVIDENTIARY,"Corrective evidence and authority are established.","Remain drifted or unresolved",CANONICAL
+MS-DEP-011,FRAMEWORK_ADMISSION,FRAMEWORK_IDENTITY_AND_BOUNDARY,FRAMEWORK,"Identity authority boundary dependency and revision model are registered.","Admission refused",CANONICAL
+MS-DEP-012,CONSTITUTIONAL_FREEZE,CONFORMANCE_VERIFICATION,PROCEDURAL,"All freeze criteria and audits pass.","Remain pre-freeze",CANONICAL

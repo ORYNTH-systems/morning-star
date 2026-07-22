@@ -1,0 +1,16 @@
+﻿ResponsibilityID,Responsibility,CanonicalOwner,MorningStarRelationship,BoundaryRule,Status
+MS-AUTH-001,Entry Governance,Morning Star,OWNS,"Morning Star governs first encounter and initial semantic-state registration.",CANONICAL
+MS-AUTH-002,Framework Identity Preservation,Morning Star,OWNS,"Morning Star preserves identity during navigation and participation.",CANONICAL
+MS-AUTH-003,Interpretation Admissibility,Morning Star,OWNS,"Morning Star classifies interpretation authority scope provenance and uncertainty.",CANONICAL
+MS-AUTH-004,Participation Role Admissibility,Morning Star,OWNS,"Morning Star governs evidence-based semantic participation roles.",CANONICAL
+MS-AUTH-005,Semantic Drift Governance,Morning Star,OWNS,"Morning Star detects records and routes semantic drift.",CANONICAL
+MS-AUTH-006,Semantic Reconstruction,Morning Star,OWNS,"Morning Star governs restoration of canonical semantic continuity.",CANONICAL
+MS-AUTH-007,Integrity State Theory,Integrity Preservation Theory,REFERENCES,"Morning Star must not redefine IPT integrity bands or findings.",CANONICAL
+MS-AUTH-008,Agency Architecture,Unified Agency Architecture,REFERENCES,"Morning Star must not absorb universal agency ownership.",CANONICAL
+MS-AUTH-009,Execution Integrity,Execution Integrity Protocol,REFERENCES,"Morning Star participation admissibility is not execution authorization.",CANONICAL
+MS-AUTH-010,Execution Eligibility,Adaptive Orchestration Management System,REFERENCES,"Morning Star must not equate understanding or role with execution eligibility.",CANONICAL
+MS-AUTH-011,Glyphic Constraint Control,CIGCS,REFERENCES,"Morning Star may navigate CIGCS but may not redefine its control semantics.",CANONICAL
+MS-AUTH-012,Architectural Audit,ORYNTH Audit Framework,INTEGRATES,"Audit authority remains governed by the audit framework.",CANONICAL
+MS-AUTH-013,Planetary Psychology Domain,Planetary Psychology Atlas,NAVIGATES,"Morning Star governs entry but not PPA scientific claims.",CANONICAL
+MS-AUTH-014,Constitutional Game Execution,Constitutional Game Runtime,NAVIGATES,"Morning Star governs semantic entry but not runtime execution ownership.",CANONICAL
+MS-AUTH-015,Systemic Disorder Governance,Requiem Pandemonium,FUTURE_RELATIONSHIP,"Relationship requires separate constitutional mapping and admission.",PROVISIONAL
