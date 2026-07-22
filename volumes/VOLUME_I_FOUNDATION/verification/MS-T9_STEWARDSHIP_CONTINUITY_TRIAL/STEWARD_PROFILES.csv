@@ -1,0 +1,3 @@
+﻿"StewardID","StewardRole","CapabilityStatus","AuthoritySource","AuthorityScope","EffectiveFrom","EffectiveUntil","Limitations","EvidenceReference","StewardStatus"
+"MS-T9-STEWARD-SOURCE-001","INCUMBENT","","","","","","","","ACTIVE"
+"MS-T9-STEWARD-TARGET-001","SUCCESSOR","","","","","","","","INACTIVE"
