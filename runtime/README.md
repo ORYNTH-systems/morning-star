@@ -1,10 +1,10 @@
 ﻿# Morning Star Reference Runtime
 
-**Phase:** I  
-**Version:** 0.1.0  
-**Status:** Runtime Foundation  
+**Current Phase:** II  
+**Version:** 0.2.0  
+**Status:** Runtime Engineering in Progress  
 
-## Implemented
+## Phase I — Complete
 
 - canonical runtime enumerations
 - actor identity model
@@ -18,27 +18,44 @@
 - participation model
 - constitutional trace model
 - typed in-memory registry
-- canonical validation engine
-- runtime unit tests
+- constitutional validation engine
 
-## Constitutional Invariants Implemented
+## Phase II — Complete
 
-- MS-INV-001 — Canonical Identity Preservation
-- MS-INV-003 — Dependency Order Preservation
-- MS-INV-004 — Authority Separation
-- MS-INV-005 — Provenance Preservation
-- MS-INV-006 — Uncertainty Preservation
-- MS-INV-007 — Interpretation Classification
-- MS-INV-008 — Participation Evidence
-- MS-INV-009 — Role-Bounded Action
-- MS-INV-010 — Revision Continuity
+- deterministic canonical serialization
+- deterministic UTF-8 byte representation
+- SHA-256 canonical hashing
+- canonical hash verification
+- immutable runtime envelopes
+- hash-linked envelope chains
+- canonical state-transition registry
+- deterministic state-transition engine
+- constitutional transition decisions
+- constitutional trace emission
+- append-only trace ledger
+- chain-integrity validation
+
+## Constitutional Guarantees Implemented
+
+- equivalent data produces equivalent canonical bytes
+- equivalent canonical bytes produce equivalent SHA-256 hashes
+- unsupported or ambiguous values are rejected
+- runtime envelopes verify their payloads
+- envelope chains verify historical linkage
+- transitions require declared prior states
+- required authority cannot be omitted
+- required evidence cannot be omitted
+- uncertainty review cannot be bypassed
+- accepted transitions emit constitutional traces
+- trace history is append-only and hash-linked
 
 ## Next Runtime Phase
 
-- deterministic serialization
-- canonical hashing
-- immutable runtime envelopes
-- state-transition engine
-- trace emission
-- registry persistence
+- repository-backed persistent registries
+- atomic file writes
+- deterministic object reconstruction
 - architecture-manifest loading
+- constitutional registry ingestion
+- persistent trace-ledger recovery
+- corruption and tamper detection
+- runtime snapshot generation

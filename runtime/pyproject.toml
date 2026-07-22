@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "morning-star-runtime"
-version = "0.1.0"
+version = "0.2.0"
 description = "Reference runtime for the Morning Star constitutional architecture."
 requires-python = ">=3.11"
 authors = [
@@ -30,6 +30,7 @@ pythonpath = ["src"]
 addopts = "-q"
 
 [tool.mypy]
-python_version = "3.11"
+python_version = "0.2.0"
 strict = true
 warn_unused_configs = true
+
