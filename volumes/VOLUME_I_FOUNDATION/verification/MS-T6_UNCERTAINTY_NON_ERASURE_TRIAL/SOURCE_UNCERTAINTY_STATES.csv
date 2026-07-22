@@ -1,0 +1,3 @@
+﻿"SourceStateID","EvidenceObjectID","UncertaintyClass","AffectedProperty","UncertaintySource","Materiality","ResolutionState","CanonicalEvidence","ProhibitedInference","GoverningVersion"
+"MS-T6-SOURCE-001","","MISSING","","","MATERIAL","OPEN","","",""
+"MS-T6-SOURCE-CTRL-001","","NOT_APPLICABLE","","","NON_MATERIAL","RESOLVED","","",""

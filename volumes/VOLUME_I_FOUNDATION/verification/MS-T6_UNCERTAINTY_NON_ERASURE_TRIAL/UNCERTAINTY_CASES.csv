@@ -1,0 +1,4 @@
+﻿"CaseID","SourceStateID","Condition","InterpretationTask","DecisionRequired","CanonicalResponseClass","ProhibitedResponseClass","ExpectedDisposition","CaseStatus"
+"MS-T6-CASE-001-A","MS-T6-SOURCE-001","GOVERNED_PRESERVATION","","","PRESERVED","ERASURE","","DRAFT"
+"MS-T6-CASE-001-B","MS-T6-SOURCE-001","UNGOVERNED_DETERMINIZATION","","","PRESERVED","ERASURE","","DRAFT"
+"MS-T6-CASE-CTRL-001","MS-T6-SOURCE-CTRL-001","DETERMINATE_CONTROL","","","RESOLVED_WITH_EVIDENCE","INFLATION","","DRAFT"
