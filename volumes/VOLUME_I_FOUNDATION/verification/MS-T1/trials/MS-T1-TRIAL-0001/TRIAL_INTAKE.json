@@ -10,7 +10,7 @@
     "TraceEvidenceStatus":  "NOT_REGISTERED",
     "OutputEvidenceStatus":  "NOT_REGISTERED",
     "UncertaintyEvidenceStatus":  "NOT_REGISTERED",
-    "Notes":  "Five evidence items registered. SHA-256 integrity verified. Review pending.",
+    "Notes":  "Evidence review complete. Constraint evaluation is the next governed stage.",
     "AuthoritySnapshotStatus":  "COMPLETE",
     "SuccessConditionCount":  0,
     "FalsificationConditionCount":  2,
@@ -18,13 +18,15 @@
     "EvidenceIntakeStatus":  "OPEN",
     "EvidenceRequirementCount":  4,
     "RegisteredEvidenceCount":  5,
-    "EvidenceSubmissionStatus":  "REGISTERED",
+    "EvidenceSubmissionStatus":  "REVIEW_COMPLETE",
     "SubmittedEvidenceCount":  5,
     "EvidenceCollectionStatus":  "READY",
     "EvidenceCollectionRequestCount":  5,
     "TrialProtocolStatus":  "PREPARED",
     "ObservationSchemaStatus":  "PREPARED",
-    "ExecutionGateStatus":  "CLOSED_PENDING_REVIEW",
+    "ExecutionGateStatus":  "CLOSED_PENDING_CONSTRAINT_EVALUATION",
     "EvidenceRegistrationStatus":  "COMPLETE",
-    "EvidenceIntegrityStatus":  "VERIFIED"
+    "EvidenceIntegrityStatus":  "VERIFIED",
+    "EvidenceReviewStatus":  "COMPLETE",
+    "EvidenceAdmissibilityStatus":  "ADMISSIBLE_FOR_REFERENCE_EVALUATION"
 }

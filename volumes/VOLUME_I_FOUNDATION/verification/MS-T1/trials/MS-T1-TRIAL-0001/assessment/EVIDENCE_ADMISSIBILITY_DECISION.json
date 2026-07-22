@@ -1,0 +1,23 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "TrialID":  "MS-T1-TRIAL-0001",
+    "TheoremID":  "MS-T1",
+    "VerificationID":  "MS-T1-VERIFICATION",
+    "ReviewedAt":  "2026-07-22T20:05:07.6502049Z",
+    "RegisteredEvidenceCount":  5,
+    "ReviewedEvidenceCount":  5,
+    "AdmissibleEvidenceCount":  5,
+    "InadmissibleEvidenceCount":  0,
+    "IntegrityState":  "SATISFIED",
+    "ProvenanceState":  "SATISFIED",
+    "SufficiencyState":  "SATISFIED",
+    "UncertaintyPreservationState":  "SATISFIED",
+    "Decision":  "ADMISSIBLE_FOR_REFERENCE_EVALUATION",
+    "EvaluationAuthorization":  "AUTHORIZED",
+    "ExecutionAuthorization":  "NOT_GRANTED",
+    "ConstraintEvaluationState":  "NOT_EVALUATED",
+    "ConditionEvaluationState":  "NOT_EVALUATED",
+    "ResultState":  "UNRESOLVED",
+    "ScopeLimitation":  "Controlled constitutional reference scenario only.",
+    "Notes":  "Evidence admissibility does not establish theorem satisfaction."
+}

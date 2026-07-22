@@ -3,20 +3,20 @@
     "TrialID":  "MS-T1-TRIAL-0001",
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
-    "EvaluatedAt":  "2026-07-22T20:01:01.1825093Z",
-    "GateState":  "CLOSED",
+    "EvaluatedAt":  "2026-07-22T20:05:07.6502049Z",
+    "GateState":  "CLOSED_PENDING_CONSTRAINT_EVALUATION",
     "ExecutionAuthorized":  false,
-    "InputEvidenceGate":  "REGISTERED_PENDING_REVIEW",
-    "ConstraintEvidenceGate":  "REGISTERED_PENDING_REVIEW",
+    "InputEvidenceGate":  "SATISFIED",
+    "ConstraintEvidenceGate":  "SATISFIED",
     "TracePreparationGate":  "SATISFIED",
-    "ProvenanceReviewGate":  "NOT_SATISFIED",
-    "UncertaintyDeclarationGate":  "REGISTERED_PENDING_REVIEW",
-    "EvidenceAdmissibilityGate":  "NOT_SATISFIED",
+    "ProvenanceReviewGate":  "SATISFIED",
+    "UncertaintyDeclarationGate":  "SATISFIED",
+    "EvidenceAdmissibilityGate":  "SATISFIED",
     "BlockingReasons":  [
-                            "Registered evidence has not received provenance review.",
-                            "Registered evidence has not received sufficiency review.",
-                            "Registered evidence has not received admissibility determination."
+                            "Constraint evaluation has not been completed.",
+                            "Success and falsification conditions have not been evaluated.",
+                            "No theorem decision has been authorized."
                         ],
     "ResultState":  "UNRESOLVED",
-    "Notes":  "Evidence registration complete. Execution remains prohibited pending review."
+    "Notes":  "Evidence review complete. Gate remains closed pending governed constraint evaluation."
 }

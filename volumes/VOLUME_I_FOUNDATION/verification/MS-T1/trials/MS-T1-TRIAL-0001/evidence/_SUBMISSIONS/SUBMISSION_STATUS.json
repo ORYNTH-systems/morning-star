@@ -4,13 +4,13 @@
     "TheoremID":  "MS-T1",
     "VerificationID":  "MS-T1-VERIFICATION",
     "CreatedAt":  "2026-07-22T19:32:58.9603610Z",
-    "SubmissionState":  "EVIDENCE_REGISTERED",
+    "SubmissionState":  "EVIDENCE_REVIEW_COMPLETE",
     "SubmittedItemCount":  5,
     "RegisteredEvidenceCount":  5,
     "EvidenceRegistrationState":  "COMPLETE",
-    "EvidenceReviewState":  "PENDING",
-    "EvaluationReadiness":  "NOT_READY",
-    "ExecutionReadiness":  "BLOCKED_PENDING_REVIEW",
+    "EvidenceReviewState":  "COMPLETE",
+    "EvaluationReadiness":  "READY",
+    "ExecutionReadiness":  "BLOCKED_PENDING_CONSTRAINT_EVALUATION",
     "ResultState":  "UNRESOLVED",
-    "Notes":  "Five evidence items registered with matching SHA-256 hashes. Review remains pending."
+    "Notes":  "Governed evidence review complete. Constraint and condition evaluation remain pending."
 }
