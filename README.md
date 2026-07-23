@@ -37,4 +37,8 @@ Morning Star governs preservation of canonical meaning from first encounter thro
 The Morning Star constitutional architecture is complete as a research and governance architecture.
 
 Software runtime implementation remains a subsequent engineering phase.
+## Architecture Certification
 
+Morning Star constitutional architecture version 0.1.0 is certified complete within its declared scope.
+
+See [ARCHITECTURE_COMPLETION_CERTIFICATION.md](ARCHITECTURE_COMPLETION_CERTIFICATION.md).
