@@ -1,10 +1,10 @@
 # MS-T8 Disposition
 
-**Document Identifier:** MS-V1-T8-DSP-001  
-**Verification Identifier:** MS-VER-T8-001  
-**Theorem Identifier:** MS-T8  
-**Disposition:** VERIFIED_SUPPORTED  
-**Evidence Scope:** CONTROLLED_CASE_SET  
+**Document Identifier:** MS-V1-T8-DSP-001
+**Verification Identifier:** MS-VER-T8-001
+**Theorem Identifier:** MS-T8
+**Disposition:** VERIFIED_SUPPORTED
+**Evidence Scope:** CONTROLLED_CASE_SET
 **Version:** 1.0.0
 
 ## Allowed Dispositions

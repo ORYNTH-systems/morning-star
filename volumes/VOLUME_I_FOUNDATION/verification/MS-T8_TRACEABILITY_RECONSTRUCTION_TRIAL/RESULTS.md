@@ -1,9 +1,9 @@
 # MS-T8 Results
 
-**Document Identifier:** MS-V1-T8-RES-001  
-**Verification Identifier:** MS-VER-T8-001  
-**Theorem Identifier:** MS-T8  
-**Result Status:** COMPLETE  
+**Document Identifier:** MS-V1-T8-RES-001
+**Verification Identifier:** MS-VER-T8-001
+**Theorem Identifier:** MS-T8
+**Result Status:** COMPLETE
 **Version:** 1.0.0
 
 ## Trial Status
