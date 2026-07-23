@@ -1,2 +1,5 @@
 ﻿"ResponseID","CaseID","ObserverID","ReconstructedObjectID","ReconstructedSource","ReconstructedVersion","ReconstructedAuthority","ReconstructedDependencies","ReconstructedTransformations","ReconstructedEvidence","ReconstructedUncertainty","ReconstructedSupersession","MissingOrAmbiguousLinks","EvidenceReferences","SubmittedAt","ResponseStatus"
-"","","","","","","","","","","","","","","",""
+"MS-T8-RESP-001","MS-T8-CASE-001","OBS-001","","","","","","","","","","","MS-T8-EVIDENCE-001 through MS-T8-EVIDENCE-010","2026-07-23T16:18:58-05:00","SUBMITTED"
+"MS-T8-RESP-002","MS-T8-CASE-002","OBS-001","","","","","","","","","","","Eight resolved MS-T8 evidence classes; authority and exclusion sources absent","2026-07-23T16:18:58-05:00","SUBMITTED"
+"MS-T8-RESP-003","MS-T8-CASE-003","OBS-001","","","","","","","","","","","Four non-sufficient traceability links","2026-07-23T16:18:58-05:00","SUBMITTED"
+"MS-T8-RESP-CTRL-001","MS-T8-CASE-CTRL-001","OBS-001","","","","","","","","","","","MS-T8-EVIDENCE-001;MS-T8-EVIDENCE-002;MS-T8-EVIDENCE-008","2026-07-23T16:18:58-05:00","SUBMITTED"
