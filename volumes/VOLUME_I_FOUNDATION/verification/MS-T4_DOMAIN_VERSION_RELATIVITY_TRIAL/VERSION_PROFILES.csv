@@ -1,2 +1,5 @@
 ﻿"VersionProfileID","DomainID","Version","EffectiveDate","Supersedes","ChangeClass","MaterialChanges","AuthorityState","CanonicalSource","VersionStatus"
-"MS-T4-VERSION-001","MS-T4-DOMAIN-001","","","","","","","","DRAFT"
+"MS-T4-VERSION-001","MS-T4-DOMAIN-001","1.0.0","2026-07-01","","IDENTICAL","Baseline controlled version.","SUPERSEDED","MS-T4 controlled version profile","SUPERSEDED"
+"MS-T4-VERSION-002","MS-T4-DOMAIN-001","2.0.0","2026-07-23","1.0.0","MATERIAL_CHANGE","Canonical approval authority moved from general steward status to explicit version-scoped assignment; revalidation became mandatory.","ACTIVE","MS-T4 controlled version profile","ACTIVE"
+"MS-T4-VERSION-003","MS-T4-DOMAIN-002","1.0.0","2026-07-23","","IDENTICAL","Baseline controlled version.","ACTIVE","MS-T4 controlled version profile","ACTIVE"
+"MS-T4-VERSION-004","MS-T4-DOMAIN-003","1.0.0","2026-07-23","","IDENTICAL","Baseline controlled version.","ACTIVE","MS-T4 controlled version profile","ACTIVE"

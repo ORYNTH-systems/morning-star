@@ -1,2 +1,2 @@
 ﻿"BaselineID","ObserverID","SourceDomainID","SourceVersion","CapabilityStatus","EvidenceReference","VerifiedAt","ValidUntil","AuthorityScope","Limitations"
-"MS-T4-BASELINE-001","","","","","","","","",""
+"MS-T4-BASELINE-001","OBS-001","MS-T4-DOMAIN-001","1.0.0","VERIFIED","MS-T4 controlled baseline assessment","2026-07-23T15:37:20-05:00","2027-07-23T15:37:20-05:00","Interpretive reconstruction within MS-T4-DOMAIN-001 version 1.0.0 only; no transferred constitutional authority.","Competence has not been established for version 2.0.0, related domains, or distinct domains."
