@@ -1,0 +1,16 @@
+﻿{
+    "BatchID":  "BATCH-A",
+    "Stage":  "STAGE-3-PROPOSAL-GENERATION",
+    "EngineVersion":  "1.0.0",
+    "ExecutedAt":  "2026-07-23T18:53:48.6167490-05:00",
+    "Status":  "PASS_WITH_GOVERNED_REVIEW_REQUIRED",
+    "CanonicalWorkItems":  42,
+    "TransactionsGenerated":  42,
+    "ControlledIDProposals":  22,
+    "GovernedDesignItemsUnresolved":  20,
+    "DuplicateTransactionIDs":  0,
+    "DuplicateControlledIdentifiers":  0,
+    "CanonicalWorklistSHA256":  "8E0835782EFCC4226420374D793A95811289A0C3E2EB1ADD7F73BDFB99B485FF",
+    "CanonicalWorklistModified":  false,
+    "RequiredNextStage":  "Resolve the 20 governed design items before Stage 4 validation."
+}

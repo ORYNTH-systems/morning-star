@@ -1,0 +1,115 @@
+﻿{
+    "SchemaID":  "MORNING-STAR-BATCH-A-TRANSACTION-SCHEMA",
+    "Version":  "1.0.0",
+    "CreatedAt":  "2026-07-23T18:23:28-05:00",
+    "CanonicalWorklist":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/PREEXECUTION_COMPLETION_WORKLIST.csv",
+    "TransactionRegister":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION/BATCH_A/Transactions/BATCH_A_TRANSACTION_REGISTER.csv",
+    "ConstitutionalRules":  [
+                                "The canonical worklist is the sole source of governed Batch A work items.",
+                                "Resolution engines may append proposed transactions only.",
+                                "Resolution engines may not modify the canonical worklist.",
+                                "Resolution engines may not modify completion forms.",
+                                "Only the synchronization engine may update the worklist or completion forms.",
+                                "No transaction may synchronize unless ValidationStatus equals PASS.",
+                                "Every synchronized value must preserve its source reference.",
+                                "Every synchronized value must preserve completion authority and timestamp.",
+                                "Failed or rejected transactions remain in the register as audit evidence.",
+                                "Rollback creates a new transaction and does not erase prior history."
+                            ],
+    "PermittedEngines":  [
+                             {
+                                 "EngineName":  "CONTROLLED_ID_ENGINE",
+                                 "PermittedAuthorities":  [
+                                                              "CONTROLLED_ID_ASSIGNMENT"
+                                                          ],
+                                 "PermittedOperation":  "APPEND_TRANSACTION"
+                             },
+                             {
+                                 "EngineName":  "GOVERNED_CASE_DESIGN_ENGINE",
+                                 "PermittedAuthorities":  [
+                                                              "GOVERNED_CASE_DESIGN"
+                                                          ],
+                                 "PermittedOperation":  "APPEND_TRANSACTION"
+                             },
+                             {
+                                 "EngineName":  "GOVERNED_DEPENDENCY_DESIGN_ENGINE",
+                                 "PermittedAuthorities":  [
+                                                              "GOVERNED_DEPENDENCY_DESIGN"
+                                                          ],
+                                 "PermittedOperation":  "APPEND_TRANSACTION"
+                             },
+                             {
+                                 "EngineName":  "BATCH_A_VALIDATION_ENGINE",
+                                 "PermittedAuthorities":  [
+                                                              "CONTROLLED_ID_ASSIGNMENT",
+                                                              "GOVERNED_CASE_DESIGN",
+                                                              "GOVERNED_DEPENDENCY_DESIGN"
+                                                          ],
+                                 "PermittedOperation":  "UPDATE_TRANSACTION_VALIDATION"
+                             },
+                             {
+                                 "EngineName":  "BATCH_A_SYNCHRONIZATION_ENGINE",
+                                 "PermittedAuthorities":  [
+                                                              "CONTROLLED_ID_ASSIGNMENT",
+                                                              "GOVERNED_CASE_DESIGN",
+                                                              "GOVERNED_DEPENDENCY_DESIGN"
+                                                          ],
+                                 "PermittedOperation":  "SYNCHRONIZE_APPROVED_TRANSACTION"
+                             }
+                         ],
+    "TransactionStatuses":  [
+                                "PROPOSED",
+                                "VALIDATED",
+                                "REJECTED",
+                                "SYNCHRONIZED",
+                                "ROLLED_BACK",
+                                "SUPERSEDED"
+                            ],
+    "ValidationStatuses":  [
+                               "NOT_RUN",
+                               "PASS",
+                               "FAIL",
+                               "INDETERMINATE"
+                           ],
+    "SynchronizationStatuses":  [
+                                    "NOT_SYNCHRONIZED",
+                                    "SYNCHRONIZED",
+                                    "FAILED",
+                                    "ROLLED_BACK"
+                                ],
+    "Columns":  [
+                    "TransactionID",
+                    "BatchID",
+                    "EngineName",
+                    "EngineVersion",
+                    "TransactionType",
+                    "TransactionStatus",
+                    "TheoremID",
+                    "SourceFile",
+                    "CsvRow",
+                    "RecordIdentity",
+                    "EntryAuthority",
+                    "FieldName",
+                    "CurrentValue",
+                    "ProposedValue",
+                    "SourceReference",
+                    "SourceSHA256",
+                    "TargetCompletionForm",
+                    "IssuanceID",
+                    "DependencyID",
+                    "CaseID",
+                    "EvidenceID",
+                    "AssessmentID",
+                    "ProposedBy",
+                    "ProposedAt",
+                    "ValidationStatus",
+                    "ValidationMessage",
+                    "SynchronizationStatus",
+                    "SynchronizedBy",
+                    "SynchronizedAt",
+                    "RollbackStatus",
+                    "RollbackReference",
+                    "SupersedesTransactionID",
+                    "Notes"
+                ]
+}

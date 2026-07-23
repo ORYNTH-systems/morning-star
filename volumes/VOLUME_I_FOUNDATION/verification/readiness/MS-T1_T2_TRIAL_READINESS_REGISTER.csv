@@ -1,0 +1,3 @@
+﻿"TheoremID","TrialName","RequiredCsvCount","MissingFileCount","EmptyTemplateCount","IncompleteFileCount","CompleteFileCount","ResultStatus","Disposition","ExecutionReadiness","CertificationEffect"
+"MS-T1","MS-T1_GOVERNED_INITIATION_TRIAL","3","0","2","1","0","OPEN","OPEN","EVIDENCE_COLLECTION_REQUIRED","BLOCKING"
+"MS-T2","MS-T2_DEPENDENCY_PROPAGATION_TRIAL","4","0","2","2","0","OPEN","OPEN","EVIDENCE_COLLECTION_REQUIRED","BLOCKING"

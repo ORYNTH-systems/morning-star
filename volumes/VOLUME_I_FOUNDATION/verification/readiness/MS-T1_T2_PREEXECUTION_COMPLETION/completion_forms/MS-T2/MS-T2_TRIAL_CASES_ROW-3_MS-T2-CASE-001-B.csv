@@ -1,0 +1,7 @@
+﻿"TheoremID","SourceFile","CsvRow","RecordIdentity","FieldName","EntryAuthority","ProposedValue","SourceReference","CompletedBy","CompletedAt","ReviewStatus","Reviewer","ReviewDate","Notes","Instruction"
+"MS-T2","TRIAL_CASES.csv","3","MS-T2-CASE-001-B","CorrectionEnabled","GOVERNED_CASE_DESIGN","","","","","NOT_COMPLETED","","","","Complete from the governed trial design before execution begins."
+"MS-T2","TRIAL_CASES.csv","3","MS-T2-CASE-001-B","DivergenceClass","GOVERNED_CASE_DESIGN","","","","","NOT_COMPLETED","","","","Complete from the governed trial design before execution begins."
+"MS-T2","TRIAL_CASES.csv","3","MS-T2-CASE-001-B","OriginalValue","GOVERNED_CASE_DESIGN","","","","","NOT_COMPLETED","","","","Complete from the governed trial design before execution begins."
+"MS-T2","TRIAL_CASES.csv","3","MS-T2-CASE-001-B","SeededValue","GOVERNED_CASE_DESIGN","","","","","NOT_COMPLETED","","","","Complete from the governed trial design before execution begins."
+"MS-T2","TRIAL_CASES.csv","3","MS-T2-CASE-001-B","SeedObjectID","CONTROLLED_ID_ASSIGNMENT","","","","","NOT_COMPLETED","","","","Assign a unique stable identifier. Do not reuse an existing identity."
+"MS-T2","TRIAL_CASES.csv","3","MS-T2-CASE-001-B","SeedPropertyClass","GOVERNED_CASE_DESIGN","","","","","NOT_COMPLETED","","","","Complete from the governed trial design before execution begins."

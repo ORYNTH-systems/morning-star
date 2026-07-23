@@ -1,0 +1,50 @@
+﻿{
+    "PacketType":  "CONTROLLED_ID_ISSUANCE_REVIEW",
+    "PacketID":  "MS-REVIEW-20260723180406818",
+    "CreatedAt":  "2026-07-23T18:04:06-05:00",
+    "ReviewReadiness":  "READY_FOR_REVIEW",
+    "Subject":  {
+                    "SourceFile":  "OBSERVER_RESPONSES.csv",
+                    "RecordIdentity":  "UNASSIGNED-ROW-2",
+                    "TheoremID":  "MS-T1",
+                    "CsvRow":  "2",
+                    "FieldName":  "CaseID"
+                },
+    "Issuance":  {
+                     "IssuedAt":  "2026-07-23T18:01:24-05:00",
+                     "IssuanceStatus":  "ACTIVE",
+                     "IssuedBy":  "Ashley S. Harris",
+                     "IssuingAuthority":  "MORNING_STAR_CONTROLLED_ID_AUTHORITY",
+                     "IssuanceID":  "MS-ID-ISS-000001",
+                     "IssuedIdentifier":  "MST1-CASE-0001",
+                     "IdentifierType":  "CASE_ID"
+                 },
+    "CompletionForm":  {
+                           "SourceReference":  "./volumes/VOLUME_I_FOUNDATION/verification/readiness/CONTROLLED_ID_AUTHORITY/CONTROLLED_ID_ISSUANCE_REGISTER.csv#IssuanceID=MS-ID-ISS-000001",
+                           "ReviewStatus":  "PENDING_REVIEW",
+                           "ProposedValue":  "MST1-CASE-0001",
+                           "FormPath":  "./volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T1/MS-T1_OBSERVER_RESPONSES_ROW-2_UNASSIGNED-ROW-2.csv",
+                           "CompletedAt":  "2026-07-23T18:02:34-05:00",
+                           "CompletedBy":  "Ashley S. Harris"
+                       },
+    "VerificationChecks":  {
+                               "ExactlyOneActiveIssuance":  true,
+                               "NoDuplicateActiveIDs":  true,
+                               "IdentifierPresent":  true,
+                               "FormValueMatchesIssuance":  true,
+                               "SourceReferenceMatches":  true,
+                               "CompletionRecorded":  true,
+                               "ReviewStillPending":  true,
+                               "SourceDatasetUnmodified":  true
+                           },
+    "FailedChecks":  [
+
+                     ],
+    "ConstitutionalBoundary":  {
+                                   "ReviewDecisionCreated":  false,
+                                   "ExecutionEvidenceCreated":  false,
+                                   "SourceDatasetModified":  false,
+                                   "TheoremOutcomeDetermined":  false
+                               },
+    "RequiredNextAction":  "Record an explicit approval or rejection decision before propagating the CaseID into the source dataset."
+}

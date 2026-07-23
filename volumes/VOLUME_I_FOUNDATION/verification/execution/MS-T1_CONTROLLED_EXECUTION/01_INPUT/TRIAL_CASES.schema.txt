@@ -1,0 +1,10 @@
+﻿CaseID
+GovernedObjectID
+FrameworkID
+GoverningVersion
+MaterialPropertyCount
+CanonicalSource
+DependencyIDs
+AuthoritySource
+UncertaintyState
+CaseStatus

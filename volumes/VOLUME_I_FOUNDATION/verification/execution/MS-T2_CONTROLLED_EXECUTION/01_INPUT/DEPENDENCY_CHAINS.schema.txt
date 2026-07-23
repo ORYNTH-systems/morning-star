@@ -1,0 +1,9 @@
+﻿ChainID
+ChainName
+GoverningVersion
+RootObjectID
+TerminalObjectID
+DependencyDepth
+CorrectionAvailability
+CanonicalSource
+ChainStatus

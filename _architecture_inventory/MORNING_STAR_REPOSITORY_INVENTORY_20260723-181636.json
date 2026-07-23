@@ -1,0 +1,702 @@
+﻿{
+    "InventoryID":  "MORNING-STAR-REPOSITORY-INVENTORY-20260723-181636",
+    "GeneratedAt":  "2026-07-23T18:16:49-05:00",
+    "RepositoryRoot":  "C:\\Users\\18177\\morning-star",
+    "RepositorySummary":  {
+                              "GovernanceCandidateRowCount":  264,
+                              "ControlledIDFileCount":  27,
+                              "GovernedCaseDesignFileCount":  10,
+                              "DirectoryCount":  1105,
+                              "CsvImportFailureCount":  0,
+                              "LikelyCompletionFileCount":  9,
+                              "GovernedDependencyDesignFileCount":  6,
+                              "RelevantDirectoryCount":  82,
+                              "CsvFileCount":  334
+                          },
+    "RelevantDirectories":  [
+                                {
+                                    "Category":  "READINESS",
+                                    "RelativePath":  "ecosystem-scale-readiness"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "evidence"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "execution"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "execution-assurance"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "verification"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "applied-architectures/execution-assurance-foundation"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "applied-development/execution-assurance"
+                                },
+                                {
+                                    "Category":  "ASSESSMENT",
+                                    "RelativePath":  "architecture-assurance-framework/architecture-reliability-assessment"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "architecture-assurance-framework/verification-evidence-management"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "architecture-certification-continuum-framework/complete-architecture-evidence-consolidation"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "architecture-certification-continuum-framework/cross-framework-verification-matrix"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "architecture-immutability-reference/verification-provenance-chain"
+                                },
+                                {
+                                    "Category":  "ASSESSMENT",
+                                    "RelativePath":  "architecture-operating-continuity-framework/change-impact-assessment"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "architecture-operating-continuity-framework/evolution-governance-execution"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "architecture-optimization-framework/evidence-driven-refinement-system"
+                                },
+                                {
+                                    "Category":  "ASSESSMENT",
+                                    "RelativePath":  "architecture-self-aware-governance/autonomous-integrity-assessment"
+                                },
+                                {
+                                    "Category":  "AUTHORITY",
+                                    "RelativePath":  "architecture-stewardship-framework/stewardship-authority-framework"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "autonomous-systems-architecture/autonomous-execution-framework"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "complete-architecture-integration/unified-execution-environment"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "constitution/evidence"
+                                },
+                                {
+                                    "Category":  "ASSESSMENT",
+                                    "RelativePath":  "continuous-architecture-stewardship/architecture-health-assessment"
+                                },
+                                {
+                                    "Category":  "READINESS",
+                                    "RelativePath":  "continuous-architecture-stewardship/evolutionary-readiness-assessment"
+                                },
+                                {
+                                    "Category":  "MANIFEST",
+                                    "RelativePath":  "ecosystem-release/release-manifest"
+                                },
+                                {
+                                    "Category":  "READINESS",
+                                    "RelativePath":  "ecosystem-scale-readiness/deployment-readiness-framework"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "execution/MS-010_CONSTITUTIONAL_VERIFICATION_INITIALIZATION"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "execution-assurance/execution-controls"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "execution-assurance/execution-governance"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "execution-assurance/verification-framework"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "global-operating-model/distributed-execution-framework"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "impact-activation/case-studies"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "knowledge-infrastructure/evidence-management"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "master-validation/architecture-verification"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "master-validation/governance-verification"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "master-validation/operational-verification"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "maturity-assurance/evidence-preservation-system"
+                                },
+                                {
+                                    "Category":  "READINESS",
+                                    "RelativePath":  "maturity-assurance/institutional-readiness-model"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "maturity-assurance/reproducibility-verification"
+                                },
+                                {
+                                    "Category":  "ASSESSMENT",
+                                    "RelativePath":  "orynth-reference-architecture/enterprise-evaluation/assessment"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "phase-ii/execution"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "phase-ii/verification"
+                                },
+                                {
+                                    "Category":  "AUTHORITY",
+                                    "RelativePath":  "phase-ii/governance/authority"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "phase-ii/tests/verification"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "phase-ii/verification/evidence"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "post-release/release-verification"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "runtime/evidence"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "tools/verification"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "verification/MS-T2_DEPENDENCY_PROPAGATION_TRIAL"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "volumes/VOLUME_III_NAVIGATION/evidence"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "volumes/VOLUME_II_ONTOLOGY/evidence"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "volumes/VOLUME_IV_INTERPRETATION/evidence"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T1_GOVERNED_INITIATION_TRIAL"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T2_DEPENDENCY_PROPAGATION_TRIAL"
+                                },
+                                {
+                                    "Category":  "AUTHORITY",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T3_CAPABILITY_AUTHORITY_SEPARATION_TRIAL"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T4_DOMAIN_VERSION_RELATIVITY_TRIAL"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T5_MATERIAL_CHANGE_REVALIDATION_TRIAL"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T6_UNCERTAINTY_NON_ERASURE_TRIAL"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T7_SCOPE_NON_EXPANSION_TRIAL"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T8_TRACEABILITY_RECONSTRUCTION_TRIAL"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T9_STEWARDSHIP_CONTINUITY_TRIAL"
+                                },
+                                {
+                                    "Category":  "READINESS",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/trial_runtime"
+                                },
+                                {
+                                    "Category":  "VERIFICATION",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/_NEXT_VERIFICATION_INTAKE"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T1_CONTROLLED_EXECUTION"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T1_CONTROLLED_EXECUTION/02_EVIDENCE"
+                                },
+                                {
+                                    "Category":  "ASSESSMENT",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T1_CONTROLLED_EXECUTION/03_ASSESSMENT"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/02_EVIDENCE"
+                                },
+                                {
+                                    "Category":  "ASSESSMENT",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/03_ASSESSMENT"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T1/trials"
+                                },
+                                {
+                                    "Category":  "TRIAL_OR_CASE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T1/trials/MS-T1-TRIAL-0001"
+                                },
+                                {
+                                    "Category":  "ASSESSMENT",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T1/trials/MS-T1-TRIAL-0001/assessment"
+                                },
+                                {
+                                    "Category":  "AUTHORITY",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T1/trials/MS-T1-TRIAL-0001/authority_snapshot"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/MS-T1/trials/MS-T1-TRIAL-0001/evidence"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION"
+                                },
+                                {
+                                    "Category":  "AUTHORITY",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/CONTROLLED_ID_AUTHORITY"
+                                },
+                                {
+                                    "Category":  "COMPLETION",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION"
+                                },
+                                {
+                                    "Category":  "COMPLETION",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/trial_runtime/evidence"
+                                },
+                                {
+                                    "Category":  "EXECUTION",
+                                    "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/trial_runtime/evidence/execution_trace"
+                                },
+                                {
+                                    "Category":  "EVIDENCE",
+                                    "RelativePath":  "volumes/VOLUME_V_INITIATION/evidence"
+                                }
+                            ],
+    "LikelyCompletionFiles":  [
+                                  {
+                                      "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T1/MS-T1_OBSERVER_RESPONSES_ROW-2_UNASSIGNED-ROW-2.csv",
+                                      "RowCount":  3,
+                                      "ControlledIDRows":  3,
+                                      "CaseIDRows":  1,
+                                      "GovernedCaseDesignRows":  0,
+                                      "GovernedDependencyRows":  0,
+                                      "PendingReviewRows":  1,
+                                      "ApprovedRows":  0,
+                                      "BlankProposedValueRows":  2
+                                  },
+                                  {
+                                      "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T1/MS-T1_SEMANTIC_ASSESSMENTS_ROW-2_UNASSIGNED-ROW-2.csv",
+                                      "RowCount":  4,
+                                      "ControlledIDRows":  4,
+                                      "CaseIDRows":  0,
+                                      "GovernedCaseDesignRows":  0,
+                                      "GovernedDependencyRows":  0,
+                                      "PendingReviewRows":  0,
+                                      "ApprovedRows":  0,
+                                      "BlankProposedValueRows":  4
+                                  },
+                                  {
+                                      "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T1/MS-T1_TRIAL_CASES_ROW-2_MS-T1-CASE-001.csv",
+                                      "RowCount":  8,
+                                      "ControlledIDRows":  2,
+                                      "CaseIDRows":  0,
+                                      "GovernedCaseDesignRows":  6,
+                                      "GovernedDependencyRows":  0,
+                                      "PendingReviewRows":  0,
+                                      "ApprovedRows":  0,
+                                      "BlankProposedValueRows":  8
+                                  },
+                                  {
+                                      "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_DEPENDENCY_CHAINS_ROW-2_MS-T2-CHAIN-001.csv",
+                                      "RowCount":  7,
+                                      "ControlledIDRows":  2,
+                                      "CaseIDRows":  0,
+                                      "GovernedCaseDesignRows":  0,
+                                      "GovernedDependencyRows":  5,
+                                      "PendingReviewRows":  0,
+                                      "ApprovedRows":  0,
+                                      "BlankProposedValueRows":  7
+                                  },
+                                  {
+                                      "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_DOWNSTREAM_ASSESSMENTS_ROW-2_UNASSIGNED-ROW-2.csv",
+                                      "RowCount":  4,
+                                      "ControlledIDRows":  4,
+                                      "CaseIDRows":  1,
+                                      "GovernedCaseDesignRows":  0,
+                                      "GovernedDependencyRows":  0,
+                                      "PendingReviewRows":  0,
+                                      "ApprovedRows":  0,
+                                      "BlankProposedValueRows":  4
+                                  },
+                                  {
+                                      "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_PROPAGATION_EVENTS_ROW-2_UNASSIGNED-ROW-2.csv",
+                                      "RowCount":  5,
+                                      "ControlledIDRows":  5,
+                                      "CaseIDRows":  1,
+                                      "GovernedCaseDesignRows":  0,
+                                      "GovernedDependencyRows":  0,
+                                      "PendingReviewRows":  0,
+                                      "ApprovedRows":  0,
+                                      "BlankProposedValueRows":  5
+                                  },
+                                  {
+                                      "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_TRIAL_CASES_ROW-2_MS-T2-CASE-001-A.csv",
+                                      "RowCount":  5,
+                                      "ControlledIDRows":  1,
+                                      "CaseIDRows":  0,
+                                      "GovernedCaseDesignRows":  4,
+                                      "GovernedDependencyRows":  0,
+                                      "PendingReviewRows":  0,
+                                      "ApprovedRows":  0,
+                                      "BlankProposedValueRows":  5
+                                  },
+                                  {
+                                      "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_TRIAL_CASES_ROW-3_MS-T2-CASE-001-B.csv",
+                                      "RowCount":  6,
+                                      "ControlledIDRows":  1,
+                                      "CaseIDRows":  0,
+                                      "GovernedCaseDesignRows":  5,
+                                      "GovernedDependencyRows":  0,
+                                      "PendingReviewRows":  0,
+                                      "ApprovedRows":  0,
+                                      "BlankProposedValueRows":  6
+                                  },
+                                  {
+                                      "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/PREEXECUTION_COMPLETION_WORKLIST.csv",
+                                      "RowCount":  42,
+                                      "ControlledIDRows":  22,
+                                      "CaseIDRows":  3,
+                                      "GovernedCaseDesignRows":  15,
+                                      "GovernedDependencyRows":  5,
+                                      "PendingReviewRows":  0,
+                                      "ApprovedRows":  0,
+                                      "BlankProposedValueRows":  42
+                                  }
+                              ],
+    "ControlledIDFiles":  [
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T1_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/OBSERVER_RESPONSES.FIELD_GUIDE.csv",
+                                  "ControlledIDRows":  3,
+                                  "CaseIDRows":  1,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T1_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/OBSERVER_RESPONSES.MISSING_VALUES.csv",
+                                  "ControlledIDRows":  3,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T1_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/SEMANTIC_ASSESSMENTS.FIELD_GUIDE.csv",
+                                  "ControlledIDRows":  4,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T1_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/SEMANTIC_ASSESSMENTS.MISSING_VALUES.csv",
+                                  "ControlledIDRows":  4,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T1_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/TRIAL_CASES.FIELD_GUIDE.csv",
+                                  "ControlledIDRows":  3,
+                                  "CaseIDRows":  1,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T1_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/TRIAL_CASES.MISSING_VALUES.csv",
+                                  "ControlledIDRows":  2,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/DEPENDENCY_CHAINS.FIELD_GUIDE.csv",
+                                  "ControlledIDRows":  3,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/DEPENDENCY_CHAINS.MISSING_VALUES.csv",
+                                  "ControlledIDRows":  2,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/DOWNSTREAM_ASSESSMENTS.FIELD_GUIDE.csv",
+                                  "ControlledIDRows":  4,
+                                  "CaseIDRows":  1,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/DOWNSTREAM_ASSESSMENTS.MISSING_VALUES.csv",
+                                  "ControlledIDRows":  4,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/PROPAGATION_EVENTS.FIELD_GUIDE.csv",
+                                  "ControlledIDRows":  5,
+                                  "CaseIDRows":  1,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/PROPAGATION_EVENTS.MISSING_VALUES.csv",
+                                  "ControlledIDRows":  5,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/TRIAL_CASES.FIELD_GUIDE.csv",
+                                  "ControlledIDRows":  3,
+                                  "CaseIDRows":  1,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/TRIAL_CASES.MISSING_VALUES.csv",
+                                  "ControlledIDRows":  2,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/CONTROLLED_ID_AUTHORITY/CONTROLLED_ID_ISSUANCE_REGISTER.csv",
+                                  "ControlledIDRows":  0,
+                                  "CaseIDRows":  1,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_FIELD_AUTHORITY_REGISTER.csv",
+                                  "ControlledIDRows":  25,
+                                  "CaseIDRows":  5,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_MISSING_VALUE_WORKLIST.csv",
+                                  "ControlledIDRows":  22,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  0
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T1/MS-T1_OBSERVER_RESPONSES_ROW-2_UNASSIGNED-ROW-2.csv",
+                                  "ControlledIDRows":  3,
+                                  "CaseIDRows":  1,
+                                  "BlankProposedValueRows":  2
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T1/MS-T1_SEMANTIC_ASSESSMENTS_ROW-2_UNASSIGNED-ROW-2.csv",
+                                  "ControlledIDRows":  4,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  4
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T1/MS-T1_TRIAL_CASES_ROW-2_MS-T1-CASE-001.csv",
+                                  "ControlledIDRows":  2,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  8
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_DEPENDENCY_CHAINS_ROW-2_MS-T2-CHAIN-001.csv",
+                                  "ControlledIDRows":  2,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  7
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_DOWNSTREAM_ASSESSMENTS_ROW-2_UNASSIGNED-ROW-2.csv",
+                                  "ControlledIDRows":  4,
+                                  "CaseIDRows":  1,
+                                  "BlankProposedValueRows":  4
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_PROPAGATION_EVENTS_ROW-2_UNASSIGNED-ROW-2.csv",
+                                  "ControlledIDRows":  5,
+                                  "CaseIDRows":  1,
+                                  "BlankProposedValueRows":  5
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_TRIAL_CASES_ROW-2_MS-T2-CASE-001-A.csv",
+                                  "ControlledIDRows":  1,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  5
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_TRIAL_CASES_ROW-3_MS-T2-CASE-001-B.csv",
+                                  "ControlledIDRows":  1,
+                                  "CaseIDRows":  0,
+                                  "BlankProposedValueRows":  6
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/PREEXECUTION_COMPLETION_WORKLIST.csv",
+                                  "ControlledIDRows":  22,
+                                  "CaseIDRows":  3,
+                                  "BlankProposedValueRows":  42
+                              },
+                              {
+                                  "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/PREEXECUTION_VALIDATION_REGISTER.csv",
+                                  "ControlledIDRows":  0,
+                                  "CaseIDRows":  3,
+                                  "BlankProposedValueRows":  0
+                              }
+                          ],
+    "GovernedCaseDesignFiles":  [
+                                    {
+                                        "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T1_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/TRIAL_CASES.FIELD_GUIDE.csv",
+                                        "GovernedCaseDesignRows":  7,
+                                        "BlankProposedValueRows":  0
+                                    },
+                                    {
+                                        "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T1_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/TRIAL_CASES.MISSING_VALUES.csv",
+                                        "GovernedCaseDesignRows":  6,
+                                        "BlankProposedValueRows":  0
+                                    },
+                                    {
+                                        "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/TRIAL_CASES.FIELD_GUIDE.csv",
+                                        "GovernedCaseDesignRows":  7,
+                                        "BlankProposedValueRows":  0
+                                    },
+                                    {
+                                        "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/TRIAL_CASES.MISSING_VALUES.csv",
+                                        "GovernedCaseDesignRows":  9,
+                                        "BlankProposedValueRows":  0
+                                    },
+                                    {
+                                        "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_FIELD_AUTHORITY_REGISTER.csv",
+                                        "GovernedCaseDesignRows":  14,
+                                        "BlankProposedValueRows":  0
+                                    },
+                                    {
+                                        "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_MISSING_VALUE_WORKLIST.csv",
+                                        "GovernedCaseDesignRows":  15,
+                                        "BlankProposedValueRows":  0
+                                    },
+                                    {
+                                        "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T1/MS-T1_TRIAL_CASES_ROW-2_MS-T1-CASE-001.csv",
+                                        "GovernedCaseDesignRows":  6,
+                                        "BlankProposedValueRows":  8
+                                    },
+                                    {
+                                        "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_TRIAL_CASES_ROW-2_MS-T2-CASE-001-A.csv",
+                                        "GovernedCaseDesignRows":  4,
+                                        "BlankProposedValueRows":  5
+                                    },
+                                    {
+                                        "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_TRIAL_CASES_ROW-3_MS-T2-CASE-001-B.csv",
+                                        "GovernedCaseDesignRows":  5,
+                                        "BlankProposedValueRows":  6
+                                    },
+                                    {
+                                        "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/PREEXECUTION_COMPLETION_WORKLIST.csv",
+                                        "GovernedCaseDesignRows":  15,
+                                        "BlankProposedValueRows":  42
+                                    }
+                                ],
+    "GovernedDependencyDesignFiles":  [
+                                          {
+                                              "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/DEPENDENCY_CHAINS.FIELD_GUIDE.csv",
+                                              "GovernedDependencyRows":  6,
+                                              "BlankProposedValueRows":  0
+                                          },
+                                          {
+                                              "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/execution/MS-T2_CONTROLLED_EXECUTION/00_COLLECTION_PACKET/DEPENDENCY_CHAINS.MISSING_VALUES.csv",
+                                              "GovernedDependencyRows":  5,
+                                              "BlankProposedValueRows":  0
+                                          },
+                                          {
+                                              "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_FIELD_AUTHORITY_REGISTER.csv",
+                                              "GovernedDependencyRows":  6,
+                                              "BlankProposedValueRows":  0
+                                          },
+                                          {
+                                              "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_MISSING_VALUE_WORKLIST.csv",
+                                              "GovernedDependencyRows":  5,
+                                              "BlankProposedValueRows":  0
+                                          },
+                                          {
+                                              "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/completion_forms/MS-T2/MS-T2_DEPENDENCY_CHAINS_ROW-2_MS-T2-CHAIN-001.csv",
+                                              "GovernedDependencyRows":  5,
+                                              "BlankProposedValueRows":  7
+                                          },
+                                          {
+                                              "RelativePath":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/PREEXECUTION_COMPLETION_WORKLIST.csv",
+                                              "GovernedDependencyRows":  5,
+                                              "BlankProposedValueRows":  42
+                                          }
+                                      ],
+    "GeneratedArtifacts":  {
+                               "DirectoryInventory":  "C:\\Users\\18177\\morning-star\\_architecture_inventory\\DIRECTORY_INVENTORY_20260723-181636.csv",
+                               "LatestJsonReport":  "C:\\Users\\18177\\morning-star\\_architecture_inventory\\MORNING_STAR_REPOSITORY_INVENTORY_LATEST.json",
+                               "GovernanceCandidates":  "C:\\Users\\18177\\morning-star\\_architecture_inventory\\GOVERNANCE_CANDIDATES_20260723-181636.csv",
+                               "CsvSchemaInventory":  "C:\\Users\\18177\\morning-star\\_architecture_inventory\\CSV_SCHEMA_INVENTORY_20260723-181636.csv",
+                               "JsonReport":  "C:\\Users\\18177\\morning-star\\_architecture_inventory\\MORNING_STAR_REPOSITORY_INVENTORY_20260723-181636.json"
+                           }
+}

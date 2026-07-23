@@ -1,0 +1,5 @@
+﻿"TheoremID","SourceFile","CsvRow","RecordIdentity","FieldName","EntryAuthority","ProposedValue","SourceReference","CompletedBy","CompletedAt","ReviewStatus","Reviewer","ReviewDate","Notes","Instruction"
+"MS-T2","DOWNSTREAM_ASSESSMENTS.csv","2","UNASSIGNED-ROW-2","AssessmentID","CONTROLLED_ID_ASSIGNMENT","","","","","NOT_COMPLETED","","","","Assign a unique stable identifier. Do not reuse an existing identity."
+"MS-T2","DOWNSTREAM_ASSESSMENTS.csv","2","UNASSIGNED-ROW-2","AssessorID","CONTROLLED_ID_ASSIGNMENT","","","","","NOT_COMPLETED","","","","Assign a unique stable identifier. Do not reuse an existing identity."
+"MS-T2","DOWNSTREAM_ASSESSMENTS.csv","2","UNASSIGNED-ROW-2","CaseID","CONTROLLED_ID_ASSIGNMENT","","","","","NOT_COMPLETED","","","","Assign a unique stable identifier. Do not reuse an existing identity."
+"MS-T2","DOWNSTREAM_ASSESSMENTS.csv","2","UNASSIGNED-ROW-2","ObjectID","CONTROLLED_ID_ASSIGNMENT","","","","","NOT_COMPLETED","","","","Assign a unique stable identifier. Do not reuse an existing identity."

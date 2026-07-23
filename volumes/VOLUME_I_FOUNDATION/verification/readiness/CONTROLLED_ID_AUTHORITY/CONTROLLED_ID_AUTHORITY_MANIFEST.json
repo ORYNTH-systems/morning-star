@@ -1,0 +1,29 @@
+﻿{
+    "ManifestID":  "MS-T1-T2-PREEXECUTION-COMPLETION",
+    "GeneratedAt":  "2026-07-23T17:46:20-05:00",
+    "RepositoryRoot":  "C:\\Users\\18177\\morning-star",
+    "ConstitutionalBoundary":  {
+                                   "FabricatedEvidencePermitted":  false,
+                                   "PreExecutionAuthorities":  [
+                                                                   "CONTROLLED_ID_ASSIGNMENT",
+                                                                   "GOVERNED_CASE_DESIGN",
+                                                                   "GOVERNED_DEPENDENCY_DESIGN"
+                                                               ],
+                                   "ExecutionEvidenceAuthorities":  [
+                                                                        "OBSERVED_EXECUTION_ONLY",
+                                                                        "GOVERNED_ASSESSOR_JUDGMENT"
+                                                                    ]
+                               },
+    "Counts":  {
+                   "TotalMissingFields":  73,
+                   "PreExecutionFields":  42,
+                   "ExecutionEvidenceFields":  31,
+                   "UnexpectedAuthorityFields":  0
+               },
+    "Artifacts":  {
+                      "CompletionWorklist":  ".\\volumes\\VOLUME_I_FOUNDATION\\verification\\readiness\\MS-T1_T2_PREEXECUTION_COMPLETION\\PREEXECUTION_COMPLETION_WORKLIST.csv",
+                      "EvidenceHoldRegister":  ".\\volumes\\VOLUME_I_FOUNDATION\\verification\\readiness\\MS-T1_T2_PREEXECUTION_COMPLETION\\EXECUTION_EVIDENCE_HOLD_REGISTER.csv",
+                      "GateRegister":  ".\\volumes\\VOLUME_I_FOUNDATION\\verification\\readiness\\MS-T1_T2_PREEXECUTION_COMPLETION\\PREEXECUTION_GATE_REGISTER.csv",
+                      "Report":  ".\\volumes\\VOLUME_I_FOUNDATION\\verification\\readiness\\MS-T1_T2_PREEXECUTION_COMPLETION\\PREEXECUTION_COMPLETION_REPORT.md"
+                  }
+}

@@ -1,0 +1,8 @@
+﻿"TheoremID","FileName","CsvRow","RecordIdentity","MissingField","EntryAuthority","Instruction","CompletionStatus"
+"MS-T2","DEPENDENCY_CHAINS.csv","2","MS-T2-CHAIN-001","ChainName","GOVERNED_DEPENDENCY_DESIGN","Define the canonical dependency relationship and expected propagation boundary.","NOT_ENTERED"
+"MS-T2","DEPENDENCY_CHAINS.csv","2","MS-T2-CHAIN-001","GoverningVersion","GOVERNED_DEPENDENCY_DESIGN","Define the canonical dependency relationship and expected propagation boundary.","NOT_ENTERED"
+"MS-T2","DEPENDENCY_CHAINS.csv","2","MS-T2-CHAIN-001","RootObjectID","CONTROLLED_ID_ASSIGNMENT","Assign a unique stable identifier. Do not reuse an existing identity.","NOT_ENTERED"
+"MS-T2","DEPENDENCY_CHAINS.csv","2","MS-T2-CHAIN-001","TerminalObjectID","CONTROLLED_ID_ASSIGNMENT","Assign a unique stable identifier. Do not reuse an existing identity.","NOT_ENTERED"
+"MS-T2","DEPENDENCY_CHAINS.csv","2","MS-T2-CHAIN-001","DependencyDepth","GOVERNED_DEPENDENCY_DESIGN","Define the canonical dependency relationship and expected propagation boundary.","NOT_ENTERED"
+"MS-T2","DEPENDENCY_CHAINS.csv","2","MS-T2-CHAIN-001","CorrectionAvailability","GOVERNED_DEPENDENCY_DESIGN","Define the canonical dependency relationship and expected propagation boundary.","NOT_ENTERED"
+"MS-T2","DEPENDENCY_CHAINS.csv","2","MS-T2-CHAIN-001","CanonicalSource","GOVERNED_DEPENDENCY_DESIGN","Provide a traceable reference to the supporting controlled source or observation.","NOT_ENTERED"

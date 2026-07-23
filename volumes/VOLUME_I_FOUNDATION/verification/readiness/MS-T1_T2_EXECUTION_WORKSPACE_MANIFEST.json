@@ -1,0 +1,391 @@
+﻿{
+    "generatedAt":  "2026-07-23T17:26:53-05:00",
+    "repositoryRoot":  "C:\\Users\\18177\\morning-star",
+    "executionRoot":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\execution",
+    "governanceState":  "CONTROLLED_EXECUTION_WORKSPACES_CREATED",
+    "workspaces":  [
+                       {
+                           "TheoremID":  "MS-T1",
+                           "TrialName":  "MS-T1_GOVERNED_INITIATION_TRIAL",
+                           "Workspace":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\execution\\MS-T1_CONTROLLED_EXECUTION",
+                           "CreatedAt":  "2026-07-23T17:26:53-05:00",
+                           "ExecutionStatus":  "NOT_STARTED",
+                           "EvidenceStatus":  "NOT_COLLECTED",
+                           "ScoringStatus":  "BLOCKED",
+                           "DispositionStatus":  "OPEN"
+                       },
+                       {
+                           "TheoremID":  "MS-T2",
+                           "TrialName":  "MS-T2_DEPENDENCY_PROPAGATION_TRIAL",
+                           "Workspace":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\execution\\MS-T2_CONTROLLED_EXECUTION",
+                           "CreatedAt":  "2026-07-23T17:26:53-05:00",
+                           "ExecutionStatus":  "NOT_STARTED",
+                           "EvidenceStatus":  "NOT_COLLECTED",
+                           "ScoringStatus":  "BLOCKED",
+                           "DispositionStatus":  "OPEN"
+                       }
+                   ],
+    "stages":  [
+                   {
+                       "TheoremID":  "MS-T1",
+                       "StageNumber":  1,
+                       "StageName":  "CASE_PREPARATION",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T1",
+                       "StageNumber":  2,
+                       "StageName":  "OBSERVER_REGISTRATION",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T1",
+                       "StageNumber":  3,
+                       "StageName":  "RESPONSE_COLLECTION",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T1",
+                       "StageNumber":  4,
+                       "StageName":  "SEMANTIC_ASSESSMENT",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T1",
+                       "StageNumber":  5,
+                       "StageName":  "ADJUDICATION",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T1",
+                       "StageNumber":  6,
+                       "StageName":  "METRIC_CALCULATION",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T1",
+                       "StageNumber":  7,
+                       "StageName":  "RESULT_DRAFTING",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T1",
+                       "StageNumber":  8,
+                       "StageName":  "DISPOSITION_REVIEW",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T2",
+                       "StageNumber":  1,
+                       "StageName":  "CHAIN_PREPARATION",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T2",
+                       "StageNumber":  2,
+                       "StageName":  "CASE_PREPARATION",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T2",
+                       "StageNumber":  3,
+                       "StageName":  "PAIR_VALIDATION",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T2",
+                       "StageNumber":  4,
+                       "StageName":  "CONTROLLED_EXECUTION",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T2",
+                       "StageNumber":  5,
+                       "StageName":  "PROPAGATION_REGISTRATION",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T2",
+                       "StageNumber":  6,
+                       "StageName":  "DOWNSTREAM_ASSESSMENT",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T2",
+                       "StageNumber":  7,
+                       "StageName":  "CORRECTION_ATTEMPT",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T2",
+                       "StageNumber":  8,
+                       "StageName":  "METRIC_CALCULATION",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T2",
+                       "StageNumber":  9,
+                       "StageName":  "RESULT_DRAFTING",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   },
+                   {
+                       "TheoremID":  "MS-T2",
+                       "StageNumber":  10,
+                       "StageName":  "DISPOSITION_REVIEW",
+                       "StageStatus":  "NOT_STARTED",
+                       "StartedAt":  "",
+                       "CompletedAt":  "",
+                       "Executor":  "",
+                       "Reviewer":  "",
+                       "EvidenceReference":  "",
+                       "Notes":  ""
+                   }
+               ],
+    "files":  [
+                  {
+                      "TheoremID":  "MS-T1",
+                      "FileName":  "TRIAL_CASES.csv",
+                      "SourcePath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\MS-T1_GOVERNED_INITIATION_TRIAL\\TRIAL_CASES.csv",
+                      "WorkingPath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\execution\\MS-T1_CONTROLLED_EXECUTION\\01_INPUT\\TRIAL_CASES.csv",
+                      "IdentityColumn":  "CaseID",
+                      "ColumnCount":  10,
+                      "SourceRowCount":  1,
+                      "WorkingStatus":  "CREATED",
+                      "EvidenceAuthority":  "CONTROLLED_EXECUTION_ONLY"
+                  },
+                  {
+                      "TheoremID":  "MS-T1",
+                      "FileName":  "OBSERVER_RESPONSES.csv",
+                      "SourcePath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\MS-T1_GOVERNED_INITIATION_TRIAL\\OBSERVER_RESPONSES.csv",
+                      "WorkingPath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\execution\\MS-T1_CONTROLLED_EXECUTION\\02_EVIDENCE\\OBSERVER_RESPONSES.csv",
+                      "IdentityColumn":  "CaseID",
+                      "ColumnCount":  11,
+                      "SourceRowCount":  1,
+                      "WorkingStatus":  "CREATED",
+                      "EvidenceAuthority":  "CONTROLLED_EXECUTION_ONLY"
+                  },
+                  {
+                      "TheoremID":  "MS-T1",
+                      "FileName":  "SEMANTIC_ASSESSMENTS.csv",
+                      "SourcePath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\MS-T1_GOVERNED_INITIATION_TRIAL\\SEMANTIC_ASSESSMENTS.csv",
+                      "WorkingPath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\execution\\MS-T1_CONTROLLED_EXECUTION\\03_ASSESSMENT\\SEMANTIC_ASSESSMENTS.csv",
+                      "IdentityColumn":  "ResponseID",
+                      "ColumnCount":  12,
+                      "SourceRowCount":  1,
+                      "WorkingStatus":  "CREATED",
+                      "EvidenceAuthority":  "CONTROLLED_EXECUTION_ONLY"
+                  },
+                  {
+                      "TheoremID":  "MS-T2",
+                      "FileName":  "DEPENDENCY_CHAINS.csv",
+                      "SourcePath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\MS-T2_DEPENDENCY_PROPAGATION_TRIAL\\DEPENDENCY_CHAINS.csv",
+                      "WorkingPath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\execution\\MS-T2_CONTROLLED_EXECUTION\\01_INPUT\\DEPENDENCY_CHAINS.csv",
+                      "IdentityColumn":  "ChainID",
+                      "ColumnCount":  9,
+                      "SourceRowCount":  1,
+                      "WorkingStatus":  "CREATED",
+                      "EvidenceAuthority":  "CONTROLLED_EXECUTION_ONLY"
+                  },
+                  {
+                      "TheoremID":  "MS-T2",
+                      "FileName":  "TRIAL_CASES.csv",
+                      "SourcePath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\MS-T2_DEPENDENCY_PROPAGATION_TRIAL\\TRIAL_CASES.csv",
+                      "WorkingPath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\execution\\MS-T2_CONTROLLED_EXECUTION\\01_INPUT\\TRIAL_CASES.csv",
+                      "IdentityColumn":  "CaseID",
+                      "ColumnCount":  10,
+                      "SourceRowCount":  2,
+                      "WorkingStatus":  "CREATED",
+                      "EvidenceAuthority":  "CONTROLLED_EXECUTION_ONLY"
+                  },
+                  {
+                      "TheoremID":  "MS-T2",
+                      "FileName":  "PROPAGATION_EVENTS.csv",
+                      "SourcePath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\MS-T2_DEPENDENCY_PROPAGATION_TRIAL\\PROPAGATION_EVENTS.csv",
+                      "WorkingPath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\execution\\MS-T2_CONTROLLED_EXECUTION\\02_EVIDENCE\\PROPAGATION_EVENTS.csv",
+                      "IdentityColumn":  "CaseID",
+                      "ColumnCount":  12,
+                      "SourceRowCount":  1,
+                      "WorkingStatus":  "CREATED",
+                      "EvidenceAuthority":  "CONTROLLED_EXECUTION_ONLY"
+                  },
+                  {
+                      "TheoremID":  "MS-T2",
+                      "FileName":  "DOWNSTREAM_ASSESSMENTS.csv",
+                      "SourcePath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\MS-T2_DEPENDENCY_PROPAGATION_TRIAL\\DOWNSTREAM_ASSESSMENTS.csv",
+                      "WorkingPath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\execution\\MS-T2_CONTROLLED_EXECUTION\\03_ASSESSMENT\\DOWNSTREAM_ASSESSMENTS.csv",
+                      "IdentityColumn":  "CaseID",
+                      "ColumnCount":  12,
+                      "SourceRowCount":  1,
+                      "WorkingStatus":  "CREATED",
+                      "EvidenceAuthority":  "CONTROLLED_EXECUTION_ONLY"
+                  }
+              ],
+    "entries":  [
+                    {
+                        "TheoremID":  "MS-T1",
+                        "FileName":  "TRIAL_CASES.csv",
+                        "IdentityColumn":  "CaseID",
+                        "SuggestedNextIdentity":  "MS-T1-CASE-001",
+                        "EntryStatus":  "REQUIRES_COMPLETION",
+                        "EntryAuthority":  "GOVERNED_INPUT_REQUIRED"
+                    },
+                    {
+                        "TheoremID":  "MS-T1",
+                        "FileName":  "OBSERVER_RESPONSES.csv",
+                        "IdentityColumn":  "CaseID",
+                        "SuggestedNextIdentity":  "MS-T1-UNASSIGNED-1",
+                        "EntryStatus":  "REQUIRES_COMPLETION",
+                        "EntryAuthority":  "GOVERNED_INPUT_REQUIRED"
+                    },
+                    {
+                        "TheoremID":  "MS-T1",
+                        "FileName":  "SEMANTIC_ASSESSMENTS.csv",
+                        "IdentityColumn":  "ResponseID",
+                        "SuggestedNextIdentity":  "MS-T1-UNASSIGNED-1",
+                        "EntryStatus":  "REQUIRES_COMPLETION",
+                        "EntryAuthority":  "GOVERNED_INPUT_REQUIRED"
+                    },
+                    {
+                        "TheoremID":  "MS-T2",
+                        "FileName":  "DEPENDENCY_CHAINS.csv",
+                        "IdentityColumn":  "ChainID",
+                        "SuggestedNextIdentity":  "MS-T2-CHAIN-001",
+                        "EntryStatus":  "REQUIRES_COMPLETION",
+                        "EntryAuthority":  "GOVERNED_INPUT_REQUIRED"
+                    },
+                    {
+                        "TheoremID":  "MS-T2",
+                        "FileName":  "TRIAL_CASES.csv",
+                        "IdentityColumn":  "CaseID",
+                        "SuggestedNextIdentity":  "MS-T2-CASE-001-A",
+                        "EntryStatus":  "REQUIRES_COMPLETION",
+                        "EntryAuthority":  "GOVERNED_INPUT_REQUIRED"
+                    },
+                    {
+                        "TheoremID":  "MS-T2",
+                        "FileName":  "TRIAL_CASES.csv",
+                        "IdentityColumn":  "CaseID",
+                        "SuggestedNextIdentity":  "MS-T2-CASE-001-B",
+                        "EntryStatus":  "REQUIRES_COMPLETION",
+                        "EntryAuthority":  "GOVERNED_INPUT_REQUIRED"
+                    },
+                    {
+                        "TheoremID":  "MS-T2",
+                        "FileName":  "PROPAGATION_EVENTS.csv",
+                        "IdentityColumn":  "CaseID",
+                        "SuggestedNextIdentity":  "MS-T2-UNASSIGNED-1",
+                        "EntryStatus":  "REQUIRES_COMPLETION",
+                        "EntryAuthority":  "GOVERNED_INPUT_REQUIRED"
+                    },
+                    {
+                        "TheoremID":  "MS-T2",
+                        "FileName":  "DOWNSTREAM_ASSESSMENTS.csv",
+                        "IdentityColumn":  "CaseID",
+                        "SuggestedNextIdentity":  "MS-T2-UNASSIGNED-1",
+                        "EntryStatus":  "REQUIRES_COMPLETION",
+                        "EntryAuthority":  "GOVERNED_INPUT_REQUIRED"
+                    }
+                ]
+}

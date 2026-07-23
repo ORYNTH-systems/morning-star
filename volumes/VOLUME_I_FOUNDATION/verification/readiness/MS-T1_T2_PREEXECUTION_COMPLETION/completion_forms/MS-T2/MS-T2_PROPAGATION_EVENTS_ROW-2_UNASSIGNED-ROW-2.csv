@@ -1,0 +1,6 @@
+﻿"TheoremID","SourceFile","CsvRow","RecordIdentity","FieldName","EntryAuthority","ProposedValue","SourceReference","CompletedBy","CompletedAt","ReviewStatus","Reviewer","ReviewDate","Notes","Instruction"
+"MS-T2","PROPAGATION_EVENTS.csv","2","UNASSIGNED-ROW-2","CaseID","CONTROLLED_ID_ASSIGNMENT","","","","","NOT_COMPLETED","","","","Assign a unique stable identifier. Do not reuse an existing identity."
+"MS-T2","PROPAGATION_EVENTS.csv","2","UNASSIGNED-ROW-2","DependencyEdgeID","CONTROLLED_ID_ASSIGNMENT","","","","","NOT_COMPLETED","","","","Assign a unique stable identifier. Do not reuse an existing identity."
+"MS-T2","PROPAGATION_EVENTS.csv","2","UNASSIGNED-ROW-2","EventID","CONTROLLED_ID_ASSIGNMENT","","","","","NOT_COMPLETED","","","","Assign a unique stable identifier. Do not reuse an existing identity."
+"MS-T2","PROPAGATION_EVENTS.csv","2","UNASSIGNED-ROW-2","SourceObjectID","CONTROLLED_ID_ASSIGNMENT","","","","","NOT_COMPLETED","","","","Assign a unique stable identifier. Do not reuse an existing identity."
+"MS-T2","PROPAGATION_EVENTS.csv","2","UNASSIGNED-ROW-2","TargetObjectID","CONTROLLED_ID_ASSIGNMENT","","","","","NOT_COMPLETED","","","","Assign a unique stable identifier. Do not reuse an existing identity."

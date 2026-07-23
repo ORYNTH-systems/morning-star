@@ -1,0 +1,37 @@
+﻿{
+    "ManifestID":  "MORNING-STAR-BATCH-A-WORKLIST-SCHEMA",
+    "ManifestVersion":  "1.0.0",
+    "CanonicalWorklist":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/PREEXECUTION_COMPLETION_WORKLIST.csv",
+    "FrozenAt":  "2026-07-23T18:31:28-05:00",
+    "VerifiedAt":  "2026-07-23T18:31:28-05:00",
+    "RowCount":  42,
+    "ColumnCount":  16,
+    "Columns":  [
+                    "TheoremID",
+                    "FileName",
+                    "CsvRow",
+                    "RecordIdentity",
+                    "FieldName",
+                    "EntryAuthority",
+                    "CurrentValue",
+                    "ProposedValue",
+                    "SourceReference",
+                    "CompletedBy",
+                    "CompletedAt",
+                    "ReviewStatus",
+                    "Reviewer",
+                    "ReviewDate",
+                    "Notes",
+                    "Instruction"
+                ],
+    "SchemaExpression":  "TheoremID|FileName|CsvRow|RecordIdentity|FieldName|EntryAuthority|CurrentValue|ProposedValue|SourceReference|CompletedBy|CompletedAt|ReviewStatus|Reviewer|ReviewDate|Notes|Instruction",
+    "SchemaHashAlgorithm":  "SHA256",
+    "SchemaHash":  "f41abd188d65d4ccb103e4bf23a056340bec1c64d41315c43db5f79d26ece1a7",
+    "WorklistFileSHA256":  "8E0835782EFCC4226420374D793A95811289A0C3E2EB1ADD7F73BDFB99B485FF",
+    "LogicalPropertyResolution":  {
+                                      "EntryAuthority":  "EntryAuthority",
+                                      "FieldName":  "FieldName",
+                                      "ProposedValue":  "ProposedValue"
+                                  },
+    "ConstitutionalStatus":  "FROZEN"
+}

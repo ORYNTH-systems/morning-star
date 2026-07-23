@@ -1,0 +1,3 @@
+﻿"TheoremID","TrialName","Workspace","CreatedAt","ExecutionStatus","EvidenceStatus","ScoringStatus","DispositionStatus"
+"MS-T1","MS-T1_GOVERNED_INITIATION_TRIAL","C:\Users\18177\morning-star\volumes\VOLUME_I_FOUNDATION\verification\execution\MS-T1_CONTROLLED_EXECUTION","2026-07-23T17:26:53-05:00","NOT_STARTED","NOT_COLLECTED","BLOCKED","OPEN"
+"MS-T2","MS-T2_DEPENDENCY_PROPAGATION_TRIAL","C:\Users\18177\morning-star\volumes\VOLUME_I_FOUNDATION\verification\execution\MS-T2_CONTROLLED_EXECUTION","2026-07-23T17:26:53-05:00","NOT_STARTED","NOT_COLLECTED","BLOCKED","OPEN"

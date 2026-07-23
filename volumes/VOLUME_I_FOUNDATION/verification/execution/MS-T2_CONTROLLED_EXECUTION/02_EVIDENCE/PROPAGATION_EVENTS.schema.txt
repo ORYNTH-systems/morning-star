@@ -1,0 +1,12 @@
+﻿EventID
+CaseID
+SourceObjectID
+TargetObjectID
+DependencyEdgeID
+PropertyClass
+PropagationLevel
+EventClass
+EvidenceReference
+DetectedAt
+DetectionMethod
+EventStatus

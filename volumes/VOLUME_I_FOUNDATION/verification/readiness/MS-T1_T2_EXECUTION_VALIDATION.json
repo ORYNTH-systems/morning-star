@@ -1,0 +1,202 @@
+﻿{
+    "generatedAt":  "2026-07-23T17:23:47-05:00",
+    "overallState":  "EVIDENCE_ENTRY_REQUIRED",
+    "validateOnly":  true,
+    "theoremStatus":  [
+                          {
+                              "TheoremID":  "MS-T1",
+                              "RequiredFileCount":  3,
+                              "ValidFileCount":  0,
+                              "BlockingFileCount":  3,
+                              "ExecutionState":  "EVIDENCE_ENTRY_REQUIRED",
+                              "ScoringPermitted":  false
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "RequiredFileCount":  4,
+                              "ValidFileCount":  0,
+                              "BlockingFileCount":  4,
+                              "ExecutionState":  "EVIDENCE_ENTRY_REQUIRED",
+                              "ScoringPermitted":  false
+                          }
+                      ],
+    "fileValidation":  [
+                           {
+                               "TheoremID":  "MS-T1",
+                               "TrialName":  "MS-T1_GOVERNED_INITIATION_TRIAL",
+                               "FileName":  "TRIAL_CASES.csv",
+                               "FileRole":  "CASE_DEFINITION",
+                               "Exists":  true,
+                               "SchemaPresent":  true,
+                               "RowCount":  1,
+                               "MeaningfulRows":  1,
+                               "CompleteRows":  0,
+                               "IncompleteRows":  1,
+                               "DuplicateIdentityCount":  0,
+                               "ValidationStatus":  "INCOMPLETE_ROWS",
+                               "Blocking":  true
+                           },
+                           {
+                               "TheoremID":  "MS-T1",
+                               "TrialName":  "MS-T1_GOVERNED_INITIATION_TRIAL",
+                               "FileName":  "OBSERVER_RESPONSES.csv",
+                               "FileRole":  "PRIMARY_EVIDENCE",
+                               "Exists":  true,
+                               "SchemaPresent":  true,
+                               "RowCount":  1,
+                               "MeaningfulRows":  0,
+                               "CompleteRows":  0,
+                               "IncompleteRows":  0,
+                               "DuplicateIdentityCount":  0,
+                               "ValidationStatus":  "EMPTY_EVIDENCE",
+                               "Blocking":  true
+                           },
+                           {
+                               "TheoremID":  "MS-T1",
+                               "TrialName":  "MS-T1_GOVERNED_INITIATION_TRIAL",
+                               "FileName":  "SEMANTIC_ASSESSMENTS.csv",
+                               "FileRole":  "ASSESSMENT_EVIDENCE",
+                               "Exists":  true,
+                               "SchemaPresent":  true,
+                               "RowCount":  1,
+                               "MeaningfulRows":  0,
+                               "CompleteRows":  0,
+                               "IncompleteRows":  0,
+                               "DuplicateIdentityCount":  0,
+                               "ValidationStatus":  "EMPTY_EVIDENCE",
+                               "Blocking":  true
+                           },
+                           {
+                               "TheoremID":  "MS-T2",
+                               "TrialName":  "MS-T2_DEPENDENCY_PROPAGATION_TRIAL",
+                               "FileName":  "DEPENDENCY_CHAINS.csv",
+                               "FileRole":  "CHAIN_DEFINITION",
+                               "Exists":  true,
+                               "SchemaPresent":  true,
+                               "RowCount":  1,
+                               "MeaningfulRows":  1,
+                               "CompleteRows":  0,
+                               "IncompleteRows":  1,
+                               "DuplicateIdentityCount":  0,
+                               "ValidationStatus":  "INCOMPLETE_ROWS",
+                               "Blocking":  true
+                           },
+                           {
+                               "TheoremID":  "MS-T2",
+                               "TrialName":  "MS-T2_DEPENDENCY_PROPAGATION_TRIAL",
+                               "FileName":  "TRIAL_CASES.csv",
+                               "FileRole":  "CASE_DEFINITION",
+                               "Exists":  true,
+                               "SchemaPresent":  true,
+                               "RowCount":  2,
+                               "MeaningfulRows":  2,
+                               "CompleteRows":  0,
+                               "IncompleteRows":  2,
+                               "DuplicateIdentityCount":  0,
+                               "ValidationStatus":  "INCOMPLETE_ROWS",
+                               "Blocking":  true
+                           },
+                           {
+                               "TheoremID":  "MS-T2",
+                               "TrialName":  "MS-T2_DEPENDENCY_PROPAGATION_TRIAL",
+                               "FileName":  "PROPAGATION_EVENTS.csv",
+                               "FileRole":  "PRIMARY_EVIDENCE",
+                               "Exists":  true,
+                               "SchemaPresent":  true,
+                               "RowCount":  1,
+                               "MeaningfulRows":  0,
+                               "CompleteRows":  0,
+                               "IncompleteRows":  0,
+                               "DuplicateIdentityCount":  0,
+                               "ValidationStatus":  "EMPTY_EVIDENCE",
+                               "Blocking":  true
+                           },
+                           {
+                               "TheoremID":  "MS-T2",
+                               "TrialName":  "MS-T2_DEPENDENCY_PROPAGATION_TRIAL",
+                               "FileName":  "DOWNSTREAM_ASSESSMENTS.csv",
+                               "FileRole":  "ASSESSMENT_EVIDENCE",
+                               "Exists":  true,
+                               "SchemaPresent":  true,
+                               "RowCount":  1,
+                               "MeaningfulRows":  0,
+                               "CompleteRows":  0,
+                               "IncompleteRows":  0,
+                               "DuplicateIdentityCount":  0,
+                               "ValidationStatus":  "EMPTY_EVIDENCE",
+                               "Blocking":  true
+                           }
+                       ],
+    "controls":  [
+                     {
+                         "ControlID":  "MS-T1-CTRL-001",
+                         "TheoremID":  "MS-T1",
+                         "ControlClass":  "SCHEMA_VALIDATION",
+                         "ControlDescription":  "Every governed CSV must exist and preserve its declared schema.",
+                         "ControlStatus":  "IMPLEMENTED"
+                     },
+                     {
+                         "ControlID":  "MS-T1-CTRL-002",
+                         "TheoremID":  "MS-T1",
+                         "ControlClass":  "EVIDENCE_COMPLETENESS",
+                         "ControlDescription":  "Every material evidence row must contain values for all declared fields.",
+                         "ControlStatus":  "IMPLEMENTED"
+                     },
+                     {
+                         "ControlID":  "MS-T1-CTRL-003",
+                         "TheoremID":  "MS-T1",
+                         "ControlClass":  "IDENTITY_UNIQUENESS",
+                         "ControlDescription":  "Evidence identities must not be duplicated within a governed CSV.",
+                         "ControlStatus":  "IMPLEMENTED"
+                     },
+                     {
+                         "ControlID":  "MS-T1-CTRL-004",
+                         "TheoremID":  "MS-T1",
+                         "ControlClass":  "NO_SYNTHETIC_EVIDENCE",
+                         "ControlDescription":  "The harness validates supplied evidence but does not invent observations, assessments, or outcomes.",
+                         "ControlStatus":  "ENFORCED"
+                     },
+                     {
+                         "ControlID":  "MS-T1-CTRL-005",
+                         "TheoremID":  "MS-T1",
+                         "ControlClass":  "DISPOSITION_GATING",
+                         "ControlDescription":  "Theorem scoring and disposition remain blocked until all required evidence files validate.",
+                         "ControlStatus":  "ENFORCED"
+                     },
+                     {
+                         "ControlID":  "MS-T2-CTRL-001",
+                         "TheoremID":  "MS-T2",
+                         "ControlClass":  "SCHEMA_VALIDATION",
+                         "ControlDescription":  "Every governed CSV must exist and preserve its declared schema.",
+                         "ControlStatus":  "IMPLEMENTED"
+                     },
+                     {
+                         "ControlID":  "MS-T2-CTRL-002",
+                         "TheoremID":  "MS-T2",
+                         "ControlClass":  "EVIDENCE_COMPLETENESS",
+                         "ControlDescription":  "Every material evidence row must contain values for all declared fields.",
+                         "ControlStatus":  "IMPLEMENTED"
+                     },
+                     {
+                         "ControlID":  "MS-T2-CTRL-003",
+                         "TheoremID":  "MS-T2",
+                         "ControlClass":  "IDENTITY_UNIQUENESS",
+                         "ControlDescription":  "Evidence identities must not be duplicated within a governed CSV.",
+                         "ControlStatus":  "IMPLEMENTED"
+                     },
+                     {
+                         "ControlID":  "MS-T2-CTRL-004",
+                         "TheoremID":  "MS-T2",
+                         "ControlClass":  "NO_SYNTHETIC_EVIDENCE",
+                         "ControlDescription":  "The harness validates supplied evidence but does not invent observations, assessments, or outcomes.",
+                         "ControlStatus":  "ENFORCED"
+                     },
+                     {
+                         "ControlID":  "MS-T2-CTRL-005",
+                         "TheoremID":  "MS-T2",
+                         "ControlClass":  "DISPOSITION_GATING",
+                         "ControlDescription":  "Theorem scoring and disposition remain blocked until all required evidence files validate.",
+                         "ControlStatus":  "ENFORCED"
+                     }
+                 ]
+}

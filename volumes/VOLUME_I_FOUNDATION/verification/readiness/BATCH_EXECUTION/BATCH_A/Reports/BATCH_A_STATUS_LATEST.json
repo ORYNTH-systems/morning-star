@@ -1,0 +1,45 @@
+﻿{
+    "BatchID":  "BATCH-A",
+    "VerificationID":  "BATCH-A-VERIFY-20260723_183128",
+    "ExecutedAt":  "2026-07-23T18:31:28-05:00",
+    "Status":  {
+
+               },
+    "CanonicalWorklist":  {
+                              "RowCount":  42,
+                              "BlankProposedValueRows":  42,
+                              "SHA256Before":  "8E0835782EFCC4226420374D793A95811289A0C3E2EB1ADD7F73BDFB99B485FF",
+                              "Path":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/MS-T1_T2_PREEXECUTION_COMPLETION/PREEXECUTION_COMPLETION_WORKLIST.csv",
+                              "ExpectedRowCount":  42,
+                              "SHA256After":  "8E0835782EFCC4226420374D793A95811289A0C3E2EB1ADD7F73BDFB99B485FF"
+                          },
+    "AuthorityCounts":  {
+                            "CONTROLLED_ID_ASSIGNMENT":  22,
+                            "GOVERNED_CASE_DESIGN":  15,
+                            "GOVERNED_DEPENDENCY_DESIGN":  5
+                        },
+    "ExpectedAuthorityCounts":  {
+                                    "GOVERNED_CASE_DESIGN":  15,
+                                    "CONTROLLED_ID_ASSIGNMENT":  22,
+                                    "GOVERNED_DEPENDENCY_DESIGN":  5
+                                },
+    "Transactions":  {
+                         "Synchronized":  0,
+                         "DuplicateControlledIdentifiers":  [
+
+                                                            ],
+                         "FailedOrRejected":  0,
+                         "Total":  0
+                     },
+    "ConstitutionalChecks":  {
+                                 "AllTransactionsSynchronized":  false,
+                                 "NoFailedTransactions":  true,
+                                 "NoDuplicateControlledIdentifiers":  true,
+                                 "AtomicSynchronizationSucceeded":  false,
+                                 "NoBlankProposedValues":  false,
+                                 "WorklistContains42Rows":  true,
+                                 "AuthorityCountsMatchInventory":  true
+                             },
+    "BackupLocation":  "volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION/BATCH_A/Backups/20260723_183128",
+    "RequiredNextStage":  "Resolve items listed in BATCH_A_UNRESOLVED_WORK_ITEMS.csv, then rerun this engine."
+}

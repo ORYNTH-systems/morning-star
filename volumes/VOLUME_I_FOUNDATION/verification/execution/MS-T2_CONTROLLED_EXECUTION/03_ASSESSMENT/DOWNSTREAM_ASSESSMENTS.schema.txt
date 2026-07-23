@@ -1,0 +1,12 @@
+﻿AssessmentID
+CaseID
+ObjectID
+PropertyClass
+AssessorID
+AssessmentResult
+Materiality
+Compensability
+EvidenceReference
+Rationale
+FinalResult
+AdjudicationStatus

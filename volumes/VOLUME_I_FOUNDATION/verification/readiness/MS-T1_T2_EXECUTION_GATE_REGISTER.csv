@@ -1,0 +1,3 @@
+﻿"TheoremID","CaseDefinitionGate","EvidenceCollectionGate","AssessmentGate","ScoringGate","CurrentExecutionPhase"
+"MS-T1","BLOCKED","BLOCKED","BLOCKED","BLOCKED","CASE_AND_CHAIN_COMPLETION"
+"MS-T2","BLOCKED","BLOCKED","BLOCKED","BLOCKED","CASE_AND_CHAIN_COMPLETION"

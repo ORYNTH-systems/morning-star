@@ -1,0 +1,41 @@
+﻿{
+    "WorkItemID":  "MS-PRE-20260723175402",
+    "SelectedAt":  "2026-07-23T17:54:02-05:00",
+    "Priority":  1,
+    "TheoremID":  "MS-T1",
+    "TrialName":  "MS-T1_GOVERNED_INITIATION_TRIAL",
+    "SourceFile":  "OBSERVER_RESPONSES.csv",
+    "CsvRow":  "2",
+    "RecordIdentity":  "UNASSIGNED-ROW-2",
+    "FieldName":  "CaseID",
+    "EntryAuthority":  "CONTROLLED_ID_ASSIGNMENT",
+    "CurrentValue":  "",
+    "SourceReference":  "",
+    "ReviewStatus":  "NOT_COMPLETED",
+    "Instruction":  "Assign a unique stable identifier. Do not reuse an existing identity.",
+    "FormPath":  ".\\volumes\\VOLUME_I_FOUNDATION\\verification\\readiness\\MS-T1_T2_PREEXECUTION_COMPLETION\\completion_forms\\MS-T1\\MS-T1_OBSERVER_RESPONSES_ROW-2_UNASSIGNED-ROW-2.csv",
+    "SourceMatches":  [
+                          {
+                              "Document":  "DATA_DICTIONARY.md",
+                              "Path":  ".\\volumes\\VOLUME_I_FOUNDATION\\verification\\MS-T1_GOVERNED_INITIATION_TRIAL\\DATA_DICTIONARY.md",
+                              "LineNumber":  10,
+                              "MatchLine":  "| CaseID | Stable trial-case identifier. |",
+                              "Before":  "\n| Field | Definition |\n|---|---|",
+                              "After":  "| GovernedObjectID | Canonical identifier of the object under assessment. |\n| FrameworkID | Canonical framework identifier. |\n| GoverningVersion | Version applicable to the trial case. |\n| MaterialPropertyCount | Number of material properties assessed. |\n| CanonicalSource | Authoritative source location. |\n| DependencyIDs | Declared upstream dependencies. |"
+                          },
+                          {
+                              "Document":  "DATA_DICTIONARY.md",
+                              "Path":  ".\\volumes\\VOLUME_I_FOUNDATION\\verification\\MS-T1_GOVERNED_INITIATION_TRIAL\\DATA_DICTIONARY.md",
+                              "LineNumber":  27,
+                              "MatchLine":  "| CaseID | Trial case answered. |",
+                              "Before":  "|---|---|\n| ResponseID | Stable response identifier. |\n| ObserverID | Registered observer identifier. |",
+                              "After":  "| EntryCondition | GOVERNED_INITIATION or UNRESTRICTED_ENTRY. |\n| ObserverClass | Declared observer class. |\n| PriorExposure | Declared previous exposure. |\n| SubmittedAt | Response submission timestamp. |\n| ResponseText | Observer reconstruction. |\n| SourceReferences | Sources cited by the observer. |"
+                          }
+                      ],
+    "ConstitutionalBoundary":  {
+                                   "AssessorJudgmentMayBeInvented":  false,
+                                   "SourceValidationRequired":  true,
+                                   "ApprovalRequired":  true,
+                                   "ObservedExecutionMayBeInvented":  false
+                               }
+}

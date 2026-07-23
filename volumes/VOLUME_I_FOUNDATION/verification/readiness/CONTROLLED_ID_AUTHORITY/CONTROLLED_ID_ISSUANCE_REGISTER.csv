@@ -1,0 +1,2 @@
+﻿"IssuanceID","IdentifierType","IssuedIdentifier","TheoremID","SourceFile","CsvRow","RecordIdentity","FieldName","IssuingAuthority","IssuedBy","IssuedAt","IssuanceStatus","PreviousIdentity","Supersedes","RevokedAt","RevocationReason","Notes"
+"MS-ID-ISS-000001","CASE_ID","MST1-CASE-0001","MS-T1","OBSERVER_RESPONSES.csv","2","UNASSIGNED-ROW-2","CaseID","MORNING_STAR_CONTROLLED_ID_AUTHORITY","Ashley S. Harris","2026-07-23T18:01:24-05:00","ACTIVE","UNASSIGNED-ROW-2","","","","Initial governed CaseID issuance."

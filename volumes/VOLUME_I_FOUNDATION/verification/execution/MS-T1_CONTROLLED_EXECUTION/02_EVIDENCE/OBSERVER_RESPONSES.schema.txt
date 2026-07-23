@@ -1,0 +1,11 @@
+﻿ResponseID
+ObserverID
+CaseID
+EntryCondition
+ObserverClass
+PriorExposure
+SubmittedAt
+ResponseText
+SourceReferences
+DeclaredUncertainty
+ResponseStatus

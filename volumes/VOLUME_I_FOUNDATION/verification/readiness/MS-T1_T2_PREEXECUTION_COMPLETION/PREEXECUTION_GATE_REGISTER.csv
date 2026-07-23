@@ -1,0 +1,3 @@
+﻿"TheoremID","PreExecutionFieldsRequired","PreExecutionFieldsCompleted","PreExecutionFieldsRemaining","EvidenceFieldsHeld","PreExecutionGate","ControlledExecutionGate","GateReason","GeneratedAt"
+"MS-T1","15","0","15","16","BLOCKED_PENDING_DESIGN_COMPLETION","BLOCKED","REQUIRED_DESIGN_AND_IDENTITY_FIELDS_INCOMPLETE","2026-07-23T17:44:24-05:00"
+"MS-T2","27","0","27","15","BLOCKED_PENDING_DESIGN_COMPLETION","BLOCKED","REQUIRED_DESIGN_AND_IDENTITY_FIELDS_INCOMPLETE","2026-07-23T17:44:24-05:00"

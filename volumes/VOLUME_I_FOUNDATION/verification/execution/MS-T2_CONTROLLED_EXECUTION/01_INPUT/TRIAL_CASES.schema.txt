@@ -1,0 +1,10 @@
+﻿CaseID
+ChainID
+Condition
+SeedObjectID
+DivergenceClass
+OriginalValue
+SeededValue
+SeedPropertyClass
+CorrectionEnabled
+CaseStatus

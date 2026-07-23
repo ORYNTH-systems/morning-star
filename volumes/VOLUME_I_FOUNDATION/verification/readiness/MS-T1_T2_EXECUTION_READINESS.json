@@ -1,0 +1,403 @@
+﻿{
+    "generatedAt":  "2026-07-23T17:14:06-05:00",
+    "repositoryRoot":  "C:\\Users\\18177\\morning-star",
+    "verificationRoot":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification",
+    "overallStatus":  "CERTIFICATION_BLOCKED",
+    "theoremSummary":  [
+                           {
+                               "TheoremID":  "MS-T1",
+                               "TrialName":  "MS-T1_GOVERNED_INITIATION_TRIAL",
+                               "RequiredCsvCount":  3,
+                               "MissingFileCount":  0,
+                               "EmptyTemplateCount":  2,
+                               "IncompleteFileCount":  1,
+                               "CompleteFileCount":  0,
+                               "ResultStatus":  "OPEN",
+                               "Disposition":  "OPEN",
+                               "ExecutionReadiness":  "EVIDENCE_COLLECTION_REQUIRED",
+                               "CertificationEffect":  "BLOCKING"
+                           },
+                           {
+                               "TheoremID":  "MS-T2",
+                               "TrialName":  "MS-T2_DEPENDENCY_PROPAGATION_TRIAL",
+                               "RequiredCsvCount":  4,
+                               "MissingFileCount":  0,
+                               "EmptyTemplateCount":  2,
+                               "IncompleteFileCount":  2,
+                               "CompleteFileCount":  0,
+                               "ResultStatus":  "OPEN",
+                               "Disposition":  "OPEN",
+                               "ExecutionReadiness":  "EVIDENCE_COLLECTION_REQUIRED",
+                               "CertificationEffect":  "BLOCKING"
+                           }
+                       ],
+    "csvReadiness":  [
+                         {
+                             "TheoremID":  "MS-T1",
+                             "FileName":  "TRIAL_CASES.csv",
+                             "Exists":  true,
+                             "ImportedRowCount":  1,
+                             "MeaningfulRowCount":  1,
+                             "CompleteRowCount":  0,
+                             "IncompleteRowCount":  1,
+                             "BlankCellCount":  8,
+                             "ColumnCount":  10,
+                             "Columns":  "CaseID | GovernedObjectID | FrameworkID | GoverningVersion | MaterialPropertyCount | CanonicalSource | DependencyIDs | AuthoritySource | UncertaintyState | CaseStatus",
+                             "Readiness":  "POPULATED_INCOMPLETE"
+                         },
+                         {
+                             "TheoremID":  "MS-T1",
+                             "FileName":  "OBSERVER_RESPONSES.csv",
+                             "Exists":  true,
+                             "ImportedRowCount":  1,
+                             "MeaningfulRowCount":  0,
+                             "CompleteRowCount":  0,
+                             "IncompleteRowCount":  0,
+                             "BlankCellCount":  0,
+                             "ColumnCount":  11,
+                             "Columns":  "ResponseID | ObserverID | CaseID | EntryCondition | ObserverClass | PriorExposure | SubmittedAt | ResponseText | SourceReferences | DeclaredUncertainty | ResponseStatus",
+                             "Readiness":  "EMPTY_TEMPLATE"
+                         },
+                         {
+                             "TheoremID":  "MS-T1",
+                             "FileName":  "SEMANTIC_ASSESSMENTS.csv",
+                             "Exists":  true,
+                             "ImportedRowCount":  1,
+                             "MeaningfulRowCount":  0,
+                             "CompleteRowCount":  0,
+                             "IncompleteRowCount":  0,
+                             "BlankCellCount":  0,
+                             "ColumnCount":  12,
+                             "Columns":  "AssessmentID | ResponseID | PropertyID | PropertyClass | Compensability | AssessorID | AssessmentResult | Materiality | EvidenceReference | Rationale | AdjudicationStatus | FinalResult",
+                             "Readiness":  "EMPTY_TEMPLATE"
+                         },
+                         {
+                             "TheoremID":  "MS-T2",
+                             "FileName":  "DEPENDENCY_CHAINS.csv",
+                             "Exists":  true,
+                             "ImportedRowCount":  1,
+                             "MeaningfulRowCount":  1,
+                             "CompleteRowCount":  0,
+                             "IncompleteRowCount":  1,
+                             "BlankCellCount":  7,
+                             "ColumnCount":  9,
+                             "Columns":  "ChainID | ChainName | GoverningVersion | RootObjectID | TerminalObjectID | DependencyDepth | CorrectionAvailability | CanonicalSource | ChainStatus",
+                             "Readiness":  "POPULATED_INCOMPLETE"
+                         },
+                         {
+                             "TheoremID":  "MS-T2",
+                             "FileName":  "TRIAL_CASES.csv",
+                             "Exists":  true,
+                             "ImportedRowCount":  2,
+                             "MeaningfulRowCount":  2,
+                             "CompleteRowCount":  0,
+                             "IncompleteRowCount":  2,
+                             "BlankCellCount":  11,
+                             "ColumnCount":  10,
+                             "Columns":  "CaseID | ChainID | Condition | SeedObjectID | DivergenceClass | OriginalValue | SeededValue | SeedPropertyClass | CorrectionEnabled | CaseStatus",
+                             "Readiness":  "POPULATED_INCOMPLETE"
+                         },
+                         {
+                             "TheoremID":  "MS-T2",
+                             "FileName":  "PROPAGATION_EVENTS.csv",
+                             "Exists":  true,
+                             "ImportedRowCount":  1,
+                             "MeaningfulRowCount":  0,
+                             "CompleteRowCount":  0,
+                             "IncompleteRowCount":  0,
+                             "BlankCellCount":  0,
+                             "ColumnCount":  12,
+                             "Columns":  "EventID | CaseID | SourceObjectID | TargetObjectID | DependencyEdgeID | PropertyClass | PropagationLevel | EventClass | EvidenceReference | DetectedAt | DetectionMethod | EventStatus",
+                             "Readiness":  "EMPTY_TEMPLATE"
+                         },
+                         {
+                             "TheoremID":  "MS-T2",
+                             "FileName":  "DOWNSTREAM_ASSESSMENTS.csv",
+                             "Exists":  true,
+                             "ImportedRowCount":  1,
+                             "MeaningfulRowCount":  0,
+                             "CompleteRowCount":  0,
+                             "IncompleteRowCount":  0,
+                             "BlankCellCount":  0,
+                             "ColumnCount":  12,
+                             "Columns":  "AssessmentID | CaseID | ObjectID | PropertyClass | AssessorID | AssessmentResult | Materiality | Compensability | EvidenceReference | Rationale | FinalResult | AdjudicationStatus",
+                             "Readiness":  "EMPTY_TEMPLATE"
+                         }
+                     ],
+    "missingFields":  [
+                          {
+                              "TheoremID":  "MS-T1",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "GovernedObjectID",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "FrameworkID",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "GoverningVersion",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "MaterialPropertyCount",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "CanonicalSource",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "DependencyIDs",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "AuthoritySource",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "UncertaintyState",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "DEPENDENCY_CHAINS.csv",
+                              "CsvRow":  2,
+                              "Column":  "ChainName",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "DEPENDENCY_CHAINS.csv",
+                              "CsvRow":  2,
+                              "Column":  "GoverningVersion",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "DEPENDENCY_CHAINS.csv",
+                              "CsvRow":  2,
+                              "Column":  "RootObjectID",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "DEPENDENCY_CHAINS.csv",
+                              "CsvRow":  2,
+                              "Column":  "TerminalObjectID",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "DEPENDENCY_CHAINS.csv",
+                              "CsvRow":  2,
+                              "Column":  "DependencyDepth",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "DEPENDENCY_CHAINS.csv",
+                              "CsvRow":  2,
+                              "Column":  "CorrectionAvailability",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "DEPENDENCY_CHAINS.csv",
+                              "CsvRow":  2,
+                              "Column":  "CanonicalSource",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "SeedObjectID",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "OriginalValue",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "SeededValue",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "SeedPropertyClass",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  2,
+                              "Column":  "CorrectionEnabled",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  3,
+                              "Column":  "SeedObjectID",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  3,
+                              "Column":  "DivergenceClass",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  3,
+                              "Column":  "OriginalValue",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  3,
+                              "Column":  "SeededValue",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  3,
+                              "Column":  "SeedPropertyClass",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "FileName":  "TRIAL_CASES.csv",
+                              "CsvRow":  3,
+                              "Column":  "CorrectionEnabled",
+                              "Issue":  "REQUIRED_VALUE_MISSING"
+                          }
+                      ],
+    "executionPlan":  [
+                          {
+                              "TheoremID":  "MS-T1",
+                              "Step":  1,
+                              "Action":  "Complete and validate governed trial cases.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "Step":  2,
+                              "Action":  "Register observers and entry conditions.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "Step":  3,
+                              "Action":  "Collect governed and unrestricted observer responses.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "Step":  4,
+                              "Action":  "Assess each material semantic property.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "Step":  5,
+                              "Action":  "Adjudicate disputed assessments.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "Step":  6,
+                              "Action":  "Calculate divergence, failure, and agreement measures.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T1",
+                              "Step":  7,
+                              "Action":  "Assign the theorem disposition from collected evidence.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "Step":  1,
+                              "Action":  "Complete and validate dependency-chain definitions.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "Step":  2,
+                              "Action":  "Complete canonical and divergent paired cases.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "Step":  3,
+                              "Action":  "Execute each dependency-chain condition.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "Step":  4,
+                              "Action":  "Register every observed propagation event.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "Step":  5,
+                              "Action":  "Assess downstream semantic effects.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "Step":  6,
+                              "Action":  "Execute available correction attempts.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "Step":  7,
+                              "Action":  "Calculate propagation, correction, and residual-divergence measures.",
+                              "Status":  "NOT_STARTED"
+                          },
+                          {
+                              "TheoremID":  "MS-T2",
+                              "Step":  8,
+                              "Action":  "Assign the theorem disposition from collected evidence.",
+                              "Status":  "NOT_STARTED"
+                          }
+                      ]
+}

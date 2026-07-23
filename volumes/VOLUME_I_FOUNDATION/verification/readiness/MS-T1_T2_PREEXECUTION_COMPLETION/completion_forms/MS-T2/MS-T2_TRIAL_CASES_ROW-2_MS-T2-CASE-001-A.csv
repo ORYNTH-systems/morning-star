@@ -1,0 +1,6 @@
+﻿"TheoremID","SourceFile","CsvRow","RecordIdentity","FieldName","EntryAuthority","ProposedValue","SourceReference","CompletedBy","CompletedAt","ReviewStatus","Reviewer","ReviewDate","Notes","Instruction"
+"MS-T2","TRIAL_CASES.csv","2","MS-T2-CASE-001-A","CorrectionEnabled","GOVERNED_CASE_DESIGN","","","","","NOT_COMPLETED","","","","Complete from the governed trial design before execution begins."
+"MS-T2","TRIAL_CASES.csv","2","MS-T2-CASE-001-A","OriginalValue","GOVERNED_CASE_DESIGN","","","","","NOT_COMPLETED","","","","Complete from the governed trial design before execution begins."
+"MS-T2","TRIAL_CASES.csv","2","MS-T2-CASE-001-A","SeededValue","GOVERNED_CASE_DESIGN","","","","","NOT_COMPLETED","","","","Complete from the governed trial design before execution begins."
+"MS-T2","TRIAL_CASES.csv","2","MS-T2-CASE-001-A","SeedObjectID","CONTROLLED_ID_ASSIGNMENT","","","","","NOT_COMPLETED","","","","Assign a unique stable identifier. Do not reuse an existing identity."
+"MS-T2","TRIAL_CASES.csv","2","MS-T2-CASE-001-A","SeedPropertyClass","GOVERNED_CASE_DESIGN","","","","","NOT_COMPLETED","","","","Complete from the governed trial design before execution begins."
