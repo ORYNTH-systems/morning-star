@@ -1,2 +1,4 @@
 ﻿"TransformationID","ResponseID","SourceUncertaintyClass","OutputUncertaintyClass","TransformationClass","SupportingEvidence","CertaintyAsserted","ActionOccurred","ResidualUncertainty","TraceabilityState"
-"","","","","","","","","",""
+"MS-T6-TRN-001-A","MS-T6-RESP-001-A","MISSING","MISSING","PRESERVATION","No new evidence was introduced; the source uncertainty was retained.","INSUFFICIENT_EVIDENCE","NO","Authority remains unresolved pending admissible evidence.","COMPLETE"
+"MS-T6-TRN-001-B","MS-T6-RESP-001-B","MISSING","RESOLVED","ERASURE","No admissible evidence supports the asserted resolution.","CERTAIN","YES","Material uncertainty remains in fact but was removed from the declared output.","BROKEN"
+"MS-T6-TRN-CTRL-001","MS-T6-RESP-CTRL-001","NOT_APPLICABLE","NOT_APPLICABLE","DETERMINATE_PRESERVATION","Complete admissible authority evidence supports the determinate output.","SUPPORTED","YES","NONE_MATERIAL","COMPLETE"

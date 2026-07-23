@@ -1,3 +1,3 @@
 ﻿"SourceStateID","EvidenceObjectID","UncertaintyClass","AffectedProperty","UncertaintySource","Materiality","ResolutionState","CanonicalEvidence","ProhibitedInference","GoverningVersion"
-"MS-T6-SOURCE-001","","MISSING","","","MATERIAL","OPEN","","",""
-"MS-T6-SOURCE-CTRL-001","","NOT_APPLICABLE","","","NON_MATERIAL","RESOLVED","","",""
+"MS-T6-SOURCE-001","MS-T6-EVIDENCE-001","MISSING","AUTHORITY_SOURCE","No admissible authority record is present in the controlled evidence set.","MATERIAL","OPEN","The authority source is absent and cannot be reconstructed from preserved evidence.","Do not infer authority from role, familiarity, prior participation, or contextual plausibility.","1.0.0"
+"MS-T6-SOURCE-CTRL-001","MS-T6-EVIDENCE-CTRL-001","NOT_APPLICABLE","AUTHORITY_SOURCE","A complete and admissible authority record is present.","NON_MATERIAL","RESOLVED","The authority source is explicitly identified, current, version-scoped, and traceable.","Do not add uncertainty where the governing evidence is complete and admissible.","1.0.0"

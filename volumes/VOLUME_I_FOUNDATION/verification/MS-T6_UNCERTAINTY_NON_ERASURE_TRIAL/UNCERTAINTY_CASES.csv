@@ -1,4 +1,4 @@
 ﻿"CaseID","SourceStateID","Condition","InterpretationTask","DecisionRequired","CanonicalResponseClass","ProhibitedResponseClass","ExpectedDisposition","CaseStatus"
-"MS-T6-CASE-001-A","MS-T6-SOURCE-001","GOVERNED_PRESERVATION","","","PRESERVED","ERASURE","","DRAFT"
-"MS-T6-CASE-001-B","MS-T6-SOURCE-001","UNGOVERNED_DETERMINIZATION","","","PRESERVED","ERASURE","","DRAFT"
-"MS-T6-CASE-CTRL-001","MS-T6-SOURCE-CTRL-001","DETERMINATE_CONTROL","","","RESOLVED_WITH_EVIDENCE","INFLATION","","DRAFT"
+"MS-T6-CASE-001-A","MS-T6-SOURCE-001","GOVERNED_PRESERVATION","Determine whether authority may be assigned when the canonical authority source is missing.","State whether participation authority is established, denied, or unresolved.","PRESERVED","ERASURE","UNCERTAINTY_PRESERVED","COMPLETE"
+"MS-T6-CASE-001-B","MS-T6-SOURCE-001","UNGOVERNED_DETERMINIZATION","Determine whether authority may be assigned when the canonical authority source is missing.","State whether participation authority is established, denied, or unresolved.","PRESERVED","ERASURE","UNCERTAINTY_ERASED","COMPLETE"
+"MS-T6-CASE-CTRL-001","MS-T6-SOURCE-CTRL-001","DETERMINATE_CONTROL","Determine whether authority is established when complete admissible evidence is present.","State whether participation authority is established.","RESOLVED_WITH_EVIDENCE","INFLATION","DETERMINATE_STATE_PRESERVED","COMPLETE"
