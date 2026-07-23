@@ -1,2 +1,3 @@
-﻿"DecisionID","ScenarioID","ParticipantID","Decision","DecisionRationale","EvidenceReference","DecidedAt","ActionOccurred","ActionResult"
-"","","","","","","","",""
+﻿"DecisionID","ScenarioID","ParticipantID","RequestedAction","Decision","DecisionBasis","AssessmentID","DecisionStatus"
+"MS-T3-SCENARIO-001-A","MS-T3-SCENARIO-001-A","P-001","CANONICAL_APPROVAL","AUTHORIZED","Explicit Constitutional Assignment","ASM-001","COMPLETE"
+"MS-T3-SCENARIO-001-B","MS-T3-SCENARIO-001-B","P-001","CANONICAL_APPROVAL","UNAUTHORIZED","Capability Without Authority","ASM-002","COMPLETE"

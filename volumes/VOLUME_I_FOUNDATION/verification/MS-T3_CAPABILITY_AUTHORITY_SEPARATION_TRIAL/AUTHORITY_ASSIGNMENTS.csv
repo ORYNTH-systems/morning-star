@@ -1,2 +1,2 @@
 ﻿"AssignmentID","ParticipantID","AuthoritySource","RoleID","Domain","PermittedActions","GoverningVersion","ValidFrom","ValidUntil","Constraints","DelegationBasis","AuthorityStatus"
-"","","","","","","","","","","",""
+"AUTH-001","P-001","Explicit Constitutional Assignment","Constitutional Steward","Morning Star","CANONICAL_APPROVAL","1.0.0","2026-07-23","","Authority limited to GO-0001 canonical approval within Morning Star version 1.0.0.","DIRECT_ASSIGNMENT","ACTIVE"

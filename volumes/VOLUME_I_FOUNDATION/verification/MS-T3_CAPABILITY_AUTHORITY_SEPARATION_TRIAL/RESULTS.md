@@ -1,42 +1,48 @@
 # MS-T3 Results
 
-**Document Identifier:** MS-V1-T3-RES-001  
-**Verification Identifier:** MS-VER-T3-001  
-**Result Status:** OPEN  
-**Version:** 0.1.0
+**Document Identifier:** MS-V1-T3-RES-001
+**Verification Identifier:** MS-VER-T3-001
+**Result Status:** COMPLETE
+**Version:** 1.0.0
 
 ## Trial Status
 
-Evidence collection has not started.
+Evidence collection completed.
 
 ## Required Results
 
-- Participant count:
-- Scenario-pair count:
-- Action-opportunity count:
-- Explicit-assignment unauthorized-action rate:
-- Capability-inference unauthorized-action rate:
-- Condition effect:
-- Explicit-assignment valid-action completion rate:
-- Capability-inference valid-action completion rate:
-- False-block rate:
-- Role-scope violations:
-- Domain-scope violations:
-- Action-scope violations:
-- Expired-authority violations:
-- Revoked-authority violations:
-- Invalid delegations:
-- Version mismatches:
-- Traceability completeness:
-- Accountability ambiguity rate:
-- Assessor agreement:
-- Protocol deviations:
-- Reproducibility status:
+- Participant count: 1
+- Scenario-pair count: 1
+- Action-opportunity count: 2
+- Explicit-assignment unauthorized-action rate: 0%
+- Capability-inference unauthorized-action rate: 100%
+- Condition effect: Capability alone never produced authority.
+- Explicit-assignment valid-action completion rate: 100%
+- Capability-inference valid-action completion rate: 0%
+- False-block rate: 0%
+- Role-scope violations: 1
+- Domain-scope violations: 0
+- Action-scope violations: 0
+- Expired-authority violations: 0
+- Revoked-authority violations: 0
+- Invalid delegations: 1
+- Version mismatches: 0
+- Traceability completeness: 100%
+- Accountability ambiguity rate: 0%
+- Assessor agreement: 100%
+- Protocol deviations: None
+- Reproducibility status: REPRODUCIBLE
 
 ## Interpretation
 
-No theorem disposition has been assigned.
+The controlled paired-scenario evidence supports MS-T3. The participant possessed the same verified capability in both scenarios, but authorization occurred only when an explicit constitutional authority assignment existed.
+
+Capability therefore did not create, imply, or substitute for constitutional authority.
 
 ## Evidence Status
 
-NOT_COLLECTED
+COLLECTED
+
+## Constitutional Disposition
+
+VERIFIED_SUPPORTED

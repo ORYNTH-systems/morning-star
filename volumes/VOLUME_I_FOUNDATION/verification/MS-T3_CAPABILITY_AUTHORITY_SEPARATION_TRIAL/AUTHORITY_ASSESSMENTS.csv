@@ -1,2 +1,3 @@
 ﻿"AssessmentID","DecisionID","AssessorID","CapabilityValid","AuthoritySourceValid","RoleMatch","DomainMatch","ActionScopeMatch","VersionMatch","TemporalValidity","DelegationValidity","AssessmentResult","EvidenceReference","Rationale","AdjudicationStatus","FinalResult"
-"","","","","","","","","","","","","","","",""
+"ASM-001","MS-T3-SCENARIO-001-A","AS-001","TRUE","TRUE","TRUE","TRUE","TRUE","TRUE","TRUE","TRUE","AUTHORIZED","AUTH-001","Capability is present and constitutional authority has been explicitly assigned.","COMPLETE","AUTHORIZED"
+"ASM-002","MS-T3-SCENARIO-001-B","AS-001","TRUE","FALSE","FALSE","TRUE","TRUE","TRUE","TRUE","FALSE","UNAUTHORIZED","CAP-001","Capability alone is insufficient to create constitutional authority.","COMPLETE","UNAUTHORIZED"

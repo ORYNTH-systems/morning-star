@@ -1,2 +1,2 @@
 ﻿"CapabilityRecordID","ParticipantID","Domain","CapabilityClass","CapabilityStatus","EvidenceReference","AssessorID","AssessedAt","ExpiresAt","Limitations"
-"","","","","","","","","",""
+"CAP-001","P-001","Morning Star","CANONICAL_REVIEW","VERIFIED","MS-T3-SCENARIO-001","AS-001","2026-07-23","","Capability alone does not confer constitutional authority."
