@@ -1,3 +1,3 @@
 ﻿"RevisionID","SourceVersion","TargetVersion","EffectiveDate","ChangeClass","MaterialChangeType","AffectedObjects","AffectedProperties","CompatibilityState","AuthoritySource","CanonicalSource","RevisionStatus"
-"MS-T5-REV-001","","","","MATERIAL","","","","","","","DRAFT"
-"MS-T5-REV-CTRL-001","","","","NON_MATERIAL","","","","","","","DRAFT"
+"MS-T5-REV-001","1.0.0","2.0.0","2026-07-23","MATERIAL","AUTHORITY_AND_PROCEDURE_CHANGE","GO-0001;GO-0004","GoverningVersion;AuthoritySource;ParticipationCondition;RequiredProcedure;UncertaintyState","REVALIDATION_REQUIRED","Morning Star Constitutional Stewardship","MS-T5 controlled material-revision record","ACTIVE"
+"MS-T5-REV-CTRL-001","1.0.0","1.0.1","2026-07-23","NON_MATERIAL","EDITORIAL_CLARIFICATION","GO-0001","Formatting;Non-governing explanatory wording","COMPATIBLE","Morning Star Constitutional Stewardship","MS-T5 controlled non-material revision record","ACTIVE"

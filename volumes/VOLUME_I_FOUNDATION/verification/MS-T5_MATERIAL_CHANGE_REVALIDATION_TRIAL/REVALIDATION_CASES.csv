@@ -1,4 +1,4 @@
 ﻿"CaseID","ObserverID","RevisionID","SourceVersion","TargetVersion","RevalidationCondition","AffectedPropertyClass","CurrentCanonicalValue","SupersededValue","ExpectedDisposition","CaseStatus"
-"MS-T5-CASE-001-A","","MS-T5-REV-001","","","REVALIDATED","","","","","DRAFT"
-"MS-T5-CASE-001-B","","MS-T5-REV-001","","","NOT_REVALIDATED","","","","","DRAFT"
-"MS-T5-CASE-CTRL-001","","MS-T5-REV-CTRL-001","","","NON_MATERIAL_CONTROL","","","","","DRAFT"
+"MS-T5-CASE-001-A","OBS-001","MS-T5-REV-001","1.0.0","2.0.0","REVALIDATED","VERSION;AUTHORITY;PROCEDURE;UNCERTAINTY;PARTICIPATION","Version 2.0.0 requires explicit version-scoped authority and post-revision revalidation.","Version 1.0.0 permitted prior baseline competence to remain current until expiration.","REVALIDATION_VALID","COMPLETE"
+"MS-T5-CASE-001-B","OBS-001","MS-T5-REV-001","1.0.0","2.0.0","NOT_REVALIDATED","VERSION;AUTHORITY;PROCEDURE;UNCERTAINTY;PARTICIPATION","Version 2.0.0 requires explicit version-scoped authority and post-revision revalidation.","Version 1.0.0 permitted prior baseline competence to remain current until expiration.","STALE_OBSERVER_STATE","COMPLETE"
+"MS-T5-CASE-CTRL-001","OBS-001","MS-T5-REV-CTRL-001","1.0.0","1.0.1","NON_MATERIAL_CONTROL","NON_MATERIAL_EDITORIAL","Canonical meaning, authority, boundaries, dependencies, procedures, and uncertainty remain unchanged.","Equivalent canonical content with earlier editorial wording.","REVALIDATION_NOT_REQUIRED","COMPLETE"

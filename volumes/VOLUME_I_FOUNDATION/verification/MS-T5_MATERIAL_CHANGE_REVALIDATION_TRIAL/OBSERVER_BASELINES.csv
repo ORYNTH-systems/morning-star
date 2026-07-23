@@ -1,2 +1,2 @@
 ﻿"BaselineID","ObserverID","DomainID","VerifiedVersion","VerifiedCapabilities","EvidenceReference","VerifiedAt","ValidUntil","AuthorityScope","Limitations"
-"MS-T5-BASELINE-001","","","","","","","","",""
+"MS-T5-BASELINE-001","OBS-001","MORNING-STAR-FOUNDATION","1.0.0","Canonical reconstruction; boundary recognition; dependency recognition; authority-source identification; uncertainty preservation","MS-T4-BASELINE-001","2026-07-23T15:45:42-05:00","2027-07-23T15:45:42-05:00","Interpretive reconstruction within version 1.0.0 only; no automatic post-revision authority.","Materially changed versions require explicit revalidation before prior observer state may be treated as current."
