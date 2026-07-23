@@ -1,2 +1,2 @@
 ﻿"ObjectID","ObjectName","ObjectType","CanonicalDefinition","CanonicalSource","GoverningVersion","Domain","Dependencies","UncertaintyState","ObjectStatus"
-"MS-T9-OBJECT-001","","","","","","","","","DRAFT"
+"MS-T9-OBJECT-001","Morning Star Canonical Entry Architecture","CONSTITUTIONAL_ARCHITECTURE","The constitutional architecture governing preservation of semantic integrity from first contact through competent participation.","constitution/SPECIFICATION.md","0.1.0","SEMANTIC_ENTRY_GOVERNANCE","RQ.md|OBSERVATIONS.md|SPECIFICATION.md|CANONICAL_MODEL.md|EVIDENCE.md","EXPLICITLY_BOUNDED","ACTIVE"

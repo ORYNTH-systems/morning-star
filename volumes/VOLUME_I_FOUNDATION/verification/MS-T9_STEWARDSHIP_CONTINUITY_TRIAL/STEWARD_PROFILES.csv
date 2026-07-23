@@ -1,3 +1,3 @@
 ﻿"StewardID","StewardRole","CapabilityStatus","AuthoritySource","AuthorityScope","EffectiveFrom","EffectiveUntil","Limitations","EvidenceReference","StewardStatus"
-"MS-T9-STEWARD-SOURCE-001","INCUMBENT","","","","","","","","ACTIVE"
-"MS-T9-STEWARD-TARGET-001","SUCCESSOR","","","","","","","","INACTIVE"
+"MS-T9-STEWARD-SOURCE-001","INCUMBENT","VERIFIED","Morning Star constitutional repository governance","Canonical maintenance|revision control|evidence preservation|transition authorization","2026-07-17T00:00:00Z","2026-07-23T23:59:59Z","No authority to silently redefine canonical meaning or erase uncertainty.","constitution/SPECIFICATION.md|constitution/EVIDENCE.md","ACTIVE"
+"MS-T9-STEWARD-TARGET-001","SUCCESSOR","VERIFIED","MS-T9 governed stewardship-transfer package","Preserve canonical object|execute authorized maintenance|record revisions|preserve evidence","2026-07-24T00:00:00Z","","No authority outside declared transfer scope; excluded authority remains excluded.","MS-T9-TRANSFER-001-A|MS-T9-CASE-001-A","ACTIVE"
