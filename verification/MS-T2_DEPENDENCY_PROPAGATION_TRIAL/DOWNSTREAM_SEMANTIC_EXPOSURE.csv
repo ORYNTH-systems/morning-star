@@ -1,0 +1,6 @@
+﻿"TrialID","SourceObject","DependentObject","DependentDocument","ConstitutionalPattern","MatchingLineCount","MatchingLines","DownstreamSemanticExposure","PropagationRiskStatus"
+"MS-T2-0001","GO-0001","GO-0002","SEMANTIC_CONVERGENCE.md","canonical definition|definition","3","16|30|375","True","EXPOSED"
+"MS-T2-0002","GO-0002","GO-0005","FOUNDATION.md","constitutional boundary|boundary|scope","3","114|136|142","True","EXPOSED"
+"MS-T2-0003","GO-0003","GO-0004","CANONICAL_PARTICIPATION_MODEL.md","dependency|depends upon|dependency order","7","49|87|236|285|382|398|440","True","EXPOSED"
+"MS-T2-0004","GO-0005","GO-0006","INITIATION_MATHEMATICS.md","uncertainty|uncertain","10","30|47|63|82|192|250|252|254|385|406","True","EXPOSED"
+"MS-T2-0005","GO-0006","GO-0007","THEOREM_REGISTRY.md","traceability|traceable|evidentiary","7","128|269|299|372|379|449|454","True","EXPOSED"

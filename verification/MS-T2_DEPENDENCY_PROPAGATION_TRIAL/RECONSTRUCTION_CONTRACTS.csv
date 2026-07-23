@@ -1,0 +1,6 @@
+﻿"TrialID","SourceObject","SourceDocument","DependentObject","DependentDocument","CanonicalTerm","MutatedTerm","DownstreamPattern","EvaluationProperty"
+"MS-T2-0001","GO-0001","FORMAL_MORNING_STAR_THEORY.md","GO-0002","SEMANTIC_CONVERGENCE.md","canonical definition","observer-local definition","canonical definition|definition","DEFINITION"
+"MS-T2-0002","GO-0002","SEMANTIC_CONVERGENCE.md","GO-0005","FOUNDATION.md","boundary","contextual boundary","constitutional boundary|boundary|scope","BOUNDARY"
+"MS-T2-0003","GO-0003","OBSERVER_ONTOLOGY.md","GO-0004","CANONICAL_PARTICIPATION_MODEL.md","dependency","optional relation","dependency|depends upon|dependency order","DEPENDENCY"
+"MS-T2-0004","GO-0005","FOUNDATION.md","GO-0006","INITIATION_MATHEMATICS.md","uncertainty","confidence","uncertainty|uncertain","UNCERTAINTY"
+"MS-T2-0005","GO-0006","INITIATION_MATHEMATICS.md","GO-0007","THEOREM_REGISTRY.md","traceability","interpretive support","traceability|traceable|evidentiary","TRACEABILITY"

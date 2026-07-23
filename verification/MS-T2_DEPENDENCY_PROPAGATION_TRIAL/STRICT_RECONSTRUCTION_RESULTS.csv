@@ -1,0 +1,6 @@
+﻿"TrialID","SourceObject","DependentObject","EvaluationProperty","DependentDocument","ChangedLineCount","CanonicalTermRemaining","MutatedTermOccurrences","FileHashChanged","SemanticSubstitutionObserved","ObservedSemanticPropagation","VerificationDisposition"
+"MS-T2-0001","GO-0001","GO-0002","DEFINITION","SEMANTIC_CONVERGENCE.md","3","0","1","True","True","True","PROPAGATION_OBSERVED"
+"MS-T2-0002","GO-0002","GO-0005","BOUNDARY","FOUNDATION.md","2","0","1","True","True","True","PROPAGATION_OBSERVED"
+"MS-T2-0003","GO-0003","GO-0004","DEPENDENCY","CANONICAL_PARTICIPATION_MODEL.md","15","0","7","True","True","True","PROPAGATION_OBSERVED"
+"MS-T2-0004","GO-0005","GO-0006","UNCERTAINTY","INITIATION_MATHEMATICS.md","19","0","10","True","True","True","PROPAGATION_OBSERVED"
+"MS-T2-0005","GO-0006","GO-0007","TRACEABILITY","THEOREM_REGISTRY.md","11","0","5","True","True","True","PROPAGATION_OBSERVED"

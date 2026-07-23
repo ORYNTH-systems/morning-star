@@ -1,0 +1,6 @@
+﻿"TrialID","SourceObject","DependentObject","MutationVerified","DependencyConfirmed","DownstreamSemanticExposure","MatchingLineCount","MatchingLines","NonzeroRiskSupported","ObservedSemanticPropagation","VerificationDisposition"
+"MS-T2-0001","GO-0001","GO-0002","True","True","True","3","16|30|375","True","False","NONZERO_RISK_SUPPORTED"
+"MS-T2-0002","GO-0002","GO-0005","True","True","True","3","114|136|142","True","False","NONZERO_RISK_SUPPORTED"
+"MS-T2-0003","GO-0003","GO-0004","True","True","True","7","49|87|236|285|382|398|440","True","False","NONZERO_RISK_SUPPORTED"
+"MS-T2-0004","GO-0005","GO-0006","True","True","True","10","30|47|63|82|192|250|252|254|385|406","True","False","NONZERO_RISK_SUPPORTED"
+"MS-T2-0005","GO-0006","GO-0007","True","True","True","7","128|269|299|372|379|449|454","True","False","NONZERO_RISK_SUPPORTED"

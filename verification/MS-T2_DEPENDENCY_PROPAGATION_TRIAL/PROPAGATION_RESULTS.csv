@@ -1,0 +1,6 @@
+﻿"TrialID","SourceObject","DependentObject","MutationVerified","ReachableObjects","DependencyConfirmed","SemanticRiskEstablished","VerificationDisposition"
+"MS-T2-0001","GO-0001","GO-0002","True","GO-0002|GO-0003|GO-0005|GO-0004|GO-0006|GO-0007","True","True","SUPPORTED"
+"MS-T2-0002","GO-0002","GO-0005","True","GO-0005|GO-0006|GO-0007","True","True","SUPPORTED"
+"MS-T2-0003","GO-0003","GO-0004","True","GO-0004","True","True","SUPPORTED"
+"MS-T2-0004","GO-0005","GO-0006","True","GO-0006|GO-0007","True","True","SUPPORTED"
+"MS-T2-0005","GO-0006","GO-0007","True","GO-0007","True","True","SUPPORTED"

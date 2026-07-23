@@ -1,0 +1,2 @@
+﻿TrialID,VerificationObjective,ConstitutionalBasis,Hypothesis,SuccessCriteria,Status
+MS-T2,Verify semantic dependency propagation,THEOREM_REGISTRY.md (MS-T2),"Material semantic divergence introduced into an upstream governed object produces measurable downstream semantic-integrity risk unless interrupted by an independent corrective mechanism.","Every executed trial demonstrates propagation consistent with MS-T2 or records a constitutionally admissible interruption.",NOT_STARTED

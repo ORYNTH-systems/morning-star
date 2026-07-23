@@ -1,0 +1,6 @@
+﻿TrialID,InjectedObject,MutationClass,MutationDescription,ExpectedAffectedObject,ExpectedOutcome,ExecutionStatus
+MS-T2-0001,GO-0001,DEFINITION_DRIFT,Modify canonical definition without updating downstream artifacts,GO-0002,Semantic divergence detected,NOT_EXECUTED
+MS-T2-0002,GO-0002,BOUNDARY_DRIFT,Alter semantic boundary while preserving identifier,GO-0005,Propagation detected,NOT_EXECUTED
+MS-T2-0003,GO-0003,DEPENDENCY_DRIFT,Remove required dependency relationship,GO-0004,Participation inconsistency detected,NOT_EXECUTED
+MS-T2-0004,GO-0005,UNCERTAINTY_DRIFT,Remove uncertainty preservation requirement,GO-0006,Mathematical inconsistency detected,NOT_EXECUTED
+MS-T2-0005,GO-0006,TRACEABILITY_DRIFT,Remove evidentiary traceability requirement,GO-0007,Theorem validity degraded,NOT_EXECUTED
