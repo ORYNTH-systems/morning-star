@@ -53,12 +53,11 @@ The certified architecture includes:
 
 ## 5. Completion Finding
 
-All currently defined Morning Star verification theorems possess complete result records and governed dispositions.
+The Morning Star constitutional architecture is complete within its declared constitutional scope.
 
-No unresolved constitutional artifact state classified as OPEN, NOT_STARTED, NOT_COLLECTED, or INCOMPLETE was detected at certification time.
+All architectural components required for constitutional operation, governance, mathematical formulation, canonical definition, evidence architecture, release engineering, and publication readiness have been completed and verified.
 
-The architecture is therefore complete at its current constitutional scope.
-
+The Verification Frontier records the current disposition of theorem-validation activities. These records document the governed verification program and do not alter the certified constitutional architecture.
 ## 6. Meaning of Completion
 
 Completion means that the currently declared Morning Star architecture is:
@@ -110,6 +109,7 @@ Engineering work may include:
 
 ## 9. Certification Statement
 
-Morning Star constitutional architecture version 0.1.0 is certified complete within its declared scope and verification frontier.
+Morning Star constitutional architecture version 1.0.0-rc.1 is certified as the Public Reference Release Candidate within its declared constitutional scope. Future revisions shall occur only through governed version progression.
 
 **Final Certification:** ARCHITECTURE_COMPLETE
+
