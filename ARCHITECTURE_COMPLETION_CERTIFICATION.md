@@ -2,9 +2,9 @@
 
 **Document Identifier:** MS-ARCH-CERT-001  
 **Certification Status:** COMPLETE  
-**Architecture Version:** 0.1.0  
-**Certification Date:** 2026-07-23  
-**Repository Commit:** 3d35bd91d8d5ab6771106b1c6278cb63e2e3a34f  
+**Architecture Version:** 1.0.0-rc.1  
+**Certification Date:** 2026-07-25  
+**Repository Commit:** PRE-CERTIFICATION-RELEASE-STATE  
 **Certification Authority:** Ashley S. Harris, Independent Systems Researcher  
 
 ## 1. Certified Subject
@@ -112,4 +112,5 @@ Engineering work may include:
 Morning Star constitutional architecture version 1.0.0-rc.1 is certified as the Public Reference Release Candidate within its declared constitutional scope. Future revisions shall occur only through governed version progression.
 
 **Final Certification:** ARCHITECTURE_COMPLETE
+
 
