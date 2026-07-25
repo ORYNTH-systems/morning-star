@@ -40,7 +40,6 @@ The certified architecture includes:
 
 | Theorem | Result Status | Disposition |
 |---|---|---|
-| MS-T1 | MISSING | MISSING |
 | MS-T1_GOVERNED_INITIATION_TRIAL | OPEN | OPEN |
 | MS-T2_DEPENDENCY_PROPAGATION_TRIAL | OPEN | OPEN |
 | MS-T3_CAPABILITY_AUTHORITY_SEPARATION_TRIAL | COMPLETE | VERIFIED_SUPPORTED |
@@ -112,5 +111,6 @@ Engineering work may include:
 Morning Star constitutional architecture version 1.0.0-rc.1 is certified as the Public Reference Release Candidate within its declared constitutional scope. Future revisions shall occur only through governed version progression.
 
 **Final Certification:** ARCHITECTURE_COMPLETE
+
 
 
