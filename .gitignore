@@ -14,3 +14,13 @@ Desktop.ini
 *.bak
 
 .DS_Store
+
+# Morning Star generated release and diagnostic artifacts
+/engineering/backups/
+/engineering/archive/
+/release/staging/
+/B4-PASS*.log
+/B4-PASS*.txt
+/FINAL-SEMANTIC-AUDIT.log
+/MORNING_STAR_CONTRADICTION_AUDIT.txt
+/volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION/BATCH_A/Archive/

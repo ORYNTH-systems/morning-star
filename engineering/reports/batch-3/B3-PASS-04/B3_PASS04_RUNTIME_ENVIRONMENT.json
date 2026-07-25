@@ -1,0 +1,16 @@
+﻿{
+    "RepositoryRoot":  "C:\\Users\\18177\\morning-star",
+    "ProjectRoot":  "C:\\Users\\18177\\morning-star\\runtime\\src\\morning_star",
+    "CanonicalConsole":  "morning-star",
+    "OperationalModule":  "morning_star.cli.operational",
+    "PythonPath":  "C:\\Users\\18177\\bin\\python.cmd",
+    "PythonVersion":  "Python 3.13.9",
+    "PowerShellVersion":  "5.1.26100.8655",
+    "OperatingSystem":  "Microsoft Windows NT 10.0.26200.0",
+    "ProcessorCount":  8,
+    "CurrentCulture":  "en-US",
+    "CurrentUICulture":  "en-US",
+    "TimeZone":  "Central Standard Time",
+    "LogLevelOverride":  null,
+    "RecordedAt":  "2026-07-25T02:24:52.2738633-05:00"
+}

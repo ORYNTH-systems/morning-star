@@ -1,0 +1,38 @@
+﻿{
+    "PassID":  "B3-PASS-03",
+    "BatchID":  "BATCH-3",
+    "Purpose":  "Standardize exit codes, logging, error handling, and configuration loading.",
+    "Result":  "PASS",
+    "Status":  "COMPLETE",
+    "OriginalConsoleTarget":  "morning_star.cli.main:main",
+    "StandardizedConsoleTarget":  "morning_star.cli.operational:main",
+    "ConsoleEntriesUpdated":  1,
+    "ExitCodeStandard":  {
+                             "Success":  0,
+                             "OperationalError":  1,
+                             "InvalidInput":  2,
+                             "ConfigurationError":  3,
+                             "VerificationFailure":  4,
+                             "Interrupted":  130
+                         },
+    "LoggingStandard":  {
+                            "LoggerName":  "morning_star",
+                            "DefaultLevel":  "INFO",
+                            "Stream":  "stderr",
+                            "EnvironmentOverride":  "MORNING_STAR_LOG_LEVEL"
+                        },
+    "ConfigurationPath":  "C:\\Users\\18177\\morning-star\\runtime\\src\\morning_star\\cli\\operational-defaults.json",
+    "ConfigurationValidated":  true,
+    "ErrorBoundaryValidated":  true,
+    "PythonFilesCompiled":  65,
+    "PythonCompileFailures":  0,
+    "HelpExitCode":  0,
+    "HelpDeterministic":  true,
+    "RegressionFailures":  0,
+    "Stage5RegressionStatus":  "PASS",
+    "Stage6RegressionStatus":  "PASS",
+    "BackupRoot":  "C:\\Users\\18177\\morning-star\\engineering\\backups\\batch-3\\B3-PASS-03",
+    "PyprojectSHA256Before":  "87F92E7377CCB05E8B50FDA1DBFEE810C0CDFAA686B1B8AC8F249D745A3A8524",
+    "PyprojectSHA256After":  "1CF0A2FB0811603CA3DE42EA49EAAA83B256D01F618B84B882B09A9E5B0CE0A9",
+    "CompletedAt":  "2026-07-25T02:18:27.9185916-05:00"
+}

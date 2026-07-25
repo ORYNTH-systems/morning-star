@@ -1,0 +1,11 @@
+﻿{
+    "StageID":  "BATCH-A-STAGE-5",
+    "StageName":  "CONSTITUTIONAL_VALIDATION",
+    "Result":  "PASS",
+    "ValidationRows":  10,
+    "FailedValidations":  0,
+    "ControlledTransactionsResolved":  22,
+    "GovernedDesignFieldTransactionsPreserved":  42,
+    "CanonicalAdmissionAuthorized":  false,
+    "InitializedAt":  "2026-07-24T16:54:02.6913394-05:00"
+}

@@ -1,0 +1,3 @@
+﻿"CaseID","ChainID","Condition","SeedObjectID","DivergenceClass","OriginalValue","SeededValue","SeedPropertyClass","CorrectionEnabled","CaseStatus"
+"MS-T2-CASE-001-A","MS-T2-CHAIN-001","CANONICAL_UPSTREAM","MS-T2-SEED-2630D5504D12","NONE","","","","","DRAFT"
+"MS-T2-CASE-001-B","MS-T2-CHAIN-001","DIVERGENT_UPSTREAM","MS-T2-SEED-855A17818850","","","","","","DRAFT"

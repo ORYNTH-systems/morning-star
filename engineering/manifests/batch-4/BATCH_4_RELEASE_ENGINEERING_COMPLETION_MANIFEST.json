@@ -1,0 +1,43 @@
+﻿{
+    "BatchID":  "BATCH-4",
+    "BatchName":  "RELEASE_ENGINEERING",
+    "Result":  "PASS",
+    "Status":  "COMPLETE",
+    "GovernedPasses":  4,
+    "CompletedPasses":  4,
+    "PassResults":  [
+                        {
+                            "PassID":  "B4-PASS-01",
+                            "Result":  "PASS",
+                            "Status":  "COMPLETE",
+                            "CompletedAt":  "2026-07-25T03:18:52.0345815-05:00"
+                        },
+                        {
+                            "PassID":  "B4-PASS-02",
+                            "Result":  "PASS",
+                            "Status":  "COMPLETE",
+                            "CompletedAt":  "2026-07-25T04:10:35.6622109-05:00"
+                        },
+                        {
+                            "PassID":  "B4-PASS-03",
+                            "Result":  "PASS",
+                            "Status":  "COMPLETE",
+                            "CompletedAt":  "2026-07-25T04:48:16.5798843-05:00"
+                        },
+                        {
+                            "PassID":  "B4-PASS-04",
+                            "Result":  "PASS",
+                            "Status":  "COMPLETE",
+                            "CompletedAt":  "2026-07-25T05:20:10.7494170-05:00"
+                        }
+                    ],
+    "ArchitectureVersion":  "1.0.0-rc.1",
+    "RuntimeVersion":  "0.5.0",
+    "DistributionPackage":  "morning-star-release-candidate",
+    "PackageFilesValidated":  3434,
+    "PackageVerificationFailures":  0,
+    "MissingPublicationArtifacts":  0,
+    "ConstitutionalDisposition":  "RELEASE_ENGINEERING_VALIDATED",
+    "ReleaseEligibility":  "ELIGIBLE_FOR_FINAL_FREEZE",
+    "CompletedAt":  "2026-07-25T05:24:13.2847293-05:00"
+}

@@ -15,29 +15,13 @@
     [string]$StatusPath
 )
 
+$MorningStarCommonModule = Join-Path $PSScriptRoot '..\..\..\..\..\..\..\engineering\modules\MorningStar.Engine.Common.psm1'
+Import-Module $MorningStarCommonModule -Force -ErrorAction Stop
+
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 
-function Get-DeterministicHash {
-    param(
-        [Parameter(Mandatory)]
-        [string]$Value
-    )
 
-    $Bytes = [System.Text.Encoding]::UTF8.GetBytes($Value)
-    $SHA256 = [System.Security.Cryptography.SHA256]::Create()
-
-    try {
-        $HashBytes = $SHA256.ComputeHash($Bytes)
-    }
-    finally {
-        $SHA256.Dispose()
-    }
-
-    return (
-        [System.BitConverter]::ToString($HashBytes)
-    ).Replace('-', '')
-}
 
 function Get-IdentifierPrefix {
     param(
@@ -87,35 +71,13 @@ function Get-DeterministicIdentifier {
         $WorkItem.FieldName
     ) -join '|'
 
-    $Hash = Get-DeterministicHash -Value $CanonicalKey
+    $Hash = Get-MSDeterministicHash -Value $CanonicalKey
     $Suffix = $Hash.Substring(0, 12)
 
     return "$($WorkItem.TheoremID)-$Prefix-$Suffix"
 }
 
-function Write-AtomicCsv {
-    param(
-        [Parameter(Mandatory)]
-        [object[]]$Data,
 
-        [Parameter(Mandatory)]
-        [string]$Path,
-
-        [Parameter(Mandatory)]
-        [string[]]$Columns
-    )
-
-    $Parent = Split-Path -Parent $Path
-    New-Item -ItemType Directory -Path $Parent -Force | Out-Null
-
-    $TemporaryPath = "$Path.tmp"
-
-    @($Data) |
-        Select-Object $Columns |
-        Export-Csv -LiteralPath $TemporaryPath -NoTypeInformation -Encoding UTF8
-
-    Move-Item -LiteralPath $TemporaryPath -Destination $Path -Force
-}
 
 $Columns = @(
     'TransactionID'
@@ -195,7 +157,7 @@ foreach ($WorkItem in $Worklist) {
         $WorkItem.FieldName
     ) -join '|'
 
-    $TransactionHash = Get-DeterministicHash -Value $TransactionKey
+    $TransactionHash = Get-MSDeterministicHash -Value $TransactionKey
     $TransactionID = 'BATCH-A-TXN-' + $TransactionHash.Substring(0, 16)
 
     $EngineName = switch ($WorkItem.EntryAuthority) {
@@ -314,7 +276,7 @@ if ($DuplicateControlledValues.Count -gt 0) {
     throw "Duplicate controlled identifiers were generated."
 }
 
-Write-AtomicCsv `
+Export-MSAtomicCsv `
     -Data $Transactions `
     -Path $RegisterPath `
     -Columns $Columns
@@ -334,7 +296,7 @@ $UnresolvedColumns = @(
     'ResolutionStatus'
 )
 
-Write-AtomicCsv `
+Export-MSAtomicCsv `
     -Data $Unresolved `
     -Path $UnresolvedPath `
     -Columns $UnresolvedColumns
@@ -369,7 +331,7 @@ $ProposalColumns = @(
     'SynchronizationStatus'
 )
 
-Write-AtomicCsv `
+Export-MSAtomicCsv `
     -Data $ProposalReport `
     -Path $ProposalReportPath `
     -Columns $ProposalColumns
@@ -423,5 +385,6 @@ Write-Host "Stage 3 status:                $StatusPath"
 Write-Host ''
 Write-Host 'CANONICAL WORKLIST WAS NOT MODIFIED.' -ForegroundColor Yellow
 Write-Host '======================================================================' -ForegroundColor Cyan
+
 
 

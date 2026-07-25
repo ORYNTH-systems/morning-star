@@ -1,0 +1,6 @@
+﻿"PassID","ScriptName","Purpose"
+"B2-PASS-01","Invoke-B2Pass01-EngineInventory.ps1","Inventory engines, helpers, paths, and assertions."
+"B2-PASS-02","Invoke-B2Pass02-PathGeneralization.ps1","Generalize mechanically safe Batch A root construction."
+"B2-PASS-03","Invoke-B2Pass03-AssertionMigration.ps1","Migrate mechanically equivalent assertion wrappers."
+"B2-PASS-04","Invoke-B2Pass04-ValidationConsolidation.ps1","Consolidate reusable validation helpers into shared modules."
+"B2-PASS-05","Invoke-B2Pass05-FinalVerification.ps1","Run regression verification and close Batch 2."

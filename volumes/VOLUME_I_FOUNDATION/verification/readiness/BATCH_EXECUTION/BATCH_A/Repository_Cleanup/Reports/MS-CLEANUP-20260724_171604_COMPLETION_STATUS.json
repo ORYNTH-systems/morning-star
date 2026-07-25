@@ -1,0 +1,22 @@
+﻿{
+    "CleanupRunID":  "MS-CLEANUP-20260724_171604",
+    "Result":  "PASS",
+    "RepositoryRoot":  "C:\\Users\\18177\\morning-star",
+    "BatchRoot":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\readiness\\BATCH_EXECUTION\\BATCH_A",
+    "ProtectedCanonicalArtifacts":  19,
+    "ProtectedArtifactFailures":  0,
+    "PlannedArchiveActions":  40,
+    "CompletedArchiveActions":  40,
+    "FailedArchiveActions":  0,
+    "RemovedEmptyDirectories":  16,
+    "RemainingEligibleCleanupCandidates":  0,
+    "BeforeFileCount":  84,
+    "AfterActiveFileCount":  47,
+    "ArchiveRoot":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\readiness\\BATCH_EXECUTION\\BATCH_A\\Archive\\Repository_Cleanup_20260724_171604",
+    "PlanPath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\readiness\\BATCH_EXECUTION\\BATCH_A\\Repository_Cleanup\\Plans\\MS-CLEANUP-20260724_171604_GOVERNED_CLEANUP_PLAN.csv",
+    "ExecutionRegisterPath":  "C:\\Users\\18177\\morning-star\\volumes\\VOLUME_I_FOUNDATION\\verification\\readiness\\BATCH_EXECUTION\\BATCH_A\\Repository_Cleanup\\Reports\\MS-CLEANUP-20260724_171604_CLEANUP_EXECUTION_REGISTER.csv",
+    "CanonicalArtifactsModified":  false,
+    "FilesDeleted":  0,
+    "ConstitutionalDisposition":  "NONCANONICAL_ARTIFACTS_ARCHIVED",
+    "CompletedAt":  "2026-07-24T17:16:05.9087590-05:00"
+}

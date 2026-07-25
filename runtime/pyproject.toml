@@ -34,6 +34,6 @@ python_version = "3.11"
 strict = true
 warn_unused_configs = true
 [project.scripts]
-morning-star = "morning_star.cli.main:main"
+morning-star = "morning_star.cli.operational:main"
 
 

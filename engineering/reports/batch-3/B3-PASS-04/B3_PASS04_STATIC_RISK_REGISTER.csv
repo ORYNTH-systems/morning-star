@@ -1,0 +1,5 @@
+﻿"RiskID","RiskClass","Severity","RelativePath","LineNumber","SourceLine","ObservableVariationDetected","Disposition"
+"MS-B3-P4-RISK-1","CURRENT_TIMESTAMP","MODERATE","runtime\src\morning_star\engines\validation.py","106","and authority.expires_at <= datetime.now(timezone.utc)","False","REGISTERED_FOR_REVIEW"
+"MS-B3-P4-RISK-2","CURRENT_TIMESTAMP","MODERATE","runtime\src\morning_star\models\canonical.py","24","return datetime.now(timezone.utc)","False","REGISTERED_FOR_REVIEW"
+"MS-B3-P4-RISK-3","UNSORTED_FILESYSTEM_ENUMERATION","MODERATE","runtime\src\morning_star\registries\persistent.py","117","for path in sorted(self.root.glob(""*.json"")):","False","REGISTERED_FOR_REVIEW"
+"MS-B3-P4-RISK-4","TEMPORARY_NAME","MODERATE","runtime\src\morning_star\storage\atomic.py","26","descriptor, temporary_name = tempfile.mkstemp(","False","REGISTERED_FOR_REVIEW"

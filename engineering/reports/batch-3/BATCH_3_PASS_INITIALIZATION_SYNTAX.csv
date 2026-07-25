@@ -1,0 +1,6 @@
+﻿"PassID","ScriptName","ParseErrorCount","Status"
+"B3-PASS-01","Invoke-B3Pass01-RuntimeInventory.ps1","0","PASS"
+"B3-PASS-02","Invoke-B3Pass02-CommandStandardization.ps1","0","PASS"
+"B3-PASS-03","Invoke-B3Pass03-OperationalStandards.ps1","0","PASS"
+"B3-PASS-04","Invoke-B3Pass04-DeterminismVerification.ps1","0","PASS"
+"B3-PASS-05","Invoke-B3Pass05-FinalVerification.ps1","0","PASS"

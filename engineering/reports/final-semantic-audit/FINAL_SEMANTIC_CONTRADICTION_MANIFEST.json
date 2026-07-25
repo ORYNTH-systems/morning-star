@@ -1,0 +1,13 @@
+﻿{
+    "AuditID":  "MS-FINAL-SEMANTIC-CONTRADICTION-AUDIT",
+    "Result":  "PASS",
+    "ExpectedArchitectureVersion":  "1.0.0-rc.1",
+    "ExpectedRuntimeVersion":  "0.5.0",
+    "AuthorityFilesScanned":  92,
+    "TotalFindings":  0,
+    "BlockingFindings":  0,
+    "ReviewFindings":  0,
+    "CsvReport":  "C:\\Users\\18177\\morning-star\\engineering\\reports\\final-semantic-audit\\FINAL_SEMANTIC_CONTRADICTION_REGISTER.csv",
+    "MarkdownReport":  "C:\\Users\\18177\\morning-star\\engineering\\reports\\final-semantic-audit\\FINAL_SEMANTIC_CONTRADICTION_REPORT.md",
+    "CompletedAt":  "2026-07-25T06:41:37.4021976-05:00"
+}

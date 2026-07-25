@@ -1,0 +1,14 @@
+﻿usage: morning-star [-h] --config CONFIG {validate,verify,snapshot,status} ...
+
+Morning Star constitutional reference runtime.
+
+positional arguments:
+  {validate,verify,snapshot,status}
+    validate            Validate architecture and runtime environment.
+    verify              Verify repository and trace-ledger integrity.
+    snapshot            Generate a deterministic runtime snapshot.
+    status              Display runtime status.
+
+options:
+  -h, --help            show this help message and exit
+  --config CONFIG       Path to runtime configuration JSON.

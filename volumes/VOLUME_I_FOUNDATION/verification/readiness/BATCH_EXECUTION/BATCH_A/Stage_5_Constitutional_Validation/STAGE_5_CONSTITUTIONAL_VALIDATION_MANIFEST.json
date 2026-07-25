@@ -1,0 +1,24 @@
+﻿{
+    "StageID":  "BATCH-A-STAGE-5",
+    "StageName":  "CONSTITUTIONAL_VALIDATION",
+    "EngineState":  "REPAIRED",
+    "RepairClass":  "DETERMINISTIC_TRIAL_SPECIFIC_DERIVATIVE_REPLAY",
+    "ControlledTransactions":  22,
+    "DeterministicallyResolvedTransactions":  22,
+    "VerificationRows":  22,
+    "EvidenceChainRows":  22,
+    "UniqueDerivativeTargetFiles":  7,
+    "GovernedDesignMetric":  {
+                                 "AuthoritativeUnit":  "FIELD_LEVEL_GOVERNANCE_TRANSACTION",
+                                 "FieldTransactions":  42,
+                                 "UniqueTransactionIDs":  42,
+                                 "LegacyObjectSummary":  20,
+                                 "LegacyObjectSummaryRole":  "NON_GATING_METADATA"
+                             },
+    "CanonicalAdmissionAuthorized":  false,
+    "CanonicalPromotionPermitted":  false,
+    "CanonicalArtifactsModified":  false,
+    "FailedRunBackup":  ".\\volumes\\VOLUME_I_FOUNDATION\\verification\\readiness\\BATCH_EXECUTION\\BATCH_A\\Stage_5_Constitutional_Validation\\_FAILED_REPAIR_BACKUP_20260724_165401",
+    "DerivativeReplayRoot":  ".\\volumes\\VOLUME_I_FOUNDATION\\verification\\readiness\\BATCH_EXECUTION\\BATCH_A\\Stage_5_Constitutional_Validation\\Derivative_Replay\\Files",
+    "CompletedAt":  "2026-07-24T16:54:02.6913394-05:00"
+}

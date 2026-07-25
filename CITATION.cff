@@ -1,0 +1,23 @@
+﻿cff-version: 1.2.0
+message: "If you use Morning Star, please cite it using this metadata."
+title: "Morning Star: Constitutional Architecture for Semantic Entry and Competent Participation"
+type: software
+authors:
+  - family-names: "Harris"
+    given-names: "Ashley S."
+version: "1.0.0-rc.1"
+date-released: "2026-07-25"
+license: "Apache-2.0"
+abstract: >-
+  Morning Star is a constitutional research architecture governing the
+  preservation of semantic integrity from first contact through competent
+  participation. It includes a five-volume constitutional architecture,
+  canonical registries, verification structures, governance rules, and a
+  reference runtime.
+keywords:
+  - semantic integrity
+  - constitutional architecture
+  - governed initiation
+  - ontology
+  - verification
+  - research onboarding

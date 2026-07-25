@@ -1,0 +1,18 @@
+﻿{
+    "StageID":  "BATCH-A-STAGE-4",
+    "StageName":  "SYNCHRONIZATION",
+    "Result":  "PASS",
+    "PlannedTransactions":  0,
+    "ControlledTransactionsApplied":  0,
+    "ValuesVerified":  0,
+    "FailedVerifications":  0,
+    "DerivativeFilesUpdated":  0,
+    "CanonicalFilesModified":  false,
+    "CanonicalWorklistModified":  false,
+    "TransactionRegisterModified":  false,
+    "RollbackCopiesModified":  false,
+    "ExecutionRegister":  "./volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION/BATCH_A/Stage_4_Synchronization/Evidence/BATCH_A_STAGE_4_EXECUTION_REGISTER.csv",
+    "PostSynchronizationHashRegister":  "./volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION/BATCH_A/Stage_4_Synchronization/Evidence/BATCH_A_STAGE_4_POST_SYNCHRONIZATION_HASH_REGISTER.csv",
+    "VerificationRegister":  "./volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION/BATCH_A/Stage_4_Synchronization/Evidence/BATCH_A_STAGE_4_SYNCHRONIZATION_VERIFICATION_REGISTER.csv",
+    "CompletedAt":  "2026-07-23T19:08:20.5058162-05:00"
+}

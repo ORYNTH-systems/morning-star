@@ -1,0 +1,2 @@
+﻿"EventID","CaseID","SourceObjectID","TargetObjectID","DependencyEdgeID","PropertyClass","PropagationLevel","EventClass","EvidenceReference","DetectedAt","DetectionMethod","EventStatus"
+"MS-T2-EVENT-F7F1C3AF3D06","MS-T2-CASE-7E8441865168","MS-T2-SOURCE-A5AF13FA503B","MS-T2-TARGET-AC3A22C40CC5","MS-T2-EDGE-6AD7951D3A0D","","","","","","",""

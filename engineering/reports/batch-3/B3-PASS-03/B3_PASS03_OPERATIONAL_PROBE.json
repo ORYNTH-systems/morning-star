@@ -1,0 +1,8 @@
+{
+  "integer": 4,
+  "invalid_input": 2,
+  "logger_name": "morning_star",
+  "operational_error": 1,
+  "schema_version": "1.0.0",
+  "success": 0
+}

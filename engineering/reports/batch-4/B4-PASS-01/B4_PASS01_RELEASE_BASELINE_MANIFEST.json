@@ -1,0 +1,50 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "BatchID":  "BATCH-4",
+    "PassID":  "B4-PASS-01",
+    "RepositoryRoot":  "C:\\Users\\18177\\morning-star",
+    "RepositoryFiles":  3435,
+    "RepositoryBytes":  9495834,
+    "RepositoryStateSHA256":  "AEE5249272A0793E4E433DBF244440DC8EFFC27432CE4BFF3346D6C25F9BBC05",
+    "ArtifactClasses":  [
+                            {
+                                "ArtifactClass":  "CONSTITUTIONAL",
+                                "Count":  187,
+                                "TotalBytes":  464057
+                            },
+                            {
+                                "ArtifactClass":  "DOCUMENTATION",
+                                "Count":  2375,
+                                "TotalBytes":  2392029
+                            },
+                            {
+                                "ArtifactClass":  "ENGINEERING",
+                                "Count":  85,
+                                "TotalBytes":  342395
+                            },
+                            {
+                                "ArtifactClass":  "OTHER",
+                                "Count":  81,
+                                "TotalBytes":  1209987
+                            },
+                            {
+                                "ArtifactClass":  "RUNTIME",
+                                "Count":  116,
+                                "TotalBytes":  3194928
+                            },
+                            {
+                                "ArtifactClass":  "VERIFICATION",
+                                "Count":  591,
+                                "TotalBytes":  1892438
+                            }
+                        ],
+    "RuntimeArtifacts":  116,
+    "DocumentationArtifacts":  2375,
+    "VerificationArtifacts":  591,
+    "EngineeringArtifacts":  85,
+    "PublicationCandidates":  125,
+    "RequiredReleaseArtifacts":  6,
+    "MissingRequiredReleaseArtifacts":  3,
+    "SourceFilesModified":  0,
+    "InventoryGeneratedAt":  "2026-07-25T03:18:52.0280668-05:00"
+}

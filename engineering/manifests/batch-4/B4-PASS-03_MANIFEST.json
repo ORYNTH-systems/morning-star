@@ -1,0 +1,22 @@
+﻿{
+    "PassID":  "B4-PASS-03",
+    "BatchID":  "BATCH-4",
+    "Purpose":  "Validate the complete release-candidate distribution.",
+    "Result":  "PASS",
+    "Status":  "COMPLETE",
+    "VerificationRows":  14,
+    "VerificationFailures":  0,
+    "PackageInventoryRows":  3434,
+    "PackageChecksumFailures":  0,
+    "PackageStateHashVerified":  true,
+    "PythonFilesCompiled":  67,
+    "PythonCompileFailures":  0,
+    "CliHelpRuns":  2,
+    "CliHelpDeterministic":  true,
+    "MissingPublicationArtifacts":  3,
+    "MissingPublicationDisposition":  "REQUIRES_PASS_04_GENERATION",
+    "Stage5RegressionStatus":  "PASS",
+    "Stage6RegressionStatus":  "PASS",
+    "ReleaseCandidateEligibility":  "ELIGIBLE_FOR_PUBLICATION_READINESS",
+    "CompletedAt":  "2026-07-25T04:48:16.5798843-05:00"
+}

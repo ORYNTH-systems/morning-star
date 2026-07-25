@@ -1,0 +1,57 @@
+﻿{
+    "BatchID":  "BATCH-3",
+    "BatchName":  "RUNTIME_AND_CLI_POLISH",
+    "Result":  "PASS",
+    "Status":  "COMPLETE",
+    "GovernedPasses":  5,
+    "CompletedPasses":  5,
+    "PassResults":  [
+                        {
+                            "PassID":  "B3-PASS-01",
+                            "Result":  "PASS",
+                            "Status":  "COMPLETE",
+                            "Passed":  true
+                        },
+                        {
+                            "PassID":  "B3-PASS-02",
+                            "Result":  "PASS",
+                            "Status":  "COMPLETE",
+                            "Passed":  true
+                        },
+                        {
+                            "PassID":  "B3-PASS-03",
+                            "Result":  "PASS",
+                            "Status":  "COMPLETE",
+                            "Passed":  true
+                        },
+                        {
+                            "PassID":  "B3-PASS-04",
+                            "Result":  "PASS",
+                            "Status":  "COMPLETE",
+                            "Passed":  true
+                        }
+                    ],
+    "CanonicalConsole":  "morning-star",
+    "CanonicalTarget":  "morning_star.cli.main:main",
+    "OperationalModulePath":  "C:\\Users\\18177\\morning-star\\runtime\\src\\morning_star\\cli\\operational.py",
+    "OperationalConfigurationPath":  "C:\\Users\\18177\\morning-star\\runtime\\src\\morning_star\\cli\\operational-defaults.json",
+    "StandardizedExitCodes":  6,
+    "LoggingStandardized":  true,
+    "ConfigurationStandardized":  true,
+    "ErrorBoundaryStandardized":  true,
+    "DeterminismHelpRuns":  5,
+    "UniqueHelpOutputHashes":  1,
+    "ConfigurationReadBackRuns":  5,
+    "UniqueConfigurationHashes":  1,
+    "ObservableDeterminismDifferences":  0,
+    "ActivePythonFiles":  67,
+    "PythonCompileFailures":  0,
+    "ActivePowerShellScripts":  20,
+    "PowerShellSyntaxFailures":  0,
+    "FinalVerificationRows":  24,
+    "FinalVerificationFailures":  0,
+    "Stage5RegressionStatus":  "PASS",
+    "Stage6RegressionStatus":  "PASS",
+    "ConstitutionalDisposition":  "RUNTIME_AND_CLI_POLISH_VALIDATED",
+    "CompletedAt":  "2026-07-25T02:31:30.7930796-05:00"
+}

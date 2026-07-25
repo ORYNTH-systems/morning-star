@@ -1,0 +1,5 @@
+﻿"CommandName","FunctionName","Framework","RelativePath","IsCanonicalConsole","IsAlias"
+"snapshot","","ARGPARSE","runtime\src\morning_star\cli\main.py","False","False"
+"status","","ARGPARSE","runtime\src\morning_star\cli\main.py","False","False"
+"validate","","ARGPARSE","runtime\src\morning_star\cli\main.py","False","False"
+"verify","","ARGPARSE","runtime\src\morning_star\cli\main.py","False","False"

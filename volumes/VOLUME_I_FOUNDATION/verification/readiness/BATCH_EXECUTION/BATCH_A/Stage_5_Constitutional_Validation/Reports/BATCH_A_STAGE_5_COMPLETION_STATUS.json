@@ -1,0 +1,20 @@
+﻿{
+    "StageID":  "BATCH-A-STAGE-5",
+    "StageName":  "CONSTITUTIONAL_VALIDATION",
+    "Result":  "PASS",
+    "InitialValidationRows":  10,
+    "FinalValidationRows":  6,
+    "FailedFinalValidations":  0,
+    "DeterministicallyResolvedTransactions":  22,
+    "ExecutionRows":  22,
+    "VerificationRows":  22,
+    "EvidenceChainRows":  22,
+    "ControlledIdentifiersValidated":  22,
+    "GovernedDesignFieldTransactionsPreservedUnresolved":  42,
+    "GovernedDesignObjectSummaryLegacy":  20,
+    "CanonicalAdmissionAuthorized":  false,
+    "CanonicalPromotionPermitted":  false,
+    "CanonicalArtifactsModified":  false,
+    "ConstitutionalDisposition":  "DERIVATIVE_STATE_VALIDATED",
+    "CompletedAt":  "2026-07-24T12:35:29.4187597-05:00"
+}

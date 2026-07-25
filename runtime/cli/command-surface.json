@@ -1,0 +1,50 @@
+﻿{
+    "SchemaVersion":  "1.0.0",
+    "Console":  {
+                    "CanonicalName":  "morning-star",
+                    "Target":  "morning_star.cli.main:main",
+                    "Module":  "morning_star.cli.main",
+                    "Function":  "main",
+                    "EntryPointPath":  "runtime\\src\\morning_star\\cli\\main.py"
+                },
+    "ConsoleEntries":  [
+                           {
+                               "ConsoleName":  "morning-star",
+                               "Target":  "morning_star.cli.main:main",
+                               "IsCanonical":  true,
+                               "IsAlias":  false
+                           }
+                       ],
+    "Commands":  [
+                     {
+                         "CommandName":  "snapshot",
+                         "FunctionName":  "",
+                         "Framework":  "ARGPARSE",
+                         "RelativePath":  "runtime\\src\\morning_star\\cli\\main.py"
+                     },
+                     {
+                         "CommandName":  "status",
+                         "FunctionName":  "",
+                         "Framework":  "ARGPARSE",
+                         "RelativePath":  "runtime\\src\\morning_star\\cli\\main.py"
+                     },
+                     {
+                         "CommandName":  "validate",
+                         "FunctionName":  "",
+                         "Framework":  "ARGPARSE",
+                         "RelativePath":  "runtime\\src\\morning_star\\cli\\main.py"
+                     },
+                     {
+                         "CommandName":  "verify",
+                         "FunctionName":  "",
+                         "Framework":  "ARGPARSE",
+                         "RelativePath":  "runtime\\src\\morning_star\\cli\\main.py"
+                     }
+                 ],
+    "Help":  {
+                 "ExitCode":  0,
+                 "Deterministic":  true,
+                 "Artifact":  "engineering\\reports\\batch-3\\B3-PASS-02\\B3_PASS02_HELP_RUN_1.txt"
+             },
+    "GeneratedAt":  "2026-07-25T02:10:31.5409621-05:00"
+}

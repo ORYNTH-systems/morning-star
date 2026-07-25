@@ -1,0 +1,20 @@
+﻿{
+    "PassID":  "B4-PASS-02",
+    "BatchID":  "BATCH-4",
+    "Purpose":  "Build and independently verify the governed distribution package.",
+    "Result":  "PASS",
+    "Status":  "COMPLETE",
+    "PackageName":  "morning-star-release-candidate",
+    "PackageRoot":  "C:\\Users\\18177\\morning-star\\release\\staging\\morning-star-release-candidate",
+    "SourceRepositoryStateSHA256":  "AEE5249272A0793E4E433DBF244440DC8EFFC27432CE4BFF3346D6C25F9BBC05",
+    "PackageStateSHA256":  "28E3CFA516289E2CF6426F1744C2965D8F595C25C85C10EA585A0C72D9FBF9B9",
+    "PackagedFiles":  3434,
+    "PackageInventoryRows":  3434,
+    "PackageVerificationFailures":  0,
+    "ChecksumEntries":  3434,
+    "ArtifactClasses":  6,
+    "SourceFilesModified":  0,
+    "PreviousPackageArchived":  true,
+    "BackupRoot":  "C:\\Users\\18177\\morning-star\\engineering\\backups\\batch-4\\B4-PASS-02",
+    "CompletedAt":  "2026-07-25T04:10:35.6622109-05:00"
+}

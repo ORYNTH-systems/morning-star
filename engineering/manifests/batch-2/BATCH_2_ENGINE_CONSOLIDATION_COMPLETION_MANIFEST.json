@@ -1,0 +1,38 @@
+﻿{
+    "BatchID":  "BATCH-2",
+    "BatchName":  "ENGINE_CONSOLIDATION",
+    "Result":  "PASS",
+    "GovernedPasses":  5,
+    "CompletedPasses":  5,
+    "PassResults":  [
+                        {
+                            "PassID":  "B2-PASS-01",
+                            "Result":  "PASS"
+                        },
+                        {
+                            "PassID":  "B2-PASS-02",
+                            "Result":  "PASS"
+                        },
+                        {
+                            "PassID":  "B2-PASS-03",
+                            "Result":  "PASS"
+                        },
+                        {
+                            "PassID":  "B2-PASS-04",
+                            "Result":  "PASS"
+                        }
+                    ],
+    "SharedModulePath":  "C:\\Users\\18177\\morning-star\\engineering\\modules\\MorningStar.Engine.Common.psm1",
+    "SharedModuleFunctions":  7,
+    "ActivePowerShellScripts":  15,
+    "ScriptSyntaxFailures":  0,
+    "FinalVerificationRows":  17,
+    "FinalVerificationFailures":  0,
+    "Stage5RegressionStatus":  "PASS",
+    "Stage6RegressionStatus":  "PASS",
+    "StageSpecificGovernanceLogicChanged":  false,
+    "CanonicalAdmissionRulesChanged":  false,
+    "SynchronizationAuthorityRulesChanged":  false,
+    "ConstitutionalDisposition":  "ENGINE_CONSOLIDATION_VALIDATED",
+    "CompletedAt":  "2026-07-24T19:21:36.6087079-05:00"
+}

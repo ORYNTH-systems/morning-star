@@ -1,0 +1,16 @@
+﻿{
+    "StageID":  "BATCH-A-STAGE-6",
+    "StageName":  "GOVERNANCE_DISPOSITION",
+    "Result":  "PASS",
+    "GovernanceRecords":  42,
+    "OpenGovernanceDecisions":  42,
+    "CarryForwardDispositions":  42,
+    "CanonicalAdmissionsAuthorized":  0,
+    "SynchronizationsAuthorized":  0,
+    "InvalidGovernanceRecords":  0,
+    "ConstitutionalDisposition":  "FORMALLY_CARRIED_FORWARD_PENDING_GOVERNANCE",
+    "CanonicalAdmissionAuthorized":  false,
+    "SynchronizationAuthorized":  false,
+    "GovernancePacketPath":  ".\\volumes\\VOLUME_I_FOUNDATION\\verification\\readiness\\BATCH_EXECUTION\\BATCH_A\\Stage_6_Governance_Disposition\\Governance_Packets\\BATCH_A_STAGE_6_GOVERNANCE_PACKET.csv",
+    "CompletedAt":  "2026-07-24T17:05:04.3464881-05:00"
+}

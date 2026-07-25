@@ -1,0 +1,22 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "logging":  {
+                    "level":  "INFO",
+                    "format":  "%(asctime)s %(levelname)s %(name)s %(message)s",
+                    "date_format":  "%Y-%m-%dT%H:%M:%S%z",
+                    "stream":  "stderr"
+                },
+    "exit_codes":  {
+                       "success":  0,
+                       "operational_error":  1,
+                       "invalid_input":  2,
+                       "configuration_error":  3,
+                       "verification_failure":  4,
+                       "interrupted":  130
+                   },
+    "error_boundary":  {
+                           "emit_traceback":  false,
+                           "preserve_system_exit":  true,
+                           "preserve_keyboard_interrupt":  true
+                       }
+}

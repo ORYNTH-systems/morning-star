@@ -1,0 +1,14 @@
+﻿{
+    "StageID":  "BATCH-A-STAGE-4-PREFLIGHT",
+    "Status":  "PASS",
+    "TotalControlledTransactions":  22,
+    "ValidatedTargets":  22,
+    "FailedTargets":  0,
+    "DuplicateTargets":  0,
+    "SynchronizationPlanRows":  22,
+    "CanonicalFilesModified":  false,
+    "DerivativeFilesModified":  false,
+    "ValidationRegister":  "./volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION/BATCH_A/Stage_4_Synchronization/Evidence/BATCH_A_STAGE_4_TARGET_VALIDATION_REGISTER.csv",
+    "SynchronizationPlan":  "./volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION/BATCH_A/Stage_4_Synchronization/Reports/BATCH_A_STAGE_4_SYNCHRONIZATION_PLAN.csv",
+    "ReconstructedAt":  "2026-07-23T19:06:13.2758385-05:00"
+}

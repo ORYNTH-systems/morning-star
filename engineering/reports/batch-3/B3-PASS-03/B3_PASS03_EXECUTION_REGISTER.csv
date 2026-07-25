@@ -1,0 +1,4 @@
+﻿"ArtifactPath","Action","Purpose","SHA256","Status"
+"C:\Users\18177\morning-star\runtime\src\morning_star\cli\operational.py","CREATED_OR_REPLACED","Shared exit codes, logging, configuration, and error boundary.","525295F308024EFFA2B309BC66E7B7DF5F7755E68C45874F7593C2B3D0C02EB6","VERIFIED"
+"C:\Users\18177\morning-star\runtime\src\morning_star\cli\operational-defaults.json","CREATED_OR_REPLACED","Operational runtime defaults.","810E2514A8C81CA6070E28F14865559A282A1433C5CA3E31FA98D8D72A169D5C","VERIFIED"
+"C:\Users\18177\morning-star\runtime\pyproject.toml","CONSOLE_TARGET_WRAPPED","Route public console entries through the operational boundary.","1CF0A2FB0811603CA3DE42EA49EAAA83B256D01F618B84B882B09A9E5B0CE0A9","VERIFIED"

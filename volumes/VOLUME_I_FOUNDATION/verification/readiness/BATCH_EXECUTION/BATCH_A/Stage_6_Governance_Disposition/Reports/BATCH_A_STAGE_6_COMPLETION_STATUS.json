@@ -1,0 +1,14 @@
+﻿{
+    "StageID":  "BATCH-A-STAGE-6",
+    "StageName":  "GOVERNANCE_DISPOSITION",
+    "Result":  "PASS",
+    "DispositionRecords":  42,
+    "OpenGovernanceDecisions":  42,
+    "CarryForwardDispositions":  42,
+    "CanonicalAdmissionsAuthorized":  0,
+    "SynchronizationsAuthorized":  0,
+    "FailedValidations":  0,
+    "ConstitutionalDisposition":  "FORMALLY_CARRIED_FORWARD_PENDING_GOVERNANCE",
+    "BatchClosureEligibility":  "ELIGIBLE",
+    "CompletedAt":  "2026-07-24T17:05:04.4784984-05:00"
+}

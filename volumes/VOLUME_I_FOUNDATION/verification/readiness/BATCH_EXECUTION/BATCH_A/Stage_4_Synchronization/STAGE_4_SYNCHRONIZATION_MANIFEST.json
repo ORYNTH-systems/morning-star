@@ -1,0 +1,53 @@
+﻿{
+    "StageID":  "BATCH-A-STAGE-4",
+    "StageName":  "SYNCHRONIZATION",
+    "StageStatus":  "INITIALIZED",
+    "ConstitutionalPurpose":  "Consume authorized Stage 3 transaction proposals and synchronize eligible proposed values into governed derivative workspace copies without modifying the canonical worklist.",
+    "CanonicalWorklistModificationPermitted":  false,
+    "TransactionRegisterModificationPermitted":  false,
+    "DirectCanonicalSourceModificationPermitted":  false,
+    "SynchronizationTargetClass":  "DERIVATIVE_WORKSPACE_COPY",
+    "EligibleTransactionAuthority":  [
+                                         "CONTROLLED_ID_ASSIGNMENT"
+                                     ],
+    "IneligibleTransactionAuthority":  [
+                                           "GOVERNED_CASE_DESIGN",
+                                           "GOVERNED_DEPENDENCY_DESIGN"
+                                       ],
+    "RequiredTransactionStatus":  "PROPOSED",
+    "RequiredValidationStatus":  "NOT_RUN",
+    "RequiredSynchronizationStatus":  "",
+    "InputArtifacts":  {
+                           "TransactionRegister":  "./volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION/BATCH_A/Transactions/BATCH_A_TRANSACTION_REGISTER.csv",
+                           "UnresolvedReport":  "./volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION/BATCH_A/Reports/BATCH_A_UNRESOLVED_WORK_ITEMS.csv",
+                           "ProposalReport":  "./volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION/BATCH_A/Reports/BATCH_A_PROPOSAL_REPORT.csv",
+                           "Stage3Status":  "./volumes/VOLUME_I_FOUNDATION/verification/readiness/BATCH_EXECUTION/BATCH_A/Reports/BATCH_A_STAGE_3_STATUS.json"
+                       },
+    "InputCounts":  {
+                        "TotalTransactions":  42,
+                        "SynchronizationEligible":  22,
+                        "ConstitutionallyUnresolved":  20,
+                        "DuplicateTransactionIDs":  0,
+                        "DuplicateControlledValues":  0
+                    },
+    "RequiredOutputs":  [
+                            "Synchronization Plan",
+                            "Derivative Workspace Copies",
+                            "Pre-Synchronization Hash Register",
+                            "Post-Synchronization Hash Register",
+                            "Synchronization Evidence Register",
+                            "Rollback Manifest",
+                            "Stage 4 Status Report"
+                        ],
+    "ConstitutionalInvariants":  [
+                                     "The canonical worklist shall not be modified.",
+                                     "The Stage 3 transaction register shall be consumed as immutable evidence.",
+                                     "Only controlled-ID assignment transactions may be synchronized automatically.",
+                                     "Governed case-design and dependency-design transactions shall remain unresolved.",
+                                     "Every synchronized field shall retain transaction-level traceability.",
+                                     "Every target file shall have a pre-synchronization hash and rollback copy.",
+                                     "No source artifact shall be overwritten during initial Stage 4 execution.",
+                                     "Synchronization shall occur only in the Stage 4 derivative workspace."
+                                 ],
+    "InitializedAt":  "2026-07-23T18:56:34.9697748-05:00"
+}
