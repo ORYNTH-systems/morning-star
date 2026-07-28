@@ -12,7 +12,7 @@ from reportlab.pdfbase.pdfmetrics import stringWidth
 import re
 from datetime import datetime
 
-SOURCE = Path("publication/manuscript/MORNING_STAR_MANUSCRIPT.md")
+SOURCE = Path("publication/manuscript/MORNING_STAR_FINAL_MANUSCRIPT_v1.0.0.md")
 OUTPUT = Path("publication/pdf/MORNING_STAR_REFERENCE_MANUSCRIPT_v1.0.0.pdf")
 
 styles = getSampleStyleSheet()
@@ -99,3 +99,4 @@ doc.build(story)
 print("FINAL_PDF_GENERATION_COMPLETE")
 print(f"OUTPUT: {OUTPUT}")
 print(f"BYTES: {OUTPUT.stat().st_size}")
+
