@@ -2,10 +2,10 @@
 
 **Constitutional Architecture for Semantic Entry, Navigation, Interpretation, and Participation in the ORYNTH Ecosystem**
 
-**Version:** 1.0.0-rc.1  
-**Status:** Public Reference Release Candidate  
+**Version:** 1.0.0  
+**Status:** Public Reference Release  
 **Author:** Ashley S. Harris  
-**Organization:** ORYNTH, Inc.  
+**Organization:** ORYNTH  
 
 ## Constitutional Subject
 
@@ -39,8 +39,19 @@ The Morning Star constitutional architecture is complete as a research and gover
 The constitutional architecture is frozen. The accompanying runtime serves as the governed reference implementation and evolves independently under constitutional version control.
 ## Architecture Certification
 
-Morning Star constitutional architecture version 1.0.0-rc.1 is certified complete within its declared scope.
+Morning Star constitutional architecture version 1.0.0 is certified complete within its declared scope.
 
 See [ARCHITECTURE_COMPLETION_CERTIFICATION.md](ARCHITECTURE_COMPLETION_CERTIFICATION.md).
+
+## Publication
+
+**Morning Star: A Constitutional Architecture and Evidence Governance Framework for Governed Knowledge Acquisition in Complex Research Ecosystems**
+
+- Version: 1.0.0
+- Release State: Public Reference Release
+- Manuscript: [MORNING_STAR_v1.0.0.pdf](MORNING_STAR_v1.0.0.pdf)
+- Zenodo DOI: https://doi.org/10.5281/zenodo.21781362
+- Author: Ashley S. Harris
+- Organization: ORYNTH
 
 
