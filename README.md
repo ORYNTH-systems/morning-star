@@ -50,8 +50,10 @@ See [ARCHITECTURE_COMPLETION_CERTIFICATION.md](ARCHITECTURE_COMPLETION_CERTIFICA
 - Version: 1.0.0
 - Release State: Public Reference Release
 - Manuscript: [MORNING_STAR_v1.0.0.pdf](MORNING_STAR_v1.0.0.pdf)
-- Zenodo DOI: https://doi.org/10.5281/zenodo.21781362
+- Version 1.0.0 DOI: https://doi.org/10.5281/zenodo.21781363
+- Concept DOI (all versions): https://doi.org/10.5281/zenodo.21781362
 - Author: Ashley S. Harris
 - Organization: ORYNTH
+
 
 
